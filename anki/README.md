@@ -21,6 +21,11 @@ A: Is the code that is:
 Q: What is algorithmic efficiency?  
 A: The term algorithmic efficiency is used to describe those properties of algorithms that are related to the amount of resources used by the algorithm. Usually referred to as scalability(Big O)
 
+#### C6
+
+Q: What does linear time mean?  
+A: Linear time means that it will loop through n items (all input items). Also known as O(n).
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
