@@ -26,6 +26,11 @@ A: The term algorithmic efficiency is used to describe those properties of algor
 Q: What does linear time mean?  
 A: Linear time means that it will loop through n items (all input items). Also known as O(n).
 
+#### C7
+
+Q: What does constant time mean?  
+A: Constant time means that the number of steps does not depend on the input size. Also known as O(1). Predictability is always good
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
