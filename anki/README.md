@@ -31,6 +31,11 @@ A: Linear time means that it will loop through n items (all input items). Also k
 Q: What does constant time mean?  
 A: Constant time means that the number of steps does not depend on the input size. Also known as O(1). Predictability is always good
 
+#### C13
+
+Q: What does the worst-case rule mean?
+A: It means that we always worry about the worst case, because when we talk about scalability we can never assume that things are going to go well (you don't know how the input is going to be). When we talk about Big O we always talk about the worst case scenario.
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
