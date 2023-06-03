@@ -36,6 +36,13 @@ A: Constant time means that the number of steps does not depend on the input siz
 Q: What does the worst-case rule mean?
 A: It means that we always worry about the worst case, because when we talk about scalability we can never assume that things are going to go well (you don't know how the input is going to be). When we talk about Big O we always talk about the worst case scenario.
 
+#### C14
+
+Q: What does the rule of eliminating constants mean?
+A: It means that we are only interested in identifying which major category our problem falls into.
+[O(1), O(log n), O(n), O(n log n), O(n log n), O(n log n), O(n^2), O(2^n), O(n!)].
+We only care about when it scales, when the size of the input is getting larger and larger.
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
