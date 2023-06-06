@@ -33,12 +33,12 @@ A: Constant time means that the number of steps does not depend on the input siz
 
 #### C13
 
-Q: What does the worst-case rule mean?
+Q: What does the rule of "worst-case" mean?
 A: It means that we always worry about the worst case, because when we talk about scalability we can never assume that things are going to go well (you don't know how the input is going to be). When we talk about Big O we always talk about the worst case scenario.
 
 #### C14
 
-Q: What does the rule of eliminating constants mean?
+Q: What does the rule of "eliminating constants" mean?
 A: As the name says, if Big 0 is the product of multiple terms, constant terms are eliminated (constant terms are like static numbers, numbers like 1, 4, 5, basically anything that is not a variable).
 We only care about when it scales, when the size of the input is getting larger and larger.
 
