@@ -39,8 +39,7 @@ A: It means that we always worry about the worst case, because when we talk abou
 #### C14
 
 Q: What does the rule of eliminating constants mean?
-A: It means that we are only interested in identifying which major category our problem falls into.
-[O(1), O(log n), O(n), O(n log n), O(n log n), O(n log n), O(n^2), O(2^n), O(n!)].
+A: As the name says, if Big 0 is the product of multiple terms, constant terms are eliminated (constant terms are like static numbers, numbers like 1, 4, 5, basically anything that is not a variable).
 We only care about when it scales, when the size of the input is getting larger and larger.
 
 ---
