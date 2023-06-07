@@ -24,7 +24,8 @@ A: The term algorithmic efficiency is used to describe those properties of algor
 #### C6
 
 Q: What does linear time mean?  
-A: Linear time means that it will loop through n items (all input items). Also known as O(n).
+A: If an algorithm is in the order of O(n), or linear time complexity, the number of operations it performs scales in direct proportion to the input.
+e.g. (for loops, while loops through n items)
 
 #### C7
 
