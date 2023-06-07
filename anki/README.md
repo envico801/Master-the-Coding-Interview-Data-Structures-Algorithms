@@ -49,6 +49,12 @@ A: It means that different notations/variables are used for different inputs, be
 1.**O(n) is different from O(a + b)**  
 2.**O(n^2) is different from O(a \* b)**
 
+#### C16
+
+Q: What does the rule of "drop non dominants" mean?
+A: It means that we prioritize the term that has more weight (scale) at the moment of calculating the big O.  
+1.**O(n^2+3n+100+n/2) is equal to O(n^2)**
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
