@@ -64,6 +64,13 @@ A: They are a way of storing data
 Q: What are algorithms?
 A: They are functions or ways of using our data structures to write our programs (instructions for our computer).
 
+### C21
+
+Q: What are the 3 pillars of good coding?
+A: 1.Readable: (clean code) that can be maintained and others can read.
+2.Speed: (time complexity) that has a Big O that is efficient, scales well.
+3.Memory: (space complexity)
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
