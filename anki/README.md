@@ -71,6 +71,16 @@ A: 1.Readable: (clean code) that can be maintained and others can read.
 2.Speed: (time complexity) that has a Big O that is efficient, scales well.
 3.Memory: (space complexity)
 
+### C24
+
+Q: What would you say is the Big O in the following sentence?
+
+```javascript
+'asdasdljasdk'.length;
+```
+
+A: It depends on the language you are working with, we need to know how the method is implemented to be able to give an accurate answer.
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
