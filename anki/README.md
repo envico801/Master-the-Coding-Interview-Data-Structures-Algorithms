@@ -59,6 +59,13 @@ A: Addition (+) must be used for steps in order
 Q: When calculating large O and having nested steps (a loop within a loop), which operation should be used?
 A: Multiplication (\*) must be used for nested steps.
 
+#### C16
+
+Q: What does quadratic time mean?  
+A: It means that the number of operations it performs is proportional to the square of the input.
+e.g. Every element in a collection needs to be compared to ever other element. Two
+nested loops
+
 #### C17
 
 Q: What does the rule of "drop non dominants" mean?
