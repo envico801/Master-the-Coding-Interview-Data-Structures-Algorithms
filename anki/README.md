@@ -53,6 +53,12 @@ A: It means that different notations/variables are used for different inputs, be
 1.**O(n) is different from O(a + b)**  
 2.**O(n^2) is different from O(a \* b)**
 
+Q: When calculating big O and having steps in order (one below the other), which operation should be used?
+A: Addition (+) must be used for steps in order
+
+Q: When calculating large O and having nested steps (a loop within a loop), which operation should be used?
+A: Multiplication (\*) must be used for nested steps.
+
 #### C17
 
 Q: What does the rule of "drop non dominants" mean?
