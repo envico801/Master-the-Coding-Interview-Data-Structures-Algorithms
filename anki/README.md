@@ -80,6 +80,12 @@ A: They are a way of storing data
 Q: What are algorithms?
 A: They are functions or ways of using our data structures to write our programs (instructions for our computer).
 
+#### C20
+
+Q: What does factorial time mean?  
+A: It means that you are adding a loop for every element  
+We will find ourselves writing algorithms with factorial time complexity when calculating permutations and combinations.
+
 #### C21
 
 Q: What are the 3 pillars of good coding?
