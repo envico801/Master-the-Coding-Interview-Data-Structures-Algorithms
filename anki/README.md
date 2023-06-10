@@ -43,6 +43,9 @@ Q: What does the rule of "eliminating constants" mean?
 A: As the name says, if Big 0 is the product of multiple terms, constant terms are eliminated (constant terms are like static numbers, numbers like 1, 4, 5, basically anything that is not a variable).
 We only care about when it scales, when the size of the input is getting larger and larger.
 
+Q: What is the big O of iterating over half a collection?
+A: It ends up being O(n) because if we apply basic mathematics we can transform the division into a multiplication **(n/2 = 1/2 x n)** and then apply the rule of eliminating constants.
+
 #### C15
 
 Q: What does the rule of "different terms for inputs" mean?
