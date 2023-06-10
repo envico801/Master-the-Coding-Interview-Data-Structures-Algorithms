@@ -50,13 +50,13 @@ A: It means that different notations/variables are used for different inputs, be
 1.**O(n) is different from O(a + b)**  
 2.**O(n^2) is different from O(a \* b)**
 
-#### C16
+#### C17
 
 Q: What does the rule of "drop non dominants" mean?
 A: It means that we prioritize the term that has more weight (scale) at the moment of calculating the big O.  
 1.**O(n^2+3n+100+n/2) is equal to O(n^2)**
 
-### C19
+#### C19
 
 Q: What are data structures?
 A: They are a way of storing data
@@ -64,14 +64,14 @@ A: They are a way of storing data
 Q: What are algorithms?
 A: They are functions or ways of using our data structures to write our programs (instructions for our computer).
 
-### C21
+#### C21
 
 Q: What are the 3 pillars of good coding?
 A: 1.Readable: (clean code) that can be maintained and others can read.
 2.Speed: (time complexity) that has a Big O that is efficient, scales well.
 3.Memory: (space complexity)
 
-### C24
+#### C24
 
 Q: What would you say is the Big O in the following sentence?
 
