@@ -113,6 +113,14 @@ Q: What would you say is the Big O in the following sentence?
 
 A: It depends on the language you are working with, we need to know how the method is implemented to be able to give an accurate answer.
 
+#### Extras
+
+Q: What can cause time in a function? **(how long does it take to traverse / solve something as the input grows, how many operations does it have to perform?)**
+1.Operations (+, -, \*, /)
+2.Comparisons (<, >, ==)
+3.Looping (for, while)
+4.Outside Function call (function()) (can be a call to a recursive function or to a regular function.)
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
