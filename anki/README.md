@@ -75,10 +75,12 @@ A: It means that we prioritize the term that has more weight (scale) at the mome
 #### C19
 
 Q: What are data structures?
-A: They are a way of storing data
+A: They are a way of storing data.  
+You could say they are a collection of values and these values can have relationships between them and functions can be applied to them.  
+The most important thing is that each data structure is good and specialized in its own thing.
 
 Q: What are algorithms?
-A: They are functions or ways of using our data structures to write our programs (instructions for our computer).
+A: These are the steps or processes we put in place to manipulate our data structures to write our programs (instructions for our computer).
 
 #### C20
 
