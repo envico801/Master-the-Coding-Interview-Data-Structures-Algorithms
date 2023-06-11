@@ -121,6 +121,16 @@ Q: What can cause time in a function? **(how long does it take to traverse / sol
 3.Looping (for, while)
 4.Outside Function call (function()) (can be a call to a recursive function or to a regular function.)
 
+### How To Solve Coding Problems
+
+#### C2
+
+Q: What skills does the interviewer look for?
+A: 1.Analytic Skills - How can you think through problems and analyze things?  
+2.Coding Skills - Do you code well, by writing clean, simple, organized, readable code?  
+3.Technical knowledge - Do you know the fundamentals of the job you're applying for?  
+4.Communication skills: Does your personality match the companies’ culture?
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
