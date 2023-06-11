@@ -131,6 +131,39 @@ A: 1.Analytic Skills - How can you think through problems and analyze things?
 3.Technical knowledge - Do you know the fundamentals of the job you're applying for?  
 4.Communication skills: Does your personality match the companies’ culture?
 
+### Data Structures: Introduction
+
+#### C3
+
+Q: What is RAM used for?  
+A: RAM is used for immediate data storage and retrieval
+
+Q: What is a memory address?  
+A: It is a reference to a specific memory location
+
+Q: What is a bit (binary digit)?  
+A: A bit (binary digit) is the smallest unit of data that a computer can process and store.  
+A bit is always in one of two physical states, similar to an on/off light switch. The state is represented by a single binary value, usually a 0 or 1.
+
+Q: What is a byte?  
+A: A byte is a sequence of 8 bits that are treated as a single unit.
+
+Q: What is a memory controller?  
+A: A memory controller is a device that manages the data flow between the CPU and system RAM.  
+The memory controller acts as the middleman in these operations, ensuring that the proper information is retrieved from the right locations.  
+**The closer the information is to the CPU and the less it has to travel, the faster a program can be executed.**
+
+Q: What is CPU cache?  
+A: It is a cache memory that is used to reduce the average memory access time.  
+**It's like a mini RAM integrated in the CPU.**
+
+Q: Why is it said that there are no integers in JavaScript?  
+A: There is only the [Number](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-ecmascript-language-types-number-type) data type in JS that represents numbers.  
+**Internally it is implemented as [IEEE 754](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-terms-and-definitions-number-value) double precision floating point number.**  
+What it means is that - technically there is no dedicated data type that represents integer numbers.  
+Practically it means that we can safely use only numbers that are safely representable by the aforementioned standard. And it includes integer values in the range: `[-9007199254740991; 9007199254740991]`. Both values are defined as constants: [`Number.MIN_SAFE_INTEGER`](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-number.min_safe_integer) and [`Number.MAX_SAFE_INTEGER`](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-number.max_safe_integer) correspondingly.  
+[Is there or isn't there an integer type in JavaScript?](https://stackoverflow.com/questions/33773296/is-there-or-isnt-there-an-integer-type-in-javascript)
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
