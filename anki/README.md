@@ -95,6 +95,14 @@ A: 1.Readable: (clean code) that can be maintained and others can read.
 2.Speed: (time complexity) that has a Big O that is efficient, scales well.
 3.Memory: (space complexity)
 
+#### C22
+
+Q: What causes Space complexity? **(how much memory or resources it occupies as the input grows)**
+A: 1.Variables (assignments and mutability with objects)
+2.Data Structures (both custom and native)
+3.Function Call (function calls, e.g. a recursive one, which is stored in memory as a stack.)
+4.Allocations (when we create variables, functions or anything else that is stored in the memory)
+
 #### C24
 
 Q: What would you say is the Big O in the following sentence?
