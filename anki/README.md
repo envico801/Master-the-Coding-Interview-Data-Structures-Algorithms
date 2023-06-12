@@ -2,7 +2,7 @@
 
 ## Questions
 
-### 2. Big O
+### 3. Big O
 
 #### C2
 
@@ -121,7 +121,7 @@ Q: What can cause time in a function? **(how long does it take to traverse / sol
 3.Looping (for, while)
 4.Outside Function call (function()) (can be a call to a recursive function or to a regular function.)
 
-### How To Solve Coding Problems
+### 4. How To Solve Coding Problems
 
 #### C2
 
@@ -131,7 +131,7 @@ A: 1.Analytic Skills - How can you think through problems and analyze things?
 3.Technical knowledge - Do you know the fundamentals of the job you're applying for?  
 4.Communication skills: Does your personality match the companies’ culture?
 
-### Data Structures: Introduction
+### 5. Data Structures: Introduction
 
 #### C3
 
