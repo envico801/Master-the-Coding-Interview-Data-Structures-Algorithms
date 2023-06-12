@@ -164,6 +164,17 @@ What it means is that - technically there is no dedicated data type that represe
 Practically it means that we can safely use only numbers that are safely representable by the aforementioned standard. And it includes integer values in the range: `[-9007199254740991; 9007199254740991]`. Both values are defined as constants: [`Number.MIN_SAFE_INTEGER`](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-number.min_safe_integer) and [`Number.MAX_SAFE_INTEGER`](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-number.max_safe_integer) correspondingly.  
 [Is there or isn't there an integer type in JavaScript?](https://stackoverflow.com/questions/33773296/is-there-or-isnt-there-an-integer-type-in-javascript)
 
+#### C5
+
+Q: What are the actions that can be performed on a data structure?
+A:
+1.Insertion: Add a new data item in a given collection of items
+2.Deletion: Delete data from a collection
+3.Traversal: Access to each data item exactly once so it can be processed
+4.Searching: Find the location of the data item if it exists in a given collection
+5.Sorting: Having data that is sorted
+6.Access: How do we access this data that we have on our computer
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
