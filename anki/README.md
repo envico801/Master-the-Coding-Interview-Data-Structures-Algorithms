@@ -121,6 +121,18 @@ Q: What can cause time in a function? **(how long does it take to traverse / sol
 3.Looping (for, while)
 4.Outside Function call (function()) (can be a call to a recursive function or to a regular function.)
 
+Q: List the common Big O complexities from worst to best (there are 7)  
+A: O(n!)  
+O(2^n)  
+O(n^2)  
+O(n log n)  
+O(n)  
+O(log n)  
+O(1)
+
+Q: Space complexity is not concerned with the size of the input per se but the...  
+A: ...memory that is being allocated for each operation.
+
 ### 4. How To Solve Coding Problems
 
 #### C2
