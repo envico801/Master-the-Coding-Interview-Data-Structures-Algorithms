@@ -187,6 +187,12 @@ A:
 5.Sorting: Having data that is sorted
 6.Access: How do we access this data that we have on our computer
 
+#### Extras
+
+Q: What are the 2 pillars of Data Structures?  
+A: How to build one  
+How to use one
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
