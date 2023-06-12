@@ -193,6 +193,31 @@ Q: What are the 2 pillars of Data Structures?
 A: How to build one  
 How to use one
 
+### 6. Data Structures: Arrays
+
+#### C1
+
+Q: What is an array?
+A: An array is a collection of items stored at contiguous memory locations.
+
+Q: What is the Big O for an Array lookup operation? (aka **access**: Array\[2\])  
+A: O(1)
+
+Q: What is the Big O of an Array push/append operation? (aka **insertion**: Array.push(value))  
+A: O(1) if the array is static  
+O(n) if the array is dynamic and has to grow when the new value is added.
+**Note that the worst case is still O(n).**
+
+Q: What is the Big O of an Array shift operation? (aka **insertion**: Array.shift(value))  
+A: O(n)
+
+Q: What is the Big O of an Array pop operation? (aka **deletion**: Array.pop())  
+A: O(1)
+**Note that the worst case is still O(n). - (unshift, splice, etc)**
+
+Q: What is the Big O of an Array unshift operation? (aka **deletion**: Array.unshift())  
+A: O(n)
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
