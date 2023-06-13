@@ -218,6 +218,17 @@ A: O(1)
 Q: What is the Big O of an Array unshift operation? (aka **deletion**: Array.unshift())  
 A: O(n)
 
+#### C2
+
+Q: What are the 2 types of Arrays?  
+A: Dynamic and Static
+
+Q: What is a dynamic array?  
+A: An array that can grow in size when it needs to. No specification of size is needed when it is initiated.
+
+Q: What is a static array?  
+A: A fixed size array. Must specify the size when it is initiated.
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
