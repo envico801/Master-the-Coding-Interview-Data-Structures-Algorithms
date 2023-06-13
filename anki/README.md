@@ -203,6 +203,10 @@ A: An array is a collection of items stored at contiguous memory locations.
 Q: What is the Big O for an Array lookup operation? (aka **access**: Array\[2\])  
 A: O(1)
 
+Q: What is the Big O for an Array find operation? (aka **search**: Array.find(callbackFn))  
+A: O(1)
+e.g. We traverse the entire array to check if an element is present.
+
 Q: What is the Big O of an Array push/append operation? (aka **insertion**: Array.push(value))  
 A: O(1) if the array is static  
 O(n) if the array is dynamic and has to grow when the new value is added.
