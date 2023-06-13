@@ -229,6 +229,11 @@ A: An array that can grow in size when it needs to. No specification of size is 
 Q: What is a static array?  
 A: A fixed size array. Must specify the size when it is initiated.
 
+#### C5
+
+Q: In JavaScript, what data structure is an Array actually?  
+A: An Object which contains properties and methods which make it Array-like.
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
