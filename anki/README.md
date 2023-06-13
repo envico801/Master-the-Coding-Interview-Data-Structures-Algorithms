@@ -238,6 +238,12 @@ A: A fixed size array. Must specify the size when it is initiated.
 Q: In JavaScript, what data structure is an Array actually?  
 A: An Object which contains properties and methods which make it Array-like.
 
+#### C6
+
+Q: How should we handle questions related to strings?
+A: We should treat it as an array question, strings are an array of characters.
+e.g. reverse a string.
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
