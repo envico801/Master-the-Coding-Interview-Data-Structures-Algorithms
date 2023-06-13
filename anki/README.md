@@ -244,6 +244,18 @@ Q: How should we handle questions related to strings?
 A: We should treat it as an array question, strings are an array of characters.
 e.g. reverse a string.
 
+#### C12
+
+Q: What are the pros of using arrays?
+A: 1.Fast lookups (accessing information where you know which index you want to look at)
+2.Fast push/pop (adding or removing things at the end of an array)
+3.Ordered (having something that is ordered and close to each other in memory makes it really fast)
+
+Q: What are the cons of using arrays?
+A: 1.Slow inserts (we have to shift the array when at the very end of the array)
+2.Slow deletes (same as inserts)
+3.Fixed size\* (sometimes you have to declare the memory ahead of time and how large of an array you want. Most modern languages have dynamic arrays that help with this)
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
