@@ -314,6 +314,13 @@ A: A Map
 Q: Does a Set store values in JavaScript?  
 A: No, only Keys which are unique (no two keys can be the same in a Set).
 
+#### C7
+
+Q: Which data-structure is more efficient at looping over data: An Array or a Hash Table?  
+A: An Array.  
+If your Hash Table has 50 addresses but only 3 addresses contain Keys, you would still have to access all 50 addresses to obtain those Keys.  
+An Array is sequential in memory, which makes it more efficient in this regard.
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
