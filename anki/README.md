@@ -277,6 +277,29 @@ Output (is always) = Ax67def0
 Q: What does it mean for a function to be "idempotent"?
 A: It is a fancy way of saying that a function given an input always outputs the same output
 
+#### C3
+
+Q: What is the Big O for insertion into a Hash Table?  
+A: O(1)  
+Unless there is a collision, then it would be O(n / k) where k = the length of the address being accessed.
+
+Q: What is the Big O for a lookup (access) in a Hash Table?  
+A: O(1)
+Unless there is a collision, then it would be O(n / k) where k = the length of the address being accessed.
+
+Q: What is the Big O for deletion in a Hash Table?  
+A: O(1)
+Unless there is a collision, then it would be O(n / k) where k = the length of the address being accessed.
+
+Q: What is the Big O for a search in a Hash Table?  
+A: O(1)
+e.g. `object["key"]` It will return if that key is present in the object (undefined otherwise), that's why it is O(1).
+Unless there is a collision, then it would be O(n / k) where k = the length of the address being accessed.
+
+Q: What is a collision in regards to a Hash Table?  
+A: When a new item is added to the same "address" as an already existing item in a Hash Table.  
+This could slow down the lookup for a Hash Table from O(1) to O(n / k) where k = the size of the address being accessed.
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
