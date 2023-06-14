@@ -264,6 +264,19 @@ Q: What are Hash Tables?
 A: **Collections of { Key: Value } pairs**
 A Hash table is defined as a data structure used to insert, look up, and remove key-value pairs quickly. It operates on the [hashing concept](https://www.geeksforgeeks.org/what-is-hashing/), where each key is translated by a hash function into a distinct index in an array. The index functions as a storage location for the matching value. In simple words, it maps the keys with the value. (it will store the key and the value at the same address in memory - a "bucket") `G7xpLLQ4 -> key:value`
 
+#### C2
+
+Q: What is a Hash function?  
+A: A function that generates a value of fixed length for each input it receives. For any given input, the output will always be the same.  
+Examples:  
+Input = Grape  
+Output (is always) = G7xpLLQ4  
+Input = 5  
+Output (is always) = Ax67def0
+
+Q: What does it mean for a function to be "idempotent"?
+A: It is a fancy way of saying that a function given an input always outputs the same output
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
