@@ -300,6 +300,20 @@ Q: What is a collision in regards to a Hash Table?
 A: When a new item is added to the same "address" as an already existing item in a Hash Table.  
 This could slow down the lookup for a Hash Table from O(1) to O(n / k) where k = the size of the address being accessed.
 
+#### C4
+
+Q: What kind of _data-type_ is a **Key** in a typical Hash Table?  
+A: A String
+
+Q: In ES6, what kind of _data-types_ can a **Key** be for a Map?  
+A: Any kind of data-type
+
+Q: In ES6, what kind of Hash Table maintains insertion order?  
+A: A Map
+
+Q: Does a Set store values in JavaScript?  
+A: No, only Keys which are unique (no two keys can be the same in a Set).
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
