@@ -332,6 +332,13 @@ Q: What are the cons of using hash tables?
 A: 1.Unordered (its hard to really go through everything in order)
 2.Slow key iteration (if i want to grab all the keys from a hash table I will have to go through the entire memory space)
 
+### 8. Data Structures: Linked Lists
+
+#### C1
+
+Q: Can Linked Lists help solve collision issues in a Hash Table?  
+A: Yes
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
