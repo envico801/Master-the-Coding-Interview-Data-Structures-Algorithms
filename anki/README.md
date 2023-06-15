@@ -321,6 +321,17 @@ A: An Array.
 If your Hash Table has 50 addresses but only 3 addresses contain Keys, you would still have to access all 50 addresses to obtain those Keys.  
 An Array is sequential in memory, which makes it more efficient in this regard.
 
+#### C12
+
+Q: What are the pros of using hash tables?
+A: 1.Fast lookups\* (Good collision resolution needed, usually we dont need to worry about this because our language underneath the hood take care of that for us)
+2.Fast inserts (same as lookups)
+3.Flexible keys (depending on the type of hash tables, such as maps, we can have flexibles keys instead of an array that has numbered indexes)
+
+Q: What are the cons of using hash tables?
+A: 1.Unordered (its hard to really go through everything in order)
+2.Slow key iteration (if i want to grab all the keys from a hash table I will have to go through the entire memory space)
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
