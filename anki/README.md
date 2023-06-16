@@ -393,6 +393,14 @@ A: O(n)
 Q: What is a pointer?  
 A: A pointer is a reference to another place in a memory (another node). Kind of like a variable referencing another variable.
 
+#### C14
+
+Q: What does a Doubly Linked List have that a Singly Linked List does not?  
+A: A 'previous' pointer which references the node before it. You can traverse forwards and backwards through a Doubly Linked List. You can only traverse forwards in a Singly Linked List.
+
+Q: Does a Doubly Linked List use more memory than a Singly Linked List?  
+A: Yes. The 'previous' pointer will require more memory for the Doubly Linked List to be implemented.
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
