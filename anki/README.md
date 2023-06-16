@@ -439,6 +439,22 @@ A: The order in which the elements are processed.
 A Stack pops the most recent element from the top (Last In First Out)  
 A Queue processes the first element that went in (First In First Out)
 
+#### C2
+
+Q: What is the Big O for a lookup operation in a Stack?  
+A: O(n)
+Q: What is the Big O for a pop operation in a Stack?  
+A: O(1)
+
+Q: What is the Big O for a push operation in a Stack?  
+A: O(1)
+
+Q: What is the Big O for a peek operation in a Stack? (view the top of the stack)  
+A: O(1)
+
+Q: What does LIFO stand for in regard to a Stack?  
+A: Last In First Out
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
