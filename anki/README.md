@@ -356,6 +356,38 @@ Some people call the tail anything that is after the head.
 Q: How do you know that you have reached the end of a Linked List?  
 A: Linked Lists are "null-terminated" which means the end of the list is denoted by the value "null".
 
+#### C4
+
+Q: What kind of structure do Linked Lists have?  
+A: A 'loose' structure. You can easily insert a new data as you only have to change 2 pointers (depending on if it is singly linked, doubly linked, etc..)
+
+Q: What is the main difference between a Linked List and an Array?  
+A: Arrays are indexed, Linked Lists are not.  
+If you want to access the 5th element in a Linked List, you have to start from the beginning of the list and traverse to the 5th element.  
+In an Array, you can simply access the element at index 4 ( arr\[4\] ) to get the value of the 5th element.
+
+Q: Are nodes in a Linked List stored sequentially in memory?  
+A: No. They are scattered over memory which makes traversal of a Linked List slower than traversal of an Array.
+
+Q: Whats one advantage that linked list have over hash tables?
+A: That there is some sort of order to link list, each node points to the next node.
+
+Q: What is the Big O for a prepend (add to the beginning of the list) operation on a Linked List/Double link list?  
+A: O(1)
+
+Q: What is the Big O of an append (add to the end of the list) operation on a Linked List/Double link list?  
+A: O(1)
+
+Q: What is the Big O of a lookup (traversal) operation on a Linked List/Double link list?  
+A: O(n)
+e.g. We go through the whole linked list to check if an element is present. In the case of a double linked list it would technically be O(n/2) because we can start at both ends and if we know in which half of the list is what we are looking for, we can choose the optimal place to start.
+
+Q: What is the Big O of an insertion operation on a Linked List/Double link list?  
+A: O(n)
+
+Q: What is the Big O of a deletion operation on a Linked List/Double link list?  
+A: O(n)
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
