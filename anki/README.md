@@ -427,6 +427,18 @@ Q: What are the cons of using linked lists?
 A: 1.Slow lookup (we have to traverse through the list if we're searching for something.)
 2.More memory (we store more properties in memory, in the case of a double linked list we are storing the `value - next - prev`)
 
+### 9. Data Structures: Stacks + Queues
+
+#### C1
+
+Q: What kind of data-structure are Stack and Queues?  
+A: Linear data-structures. They must be traversed one by one.
+
+Q: What is the difference between a Stack and a Queue?  
+A: The order in which the elements are processed.  
+A Stack pops the most recent element from the top (Last In First Out)  
+A Queue processes the first element that went in (First In First Out)
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
