@@ -388,6 +388,11 @@ A: O(n)
 Q: What is the Big O of a deletion operation on a Linked List/Double link list?  
 A: O(n)
 
+#### C5
+
+Q: What is a pointer?  
+A: A pointer is a reference to another place in a memory (another node). Kind of like a variable referencing another variable.
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
