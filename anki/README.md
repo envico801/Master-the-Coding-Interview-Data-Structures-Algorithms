@@ -339,6 +339,23 @@ A: 1.Unordered (its hard to really go through everything in order)
 Q: Can Linked Lists help solve collision issues in a Hash Table?  
 A: Yes
 
+#### C2
+
+Q: What is a Linked List?  
+A: A collection of nodes and pointers.  
+Data is stored in the node itself and a pointer is a reference to the next node in the list.  
+The end of a Linked List is signified by a "null" value.
+
+Q: How its called the first node in a linked list?
+A: Head.
+
+Q: How its called the last node in a linked list?
+A: Tail.
+Some people call the tail anything that is after the head.
+
+Q: How do you know that you have reached the end of a Linked List?  
+A: Linked Lists are "null-terminated" which means the end of the list is denoted by the value "null".
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
