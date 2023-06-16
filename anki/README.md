@@ -455,6 +455,24 @@ A: O(1)
 Q: What does LIFO stand for in regard to a Stack?  
 A: Last In First Out
 
+#### C3
+
+Q: What is the Big O for a lookup operation in a Queue?  
+A: O(n)
+
+Q: What is the Big O for a enqueue operation in a Queue?  
+A: O(1)
+
+Q: What is the Big O for a dequeue operation in a Queue?  
+A: O(1) - If you did not use an Array to implement the queue.  
+An Array unshift operation would be O(n).
+
+Q: What is the Big O for a peek operation in a Queue? (see who is the fist in the queue)  
+A: O(1)
+
+Q: What does FIFO stand for in regards to a Queue?  
+A: First In First Out
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
