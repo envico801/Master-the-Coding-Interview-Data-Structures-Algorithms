@@ -473,6 +473,30 @@ A: O(1)
 Q: What does FIFO stand for in regards to a Queue?  
 A: First In First Out
 
+#### C7
+
+Q: What is a program?
+A: Well a program has to do some simple things.
+1.It has to allocate memory. Otherwise we would be able to have variables or even have a file on our computer.
+2.It also has to parse and execute scripts which means read and run commands.
+
+Q: How many parts has a engine (javascript)?
+A: Now the engine consists of two parts a memory heap and a call stack.
+1.Now the memory heap. This is where the memory allocation happens.
+2.And then the call stack. This is where your code is read and execute it. It tells you where you are in the program.
+
+Q: What is a memory leak?
+A: Memory leak occurs when programmers create a memory in heap and forget to delete it.
+
+Q: What does it mean that javascript is a single threaded language that can be nonblocking?
+A: Single threaded means that it has only one call stack. And one call stack only you can only do one thing at a time Now other languages can have multiple calls. And these are called multi-thread.
+
+Q: Why was javascript designed to be single threaded?
+A: While running code on a single thread can be quite easy since you don't have to deal with complicateda scenarios that arise in multithreaded environment. You just have one thing to worry about.
+
+Q: What is a deadlock?
+A: A deadlock is a situation where a set of processes are blocked because each process is holding a resource and waiting for another resource acquired by some other process.
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
