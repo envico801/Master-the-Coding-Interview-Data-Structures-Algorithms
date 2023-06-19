@@ -507,6 +507,17 @@ A: 1.Fast operations (such as removing or inserting, such as the end of the data
 Q: What are the cons of using stacks and queues?
 A: 1.Slow lookup (we dont usually use ours stack or queues to do any sort of look up or search through the data structure, all we are interested in is the end bits of the data structure)
 
+### 10. Data Structures: Trees
+
+#### C1
+
+Q: What is a Tree data-structure?  
+A: A hierarchical data-structure consisting of a root node and parent/child nodes.  
+A Linked List is technically a type of Tree but it is linear instead of having multiple 'branches' or paths.
+
+Q: What is a abstract syntax tree?
+A: This is how programs and code is usually run
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
