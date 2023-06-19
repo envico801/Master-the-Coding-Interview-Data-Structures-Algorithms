@@ -497,6 +497,16 @@ A: While running code on a single thread can be quite easy since you don't have 
 Q: What is a deadlock?
 A: A deadlock is a situation where a set of processes are blocked because each process is holding a resource and waiting for another resource acquired by some other process.
 
+#### C15
+
+Q: What are the pros of using stacks and queues?
+A: 1.Fast operations (such as removing or inserting, such as the end of the data structure)
+2.Fast peek (we can access the very first item in a queue or the very top item in a stack)
+3.Ordered (we have all our data ordered)
+
+Q: What are the cons of using stacks and queues?
+A: 1.Slow lookup (we dont usually use ours stack or queues to do any sort of look up or search through the data structure, all we are interested in is the end bits of the data structure)
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
