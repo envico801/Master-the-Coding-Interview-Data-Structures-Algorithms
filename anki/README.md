@@ -518,6 +518,41 @@ A Linked List is technically a type of Tree but it is linear instead of having m
 Q: What is a abstract syntax tree?
 A: This is how programs and code is usually run
 
+#### C2
+
+Q: What is the rule for implementing a Binary Tree?  
+A: Each node can have a max of 2 children.  
+So a node can have 0, 1, or 2 children.
+And each child can only have one parent
+Each node represent a certain state
+
+Q: What is a perfect binary tree?
+A: A perfect binary tree has everything filled in, that means that all the leaf nodes are full and there is no node that only has one child, a node either has zero or two children. Also, the bottom layer of the tree is completely filled, nothings is missing
+
+Q: What is a full binary tree?
+A: A full binary tree says that a node has either 0 or 2 children, but never one child
+
+Q: What properties does a perfect binary tree has?
+A: 1.The number of total nodes doubles as we move down the tree
+2.The number of nodes on the last level is equal to the sum of the number of nodes on all the other levels plus 1
+
+```text
+Level 0: 2^0 = 1
+Level 1: 2^1 = 2
+Level 2: 2^2 = 4
+Level 3: 2^3 = 8
+```
+
+Based on that formula, we can find the number of nodes in a tree:
+
+\# of nodes = 2^h - 1 **(h is the level, starts from count of 1)**
+log nodes = height/steps (simplified version)
+log 100 = 2
+10^2 = 100
+
+Q: What is the time complexity for a perfect binary tree's search(lookup), insert, and delete methods?  
+A: O(log n)
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
