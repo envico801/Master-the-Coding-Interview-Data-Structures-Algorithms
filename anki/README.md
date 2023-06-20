@@ -559,6 +559,14 @@ Q: What does logarithmic time mean?
 A: All that is saying is that the choice of the next element on which to perform some sort of action is one of several possibilities and only one needs to be chosen.
 e.g. (usually searching algorithms have log n if they are sorted (Binary Search))
 
+#### C4
+
+Q: What is a binary search tree?
+A: BSTs excel at preserving relationships, making them suitable for scenarios where maintaining order and structure is important.  
+For instance, while a hash table lacks such relationships, organizing folders on a computer necessitates a hierarchical structure with parent and subfolders, which can be achieved using a binary search tree.  
+1.In a BST, all child nodes to the right of a root node must have values greater than the current node. This implies that moving to the right within the tree leads to nodes with increasing values, while moving to the left results in nodes with decreasing values.
+2.Due to its nature as a binary tree, each node in a BST can have a maximum of two children.
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
