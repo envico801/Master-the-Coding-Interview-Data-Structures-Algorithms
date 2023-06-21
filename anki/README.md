@@ -578,6 +578,16 @@ A: A binary tree becomes unbalanced when new nodes are continually placed to the
 Q: How can you tell if a binary tree is balanced?  
 A: A binary tree is balanced when every node has roughly the same amount of children.
 
+#### C6
+
+Q: What are the pros of using BSTs?
+A: 1.Better than O(n) (most operations are log n, assuming that the BST is balanced)
+2.Ordered
+3.Flexible size (because we can place a node anywhere in memory we can just have flexible size , we can keep growing our tree)
+
+Q: What are the cons of using BSTs?
+A: 1.No O(1) operations (we usually have to do some sort of traversal for any sort of operation)
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
