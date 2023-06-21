@@ -567,6 +567,17 @@ For instance, while a hash table lacks such relationships, organizing folders on
 1.In a BST, all child nodes to the right of a root node must have values greater than the current node. This implies that moving to the right within the tree leads to nodes with increasing values, while moving to the left results in nodes with decreasing values.
 2.Due to its nature as a binary tree, each node in a BST can have a maximum of two children.
 
+#### C5
+
+Q: If a binary tree is unbalanced, what is its worst case time complexity?  
+A: O(n) for lookup(search), insert and delete
+
+Q: How does a binary tree become unbalanced?  
+A: A binary tree becomes unbalanced when new nodes are continually placed to the right of one node and its children or to the left of one node and its children (as opposed to spreading them out evenly to keep the left and right sides about the same height, the tree becomes really long on on side).
+
+Q: How can you tell if a binary tree is balanced?  
+A: A binary tree is balanced when every node has roughly the same amount of children.
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
