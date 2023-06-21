@@ -588,6 +588,11 @@ A: 1.Better than O(n) (most operations are log n, assuming that the BST is balan
 Q: What are the cons of using BSTs?
 A: 1.No O(1) operations (we usually have to do some sort of traversal for any sort of operation)
 
+#### C9
+
+Q: What does divide and conquer refers to?
+A: Divide and conquer simply means we are dividing up so that we dont visit all the nodes, each node that we visit we make a decision to go left or right
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
