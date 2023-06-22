@@ -593,6 +593,30 @@ A: 1.No O(1) operations (we usually have to do some sort of traversal for any so
 Q: What does divide and conquer refers to?
 A: Divide and conquer simply means we are dividing up so that we dont visit all the nodes, each node that we visit we make a decision to go left or right
 
+#### C12
+
+Q: What type of specialized binary trees can you use to maintain balance in a binary tree?  
+A: An AVL tree or a Red/Black tree.
+
+Q: For an AVL tree, what is the equation of the balance factor?  
+**|h1 - h2|  <= 1** (Balance factor)  
+**|h1 - h2|** can be equal to **\-1,0, or 1**.  
+**h1** and **h2** are _subtrees of the same node_.  
+The balance factor determines whether or not any given subtree of a tree is balanced.
+
+Q: How many types of node-swapping operations does an AVL tree have to balance itself? What are they?  
+A: **2** types of node-swapping operations:  
+**Single Rotations** and **Double Rotations**.
+
+Q: What are the 4 rules of a Red/Black Binary Tree?  
+A: 1.Each node must be either Red or Black  
+2.Root node must always be black  
+3.A red node must always have a black parent node and black child nodes  
+4.Every branch path (the path from root node to an empty leaf node \[null\]) must posess the exact same number of black nodes.  
+Extras:  
+A null leaf node is always considered to be black, even if it is marked red.  
+A chain of 3 nodes can never be a valid Red/Black Tree.
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
