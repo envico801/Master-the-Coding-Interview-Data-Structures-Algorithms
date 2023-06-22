@@ -646,6 +646,23 @@ Q: For what BH (binary heap) are good?
 A: They are great at doing comparative operations
 e.g. I want people that have a value over 33
 
+#### C16
+
+Q: Is a Binary Heap always balanced?  
+A: Yes. Insertion order is left to right so they easily preserve their insertion order as well.
+
+Q: What is a priority queue?
+A: Is similar to a queue but with the difference that there are "vips" or higher priority values that usually take the first or last positions.
+
+Q: What are the pros of using BH?
+A: 1.Better than O(n)
+2.Priority (searching may be slow, but you have an idea of priority, because insertion is done in order)
+3.Flexible size
+4.Fast insert (we might have to bubble up inserts every once in a while. But most of the time you get really fast inserts)
+
+Q: What are the cons of using BH?
+A: 1.Slow lookup (it must be taken into account that many times there is a method to find the minimum or maximum which is O(1) - (it all depends if it is a min heap or max heap))
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
