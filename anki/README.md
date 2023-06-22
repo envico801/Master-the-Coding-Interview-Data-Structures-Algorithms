@@ -617,6 +617,35 @@ Extras:
 A null leaf node is always considered to be black, even if it is marked red.  
 A chain of 3 nodes can never be a valid Red/Black Tree.
 
+#### C14
+
+Q: What is a binary heap?  
+A: A binary heap is a binary tree with the following properties:  
+1.It's a complete tree. All levels are completely filled except possibly the last level, which will have elements positioned as left as possible.  
+2.It is either a Min Heap or a Max Heap.  
+In a Min Heap the root element must be the smallest (or the one with the least importance) among all elements present in the tree.  
+In a Max Heap the root element must be the largest (or the one with the higher importance) of all elements present in the tree.
+3.And have a max of 2 children (like a BT)
+
+Q: What is the Big O for a lookup(search) operation in a Binary Heap?  
+A: O(n) (because is less ordered than a than a BST, in this data structure left and right can be any value)
+
+Q: What is the Big O for an insertion operation in a Binary Heap?  
+A: O(log n) - O(1) in the best scenario, but if the order is broken it is possible to bubble upwards and this would result in the worst case (log n).
+
+Q: What is the Big O for a deletion operation in a Binary Heap?  
+A: O(log n)
+
+Q: Where a BH (binary heap) can be used?
+A: A BH can be used in any algorithm where ordering is important.
+
+Q: What data-structure are Binary Heaps typically used to implement?  
+A: A Priority Queue, data storage, sorting algorithms
+
+Q: For what BH (binary heap) are good?
+A: They are great at doing comparative operations
+e.g. I want people that have a value over 33
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
