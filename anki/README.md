@@ -677,6 +677,29 @@ Q: What is a Graph?
 A: A Graph is a non-linear data structure consisting of nodes and edges. The nodes are sometimes referred to as vertices and the edges are lines or arcs that connect any two nodes in the graph.  
 Technically Trees and Linked Lists are types of a Graph.
 
+#### C2
+
+Q: What is a directed graph?  
+A: A graph whose nodes (vertexes) point in one direction. Like a one-way street going to the next node (vertex).
+
+Q: What is an undirected graph?  
+A: A graph whose nodes (vertexes) have no defined direction. A node (vertex) can only link to another node (vertex) if that other node (vertex) is also aware of the first node (vertex).  
+Think of how Facebook works with friends. You cannot be someones friend on Facebook unless they are also your friend.
+
+Q: What is a weighted graph?  
+A: A graph whose edges have a value.  
+This is useful in shortest path algorithms, like Dijkstra's algorithm.  
+Weighted graphs are really common in cyclic graphs
+
+Q: What is a cyclic graph?  
+A: A graph which contains a cycle.  
+You can start at one node (vertex) and make your way back to that same node by following other nodes back to the node you started on.  
+Cyclic graphs are really common in weighted graphs
+
+Q: What is an acyclic graph?  
+A: A graph that contains no cycles.  
+You cannot get back to a node you started from once you have left it.
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
