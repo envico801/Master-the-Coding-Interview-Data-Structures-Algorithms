@@ -669,6 +669,14 @@ Q: What is a Trie (aka prefix tree)?
 A: A Trie is a unique type of tree that is an efficient infromation retrieval data structure. It commonly uses alphabetical characters to store data, like words. Often used to implement auto-correct for typing.  
 In most cases it can outperform BSTs, hash tables and most others data structures. It will depend on what type of search we are doing
 
+### 11. Data Structures: Graphs
+
+#### C1
+
+Q: What is a Graph?  
+A: A Graph is a non-linear data structure consisting of nodes and edges. The nodes are sometimes referred to as vertices and the edges are lines or arcs that connect any two nodes in the graph.  
+Technically Trees and Linked Lists are types of a Graph.
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
