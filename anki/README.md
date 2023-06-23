@@ -663,6 +663,12 @@ A: 1.Better than O(n)
 Q: What are the cons of using BH?
 A: 1.Slow lookup (it must be taken into account that many times there is a method to find the minimum or maximum which is O(1) - (it all depends if it is a min heap or max heap))
 
+#### C17
+
+Q: What is a Trie (aka prefix tree)?  
+A: A Trie is a unique type of tree that is an efficient infromation retrieval data structure. It commonly uses alphabetical characters to store data, like words. Often used to implement auto-correct for typing.  
+In most cases it can outperform BSTs, hash tables and most others data structures. It will depend on what type of search we are doing
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
