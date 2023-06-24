@@ -746,6 +746,14 @@ const graph = [
 ];
 ```
 
+#### C7
+
+Q: What are the pros of using graphs?
+A: 1.Relationships (some data needs to be in a graph form)
+
+Q: What are the cons of using graphs?
+A: 1.Scaling is hard (they can get complicated, you need a big company or at least a lot of resources and engineering power to make sure that you build graphs that scale well)
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
