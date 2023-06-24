@@ -716,6 +716,36 @@ const graph = [
 ];
 ```
 
+Q: What is an adjacent list?  
+A: A collection of vertices and their neighboring vertices which represents a graph.
+
+```javascript
+// The index is the node and the value is the nodes neighbors (we can use arrays, objects, linked lists)
+// The index in this case is the value of the actual graph node
+const graph = [
+  [2], // 0
+  [2, 3], // 1
+  [0, 1, 3], // 2
+  [1, 2], // 3
+];
+```
+
+Q: What is an adjacent matrix?  
+A: A graph representation by an array matrix which contain 0s and 1s that show the relationship of vertices to other vertices in the graph.  
+It will indicate if node X has a connection to node Y, 0 means NO, 1 means YES
+If you have a weighted graph you can add weights here instead of 1 (is replaced by the weight) and 0
+
+```javascript
+// The index in this case is the value of the actual graph node
+// We can use an object to apply keys instead of indexes
+const graph = [
+  [0, 0, 1, 0], // 0 -> 2
+  [0, 0, 1, 1], // 1 -> 2,3
+  [1, 1, 0, 1], // 2 -> 0,1,3
+  [0, 1, 1, 0], // 3 -> 1,2
+];
+```
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
