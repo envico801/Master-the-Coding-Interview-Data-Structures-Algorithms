@@ -700,6 +700,22 @@ Q: What is an acyclic graph?
 A: A graph that contains no cycles.  
 You cannot get back to a node you started from once you have left it.
 
+#### C4
+
+Q: What is an edge list?  
+A: A collection of edges (connections) which represent a graph.
+e.g.
+
+```javascript
+// a third element can be inserted into each array to apply a weight graph e.g. [0, 2 ,88]
+const graph = [
+  [0, 2],
+  [2, 3],
+  [2, 1],
+  [1, 3],
+];
+```
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
