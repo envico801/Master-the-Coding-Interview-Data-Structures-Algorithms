@@ -1508,6 +1508,16 @@ Q: What is recursion?
 A: When a function refers to itself (calls on itself). Think of inception (the movie).  
 It is good for tasks that have repeated subtasks to do
 
+#### C4
+
+Q: How do you terminate a recursive funtion?  
+A: With a base case. Recursion breaks a task down into smaller tasks which terminate at the base case. This base case termination prevents the function from calling itself infinitely.
+
+Q: What are the 3 rules for recursion?  
+A: 1.Identify the base case  
+2.Identify the recursive case  
+3.Return something in the base case and return your recursive calls so the value from the base case persists through the call stack
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
