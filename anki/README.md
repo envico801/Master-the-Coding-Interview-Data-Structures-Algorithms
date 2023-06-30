@@ -1489,6 +1489,19 @@ A: 1.Relationships (some data needs to be in a graph form)
 Q: What are the cons of using graphs?
 A: 1.Scaling is hard (they can get complicated, you need a big company or at least a lot of resources and engineering power to make sure that you build graphs that scale well)
 
+### 12. Algorithms: Recursion
+
+#### C1
+
+Q: What is an algorithm?  
+A: Steps to complete a desired action in computers. Technically all functions are algorithms.
+Algorithms allow us to use data structures to perform actions on data
+
+```text
+Data structures + Algorithms = Programs
+Class {}        + function() = Programs
+```
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
