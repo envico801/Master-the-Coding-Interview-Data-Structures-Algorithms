@@ -1570,6 +1570,57 @@ findFactorialRecursive(5);
 //If you want, try to add a base case condition for the recursive solution if the parameter given is less than 2
 ```
 
+#### C8
+
+Q: What does exponential time mean?
+A: It means that every additional element in a function we get an increase in function calls exponentially
+e.g. (recursive algorithms that solves a problem of size N)
+
+Q: How can a recursive function be optimized?  
+A: Dynamic programming and memoization!
+
+Q: Given a number N return the index value of the Fibonacci sequence, where the sequence is:
+
+```javascript
+// 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144 ...
+// the pattern of the sequence is that each value is the sum of the 2 previous values, that means that for N=5 → 2+3
+
+//For example: fibonacciRecursive(6) should return 8
+
+function fibonacciIterative(n) {
+  //code here;
+}
+fibonacciIterative(3);
+
+function fibonacciRecursive(n) {
+  //code here;
+}
+
+fibonacciRecursive(3);
+```
+
+A:-
+
+```javascript
+function fibonacciIterative(n) {
+  let arr = [0, 1];
+  for (let i = 2; i < n + 1; i++) {
+    arr.push(arr[i - 2] + arr[i - 1]);
+  }
+  return arr[n];
+}
+fibonacciIterative(3);
+
+function fibonacciRecursive(n) {
+  if (n < 2) {
+    return n;
+  }
+  return fibonacciRecursive(n - 1) + fibonacciRecursive(n - 2);
+}
+
+fibonacciRecursive(6);
+```
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
