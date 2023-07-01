@@ -7,7 +7,10 @@
 #### C2
 
 Q: What is the official term for Big O?  
-A: The official term is Big O asymptomatic analysis. It can tell us how well a problem is solved.
+A: The official term is Big O asymptomatic analysis.
+
+Q: What can big O tell us about a problem?
+A: It can tell us how well a problem is solved.
 
 #### C4
 
@@ -30,7 +33,7 @@ e.g. (for loops, while loops through n items)
 #### C7
 
 Q: What does constant time mean?  
-A: Constant time means that the number of steps does not depend on the input size. Also known as O(1). Predictability is always good
+A: Constant time means that the number of steps/operations does not depend on the input size. Also known as O(1). Predictability is always good
 
 #### C13
 
@@ -85,8 +88,13 @@ A: These are the steps or processes we put in place to manipulate our data struc
 #### C20
 
 Q: What does factorial time mean?  
-A: It means that you are adding a loop for every element  
+A: It means that you are adding a loop for every element O(n!)  
 We will find ourselves writing algorithms with factorial time complexity when calculating permutations and combinations.
+For example, the factorial of 5, or _5!_, is:
+
+```text
+5 * 4 * 3 * 2 * 1 = 120
+```
 
 #### C21
 
