@@ -1621,6 +1621,19 @@ function fibonacciRecursive(n) {
 fibonacciRecursive(6);
 ```
 
+#### C9
+
+Q: What are the pros of using recursion?
+A: 1.DRY (simpler, have less loops happening with confusing code)
+2.Readability (generally is more readable than an iterative aproach)
+
+Q: What are the cons of using recursion?
+A: 1.Large stack (it creates an extra memory footprint, because every time we add a function to the call stacks it adds extra piece of memory)
+
+Q: What is tail call optimization?
+A: There's something called tail call optimization in many languages And for example in Javascript with 6 it allows recursions to be called without increasing the call stack  
+There are certain ways to write recursion So there are more memory efficient.
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
