@@ -1649,6 +1649,48 @@ A: **Every time you are using a tree or converting Something into a tree, consid
 **Divide and Conquer using Recursion**
 e.g. (looking through a phone book when you're looking for Bell in the phone book You're not going to start from a and simply go one page at a time from left to right. o you usually split the phonebook in the middle or try to go to the B section of the phone book and start dividing up the problem page by page until you get closer and closer)
 
+#### C11
+
+Q: Implement a function that reverses a string using iteration...and then recursion!
+
+```javascript
+function reverseString(str) {}
+
+reverseString('yoyo mastery');
+//should return: 'yretsam oyoy'
+```
+
+A:-
+
+```javascript
+function reverseString(str) {
+  let arrayStr = str.split('');
+  let reversedArray = [];
+  //We are using closure here so that we don't add the above variables to the global scope.
+  function addToArray(array) {
+    if (array.length > 0) {
+      reversedArray.push(array.pop());
+      addToArray(array);
+    }
+    return;
+  }
+  addToArray(arrayStr);
+  return reversedArray.join('');
+}
+
+reverseString('yoyo master');
+
+function reverseStringRecursive(str) {
+  if (str === '') {
+    return '';
+  } else {
+    return reverseStringRecursive(str.substr(1)) + str.charAt(0);
+  }
+}
+
+reverseStringRecursive('yoyo master');
+```
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
