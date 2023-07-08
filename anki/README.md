@@ -88,8 +88,9 @@ A: These are the steps or processes we put in place to manipulate our data struc
 #### C20
 
 Q: What does factorial time mean?  
-A: It means that you are adding a loop for every element O(n!)  
-We will find ourselves writing algorithms with factorial time complexity when calculating permutations and combinations.
+A: It means that the number of operations will be proportional to the factorial of the input.
+**We will find ourselves writing algorithms with factorial time complexity when calculating permutations and combinations.**
+Factorial is the multiplication of all positive integer numbers less than itself. For instance:
 For example, the factorial of 5, or _5!_, is:
 
 ```text
@@ -218,6 +219,7 @@ e.g. We traverse the entire array to check if an element is present.
 Q: What is the Big O of an Array push/append operation? (aka **insertion**: Array.push(value))  
 A: O(1) if the array is static  
 O(n) if the array is dynamic and has to grow when the new value is added.
+or if we are using other methods like (shift(), splice())
 **Note that the worst case is still O(n).**
 
 Q: What is the Big O of an Array shift operation? (aka **insertion**: Array.shift(value))  
