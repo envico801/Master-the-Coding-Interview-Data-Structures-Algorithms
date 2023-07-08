@@ -91,7 +91,7 @@ Q: What does factorial time mean?
 A: It means that the number of operations will be proportional to the factorial of the input.
 **We will find ourselves writing algorithms with factorial time complexity when calculating permutations and combinations.**
 Factorial is the multiplication of all positive integer numbers less than itself. For instance:
-For example, the factorial of 5, or _5!_, is:
+The factorial of 5, or _5!_, is:
 
 ```text
 5 * 4 * 3 * 2 * 1 = 120
@@ -147,9 +147,9 @@ A: ...memory that is being allocated for each operation.
 #### C2
 
 Q: What skills does the interviewer look for?
-A: 1.Analytic Skills - How can you think through problems and analyze things?  
-2.Coding Skills - Do you code well, by writing clean, simple, organized, readable code?  
-3.Technical knowledge - Do you know the fundamentals of the job you're applying for?  
+A: 1.Analytic Skills - How can you think through problems and analyze things? - (e.g. can you come up with alternatives to solve the problem?)  
+2.Coding Skills - Do you code well, by writing clean, simple, organized, readable code? - (e.g. Big O)  
+3.Technical knowledge - Do you know the fundamentals of the job you're applying for? - (e.g. language JavaScript)  
 4.Communication skills: Does your personality match the companies’ culture?
 
 ### 5. Data Structures: Introduction
@@ -213,7 +213,7 @@ Q: What is the Big O for an Array lookup operation? (aka **access**: Array\[2\])
 A: O(1)
 
 Q: What is the Big O for an Array find operation? (aka **search**: Array.find(callbackFn))  
-A: O(1)
+A: O(n)
 e.g. We traverse the entire array to check if an element is present.
 
 Q: What is the Big O of an Array push/append operation? (aka **insertion**: Array.push(value))  
@@ -322,17 +322,27 @@ A: 1.Slow inserts (we have to shift the array when at the very end of the array)
 
 Q: What are Hash Tables?  
 A: **Collections of { Key: Value } pairs**
-A Hash table is defined as a data structure used to insert, look up, and remove key-value pairs quickly. It operates on the [hashing concept](https://www.geeksforgeeks.org/what-is-hashing/), where each key is translated by a hash function into a distinct index in an array. The index functions as a storage location for the matching value. In simple words, it maps the keys with the value. (it will store the key and the value at the same address in memory - a "bucket") `G7xpLLQ4 -> key:value`
+A Hash table is defined as a data structure used to insert, look up, and remove key-value pairs quickly.  
+It operates on the [hashing concept](https://www.geeksforgeeks.org/what-is-hashing/), where each key is translated by a hash function into a distinct index in an array. The index functions as a storage location for the matching value. In simple words, it maps the keys with the value. (it will store the key and the value at the same address in memory - a "bucket")
+
+```text
+Input = Grape
+Output (is always) = G7xpLLQ4
+G7xpLLQ4 -> key:value
+```
 
 #### C2
 
 Q: What is a Hash function?  
 A: A function that generates a value of fixed length for each input it receives. For any given input, the output will always be the same.  
-Examples:  
-Input = Grape  
-Output (is always) = G7xpLLQ4  
-Input = 5  
+Examples:
+
+```text
+Input = Grape
+Output (is always) = G7xpLLQ4
+Input = 5
 Output (is always) = Ax67def0
+```
 
 Q: What does it mean for a function to be "idempotent"?
 A: It is a fancy way of saying that a function given an input always outputs the same output
