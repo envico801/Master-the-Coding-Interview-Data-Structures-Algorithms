@@ -1779,6 +1779,15 @@ selectionSort(numbers);
 console.log(numbers);
 ```
 
+#### C11
+
+Q: What is insertion sort?
+A: Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.
+
+Q: What is the time and space complexity for Insertion Sort? (worst case)  
+A: Time: O(n^2)  
+Space: O(1)
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
