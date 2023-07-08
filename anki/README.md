@@ -1699,6 +1699,19 @@ Q: Why should we review the documentation of the (native) methods we are using?
 A: To understand how it works in the language, it can also serve as a reference and a guide.  
 For example, in the case of javascript the implementation of the sort() method will vary depending on the environment where it is executed, ECMAScript says how it should look like (grab this argument and return this), but does not talk anything about the implementation.
 
+#### C4
+
+Q: What are the algorithms found in the "elementary sorts" category?
+A: Bubble sort, insertion sort, selection sort  
+**They are, let's say, the first ones you would think of if you were told to implement some kind of order.**
+
+Q: What is bubble sort?
+A: Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.
+
+Q: What is the time and space complexity of Bubble Sort? (worst case)  
+A: Time: O(n^2)  
+Space: O(1)
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
