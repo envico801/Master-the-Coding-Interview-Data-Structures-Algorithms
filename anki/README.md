@@ -1853,6 +1853,50 @@ Q: What does it mean when a sorting algorithm is stable?
 A: If a sorting algorithm is stable then it will retain the original order of the data after sorting is completed.  
 If there are duplicates of data then the duplicate piece of data that was on the left will remain on the left and the right will remain to the right after sorting is done.
 
+#### C16
+
+Q: How would you implement merge sort?
+A:-
+
+```javascript
+const numbers = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0];
+
+function mergeSort(array) {
+  if (array.length === 1) {
+    return array;
+  }
+  // Split Array in into right and left
+  const length = array.length;
+  const middle = Math.floor(length / 2);
+  const left = array.slice(0, middle);
+  const right = array.slice(middle);
+  // console.log('left:', left);
+  // console.log('right:', right);
+
+  return merge(mergeSort(left), mergeSort(right));
+}
+
+function merge(left, right) {
+  const result = [];
+  let leftIndex = 0;
+  let rightIndex = 0;
+  while (leftIndex < left.length && rightIndex < right.length) {
+    if (left[leftIndex] < right[rightIndex]) {
+      result.push(left[leftIndex]);
+      leftIndex++;
+    } else {
+      result.push(right[rightIndex]);
+      rightIndex++;
+    }
+  }
+  // console.log(left, right)
+  return result.concat(left.slice(leftIndex)).concat(right.slice(rightIndex));
+}
+
+const answer = mergeSort(numbers);
+console.log(answer);
+```
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
