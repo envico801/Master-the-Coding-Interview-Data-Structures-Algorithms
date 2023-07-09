@@ -1831,6 +1831,28 @@ insertionSort(numbers);
 console.log(numbers);
 ```
 
+#### C14
+
+Q: What does Log Linear time mean?
+A: It means that:  
+1.Has linear behavior nested in log steps  
+2.Is bigger than O(n) but smaller than O(n^2)
+e.g. usually sorting operations
+
+Q: What is merge sort?
+A: Merge sort is defined as a sorting algorithm that works by dividing an array into smaller subarrays, sorting each subarray, and then merging the sorted subarrays back together to form the final sorted array.
+
+Q: What technique do the merge sort and quick sort algorithms use?
+A: Divide & Conquer
+
+Q: What is the time and space complexity of Merge Sort? (worst case)  
+A: Time: O(n log n)  
+Space: O(n)
+
+Q: What does it mean when a sorting algorithm is stable?  
+A: If a sorting algorithm is stable then it will retain the original order of the data after sorting is completed.  
+If there are duplicates of data then the duplicate piece of data that was on the left will remain on the left and the right will remain to the right after sorting is done.
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
