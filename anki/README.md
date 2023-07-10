@@ -1897,6 +1897,15 @@ const answer = mergeSort(numbers);
 console.log(answer);
 ```
 
+#### C18
+
+Q: What is quick sort?
+A: QuickSort is a sorting algorithm based on the Divide and Conquer algorithm that picks an element as a pivot and partitions the given array around the picked pivot by placing the pivot in its correct position in the sorted array.
+
+Q: What is the time and space complexity of Quick Sort? (worst case)  
+A: Time: O(n^2) # This can usually be avoided with a good 'pivot' point  
+Space: O(log(n))
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
