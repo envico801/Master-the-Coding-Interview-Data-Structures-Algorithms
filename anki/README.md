@@ -2079,6 +2079,23 @@ Q: What is the time and space complexity of Heap Sort? (worst case)
 A: Time: O(n log n)
 Space: O(1)
 
+#### C22
+
+Q: What are the most used comparison algorithms?
+A: Merge sort & Quick sort. they use divie and conquer to give us this O(n log (n)) performance boost
+
+Q: Can we beat O(n log (n)) when it comes to sorting?
+A: Mathematically it is impossible to improve on this . it's impossible because O(n log (n)) means that we have to sort by comparison, But there is one exception to this rule. you can beat O(n log (n)) with **non-comparison sorts**
+
+Q: What are the most commonly used non-comparison algorithms?
+A: Counting sort & Radix sort
+
+Q: How do the algorithms work without comparison?
+A: For non-comparison algorithms, the approach involves leveraging the binary representation of numbers and data stored in computers (zeros and ones) to facilitate sorting. By utilizing the inherent properties of binary representation, these algorithms can effectively organize and sort data.
+
+Q: On what type of data do non-comparison algorithms work?
+A: It only really works on numbers because of the way numbers are stored in memory.
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
