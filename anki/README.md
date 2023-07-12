@@ -152,6 +152,104 @@ A: 1.Analytic Skills - How can you think through problems and analyze things? - 
 3.Technical knowledge - Do you know the fundamentals of the job you're applying for? - (e.g. language JavaScript)  
 4.Communication skills: Does your personality match the companies’ culture?
 
+#### Extras
+
+Q: What is the first step when approaching a problem in an interview?  
+A: When the interviewer says the question, write down the key points at the top and ensure you have all the details.
+
+Q: What should you double check after understanding the problem statement in an interview?  
+A: Verify the inputs and outputs of the problem.
+
+Q: What factors should you consider to determine the most important value of the problem in an interview?  
+A: Consider time, space, memory, and the main goal of the problem.
+
+Q: What should you avoid when asking questions during an interview?  
+A: Avoid being annoying and asking too many questions.
+
+Q: What is the initial approach you should start with in an interview?  
+A: Start with the naive/brute force approach, demonstrating your ability to think critically.
+
+Q: Why should you explain why the initial approach is not the best (in an interview)?  
+A: Explain limitations such as high time complexity (O(n^2) or higher) or code readability issues.
+
+Q: What should you analyze when walking through your approach in an interview?  
+A: Look for repetitions, bottlenecks (with the highest Big O notation), and unnecessary work. Utilize all the information provided by the interviewer.
+
+Q: What should you do before starting the coding process in an interview?  
+A: Walk through your code and outline the steps you will follow.
+
+Q: How should you structure your code from the beginning (in an interview)?  
+A: Modularize your code into smaller pieces and add comments if necessary.
+
+Q: When should you start writing the actual code in an interview?  
+A: Begin coding once you have a clear understanding of the problem and the steps you need to implement.
+
+Q: What should you consider while coding to showcase your abilities in an interview?  
+A: Break the problem into functions and focus on demonstrating your skills. Even if you forget a specific method, create a function as a placeholder.
+
+Q: How should you handle error checks in your code during an interview?  
+A: Assume people will try to break your code and consider potential false inputs. Safeguard your code and discuss additional checks or tests that could be implemented.
+
+Q: What naming convention should you follow when writing code in an interview?  
+A: Avoid using confusing names like 'i' and 'j.' Write code that is readable and easy to understand.
+
+Q: What should you do after writing the code in an interview?  
+A: Test your code thoroughly, considering different scenarios such as no parameters, zero values, undefined or null inputs, large arrays, and asynchronous code. Look for repetitive sections in your solution.
+
+Q: What should you discuss with the interviewer after testing the code during an interview?  
+A: Share potential improvements, alternative approaches, code readability, and suggestions for performance enhancements. You can also inquire about the most interesting solution the interviewer has encountered for the problem.
+
+Q: What additional question might an interviewer ask after reviewing your solution?  
+A: The interviewer may ask how you would handle the problem if the input is too large to fit into memory or if it arrives as a stream. The typical answer involves a divide-and-conquer approach, performing distributed processing of the data.
+
+Q: What is the primary requirement for code functionality?  
+A: The code should function correctly and solve the problem.
+
+Q: How does the selection of appropriate data structures impact program efficiency?  
+Answer: By choosing appropriate data structures, programs can achieve efficient data storage and manipulation.
+
+Q: What should you do to promote code reusability and avoid code duplication?  
+A: To promote code reusability and avoid code duplication, you should extract common logic into reusable functions or modules and apply them wherever necessary.
+
+Q: How does modularity impact code quality?  
+A: Modularity improves code quality by enhancing readability, maintainability, and testability.
+
+Q: Why should nested loops be avoided?  
+A: They can be expensive in terms of time complexity. It is better to have separate loops than nesting them.
+
+Q: What is the recommended complexity for algorithms?  
+A: Less than O(N^2). Optimize algorithms to reduce time complexity, avoiding quadratic time complexity or higher.
+
+Q: What potential issues can arise from recursion?  
+A: Recursion can cause stack overflow due to excessive function calls.
+
+Q: How does copying large arrays affect space complexity?  
+A: Copying large arrays may exceed the memory capacity of the machine, leading to potential issues.
+
+Q: What data structure is often the answer to improve time complexity?  
+A: Hash Maps. They can provide efficient lookup and retrieval operations.
+
+Q: What data structure can be used with a sorted array to achieve O(log N) time complexity?  
+A: Binary Tree. It enables divide and conquer techniques, such as binary search, on sorted data sets.
+
+Q: What technique can be applied to improve performance when working with data?  
+A: Sorting the input. It can facilitate more efficient algorithms and operations.
+
+Q: What are some effective ways to optimize code?  
+A: Hash tables and precomputed information (e.g., sorted data) can contribute to code optimization.
+
+Q: What tradeoff should be considered between time and space?  
+A: Consider the Time vs Space tradeoff. Storing extra state in memory can sometimes improve runtime.
+
+Q: How should you respond when the interviewer gives you advice, tips, or hints?  
+A: Follow their advice. Take note of the insights provided by the interviewer.
+
+Q: How can you address the space-time tradeoff in programming?  
+A: Hash tables can often provide a solution, using more space to optimize for faster time.
+
+Q: What is the importance of communicating your thought process during an interview?  
+A: It is crucial to communicate your thought process as much as possible. Each part of the interview matters, and clarity of thinking is valuable.
+
 ### 5. Data Structures: Introduction
 
 #### C3
