@@ -2096,6 +2096,56 @@ A: For non-comparison algorithms, the approach involves leveraging the binary re
 Q: On what type of data do non-comparison algorithms work?
 A: It only really works on numbers because of the way numbers are stored in memory.
 
+#### C24
+
+Q: Sort algorithm question
+Which algorithm would you use for the following context?
+**Sort 10 schools around your house by distance**
+A: Insertion sort  
+It's really fast on small sorts. It's easy to code and it has space complexity of of one. It also could be that these 10 schools are already presorted or nearly sorted on our list. So insertion is just the simplest for this type of small data.
+
+Q: Sort algorithm question
+Which algorithm would you use for the following context?
+**eBay sorts listings by the current Bid amount**
+A: Radix sort / Counting sort  
+I would actually use something like radix or counting sort because well a bid is usually a number between let's say $1 to let's say 50000. Probably even less. And because it's a fixed length of integers. Integers are most likely not going to be a hundred million because well hopefully nobody's bidding that much on eBay.
+
+Q: Sort algorithm question
+Which algorithm would you use for the following context?
+**Sport scores on ESPN**
+A: Quick sort  
+Sports scores on ESPN sports scores can vary. There's decimal places sometimes there's there's different formats such as tennis and soccer and different things and there's definitely lots of sports and lots of scores to handle. It's going to be the most efficient and although we might have the worst case I doubt that the scores are going to be sorted because there are just so many different kinds. But I'm also worried about in-memory sorting. So if I used merge sort it might be a little too much for this because of our increase space complexity
+versus quicksort which if you remember has better space complexity.
+
+Q: Sort algorithm question
+Which algorithm would you use for the following context?
+**Massive database (can't fit all into memory) needs to sort through past year's user data**
+A: Merge sort  
+We can fill all this data into memory to sort it So we probably need to sort it out externally and let's say we need to sort through past years user data So it's a ton of data and we need to sort it somehow let's say by some sort of a date. What based on the information that I got here it sounds like I need to do something called merge sort And the reason I would pick this is because well it sounds that we're not gonna be storing really in memory because the data is so big but because the data is so big I'm really worried about the performance. I don't want the worst case of quicksort of O(n^2).
+
+Q: Sort algorithm question
+Which algorithm would you use for the following context?
+**Almost sorted Udemy review data needs to update and add 2 new reviews**
+A: Insertion sort
+Although this data might be huge and maybe I have a lot of reviews. I'm assuming that most of the previous data is already sorted and all I'm doing is adding two new reviews to this data Insertion sort for pre ordered lists is going to work better than any other type of sorting.
+
+Q: Sort algorithm question
+Which algorithm would you use for the following context?
+**Temperature Records for the past 50 years in Canada**
+A: Radix sort / Counting sort / Quick sort
+I would say that our First I would use something like radix or counting sort if the temperatures have no decimal places. If we're saying you know it's -30 to let's say 40 degrees that's a integer number between a small range that can workwell but if I want to sort through data that also has maybe temperatures that are really accurate and have decimal places which you cant do with radix or counting sort then I'm probably going to use quick sort again just so we can do some in memory sorting and hopefully save on that space complexity.
+
+Q: Sort algorithm question
+Which algorithm would you use for the following context?
+**Large user name database needs to be sorted. Data is very random.**
+A: Merge sort / Quick sort
+I'm not really sure I don't have enough information to make a decision here. Maybe I would use merge sort if we have enough memory and memory isn't too expensive on the machine. Or maybe I'll use quicksort if I'm not too worried about worst case and that the user name databases isnt that large Maybe I'll just use quicksort just to save memory space
+
+Q: Sort algorithm question
+Which algorithm would you use for the following context?
+**You want to teach sorting for the first time**
+A: Bubble sort / Selection sort
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
