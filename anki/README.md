@@ -2146,6 +2146,13 @@ Which algorithm would you use for the following context?
 **You want to teach sorting for the first time**
 A: Bubble sort / Selection sort
 
+### 14. Algorithms: Searching + BFS + DFS
+
+#### C2
+
+Q: What is linear/secuencial search?
+A: Linear Search is defined as a sequential search algorithm that starts at one end and goes through each element of a list until the desired element is found, otherwise the search continues till the end of the data set.
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
