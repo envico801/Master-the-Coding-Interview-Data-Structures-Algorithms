@@ -2153,6 +2153,14 @@ A: Bubble sort / Selection sort
 Q: What is linear/secuencial search?
 A: Linear Search is defined as a sequential search algorithm that starts at one end and goes through each element of a list until the desired element is found, otherwise the search continues till the end of the data set.
 
+#### C3
+
+Q: What is binary search?
+A: Binary Search is defined as a searching algorithm used in a sorted array by repeatedly dividing the search interval in half. The idea of binary search is to use the information that the array is sorted and reduce the time complexity to O(log N).
+
+Q: Which big O notation generally refers to the divide and conquer approach?
+A: O(log n)
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
