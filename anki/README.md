@@ -2251,6 +2251,22 @@ A: While iterating with this technique, we move over each node and edge exactly 
 >         if v1.visited ==  false  
 >             DFS(Graph, v1)
 
+#### C7
+
+Q: What are the pros of BFS?
+A: 1.Shortest path (It's very good for finding the shortest path between a starting point and any other reachable node because we always start off with the root node and then search the closest nodes first and then the nodes further)
+2.Closer nodes (it will look at the closest node first)
+
+Q: What are the cons of BFS?
+A: 1.More memory (it uses more memory to keep track of the parents and the children nodes of that level)
+
+Q: What are the pros of DFS?
+A: 1.Less memory
+2.Does path exist? (Does the path exist to us or not from a source know to a target note)
+
+Q: What are the cons of DFS?
+A: 1.Can get slow (The downside with depth first search is that it can get slow especially if the tree or graph is really really deep and it's not necessarily good at finding the shortest path.)
+
 ---
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie
