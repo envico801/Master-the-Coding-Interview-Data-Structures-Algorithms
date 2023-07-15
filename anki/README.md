@@ -726,8 +726,10 @@ Q: What are the advantages of a **double linked** list over a linked list?
 A: 1.It can be iterated or traversed both from the front or from the back.
 2.Easy insert or delete (if you need to delete a previous node, you don't need to traverse from the head node and find what the previous node is)
 
-Q: What are the disadvantages of a **double linked** list over a linked list?
-A: 1.Fairly complex (it requires more memory and storage because of this extra property and there are some actual operations that we need to perform to make sure that we when we do insert and delete that the previous property is updated as well).
+Q: What are the disadvantages of a **double linked** list over a linked list?  
+A: 1.Fairly complex  
+ \* It requires more memory and storage (because of this extra property)  
+ \* Extra operations when we insert or delete (we need to update extra pointers)
 
 Q: What are the pros of using linked lists?
 A: 1.Fast insertion (if we had a large number of elements in an array and kept adding to that array we would have to have excessive overhead copying the array into memory and doubling the space when it reached the limit to create a larger array. Versus a linked list where we can have fast insertion and fast deletion especially once we have a reference to where we want to insert or delete that node).
