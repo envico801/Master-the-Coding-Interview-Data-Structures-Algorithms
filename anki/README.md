@@ -715,31 +715,73 @@ myLinkedList.insert(2, 99);
 
 #### C17
 
-Q: What are the advantages of a **linked list** over a double linked list?
-A: 1.Fairly simple implementation (compared to the double link list)
-2.Requires less memory (when we do things like delete and insert because there is technically less operation, we dont have to move around the previous property, its a little bit faster)
+<!--Q: What are the advantages of a **linked list** over a double linked list?-->
+<!--A: 1.Fairly simple implementation (compared to the double link list)-->
+<!--2.Requires less memory (when we do things like delete and insert because there is technically less operation, we dont have to move around the previous property, its a little bit faster)-->
 
-Q: What are the disadvantages of a **linked list** over a double linked list?
-A: 1.It cannot be iterated in reverse or traverse from back to front (if we ever lose the reference to `this.head` of the list, the list can actually be lost in memory forever)
+Q: What is an advantage of a linked list over a double linked list in terms of implementation complexity?
+A: A linked list offers a relatively simpler implementation compared to a double linked list.
 
-Q: What are the advantages of a **double linked** list over a linked list?
-A: 1.It can be iterated or traversed both from the front or from the back.
-2.Easy insert or delete (if you need to delete a previous node, you don't need to traverse from the head node and find what the previous node is)
+Q: How does a linked list compare to a double linked list in terms of memory usage and performance during operations like deletion and insertion?
+A: Linked lists require less memory and exhibit slightly faster performance during operations like deletion and insertion, as there are fewer operations involved and no need to move around the previous property.
 
-Q: What are the disadvantages of a **double linked** list over a linked list?  
-A: 1.Fairly complex  
- \* It requires more memory and storage (because of this extra property)  
- \* Extra operations when we insert or delete (we need to update extra pointers)
+<!--Q: What are the disadvantages of a **linked list** over a double linked list?-->
+<!--A: 1.It cannot be iterated in reverse or traverse from back to front (if we ever lose the reference to `this.head` of the list, the list can actually be lost in memory forever)-->
 
-Q: What are the pros of using linked lists?
-A: 1.Fast insertion (if we had a large number of elements in an array and kept adding to that array we would have to have excessive overhead copying the array into memory and doubling the space when it reached the limit to create a larger array. Versus a linked list where we can have fast insertion and fast deletion especially once we have a reference to where we want to insert or delete that node).
-2.Fast deletion (same as insertion)
-3.Ordered (linked lists allow us to have this sort of order.)
-4.Flexible size (this is the primary reason to choose a linked list over something like an array is simplicity and ability to grow and shrink as needed.)
+Q: What is a disadvantage of a linked list compared to a double linked list in terms of iteration and traversal?
+A: A linked list cannot be iterated in reverse or traversed from back to front.
 
-Q: What are the cons of using linked lists?
-A: 1.Slow lookup (we have to traverse through the list if we're searching for something.)
-2.More memory (we store more properties in memory, in the case of a double linked list we are storing the `value - next - prev`)
+Q: What scenario can lead to the linked list being lost in memory forever?
+A: If the reference to `this.head` of the list is lost, it can result in the linked list being lost in memory permanently.
+
+<!--Q: What are the advantages of a **double linked** list over a linked list?-->
+<!--A: 1.It can be iterated or traversed both from the front or from the back.-->
+<!--2.Easy insert or delete (if you need to delete a previous node, you don't need to traverse from the head node and find what the previous node is)-->
+
+Q: What are the advantages of a double linked list in terms of iteration or traversal?
+A: A double linked list allows iteration or traversal from both the front and the back.
+
+Q: How does a double linked list facilitate easy insertion or deletion, particularly when deleting a previous node?
+A: In a double linked list, there is no need to traverse from the head node to find the previous node when deleting; thus, deletion becomes easier.
+
+<!--Q: What are the disadvantages of a **double linked** list over a linked list?  -->
+<!--A: 1.Fairly complex  -->
+ <!--\* It requires more memory and storage (because of this extra property)  -->
+ <!--\* Extra operations when we insert or delete (we need to update extra pointers)-->
+
+Q: What impact does the extra property of a double linked list have?
+A: The additional property requires higher memory and storage usage.
+
+Q: What extra difficulty do the operations (insert, delete) in a double linked list bring?
+A: Due to the presence of the "previous" pointer, additional operations must be performed when inserting or deleting.
+
+<!--Q: What are the pros of using linked lists?-->
+<!--A: 1.Fast insertion (if we had a large number of elements in an array and kept adding to that array we would have to have excessive overhead copying the array into memory and doubling the space when it reached the limit to create a larger array. Versus a linked list where we can have fast insertion and fast deletion especially once we have a reference to where we want to insert or delete that node).-->
+<!--2.Fast deletion (same as insertion)-->
+<!--3.Ordered (linked lists allow us to have this sort of order.)-->
+<!--4.Flexible size (this is the primary reason to choose a linked list over something like an array is simplicity and ability to grow and shrink as needed.)-->
+
+Q: What are the advantages of using linked lists in terms of insertion and deletion speed?  
+A: Linked lists offer fast insertion and deletion, particularly when a reference to the desired location is available, avoiding the need for excessive copying or resizing.
+
+Q: How does a linked list facilitate ordered data?  
+A: Linked lists allow for maintaining ordered data.
+
+Q: Why is a linked list considered flexible in terms of size?  
+A: Linked lists are flexible in size, meaning they can grow and shrink dynamically as needed.
+
+Q: What is the primary reason for choosing a linked list over an array?  
+A: The primary reason for choosing a linked list over an array is its simplicity and the ability to adjust its size as required.
+
+<!--Q: What are the cons of using linked lists?-->
+<!--A: 1.Slow lookup (we have to traverse through the list if we're searching for something.)-->
+<!--2.More memory (we store more properties in memory, in the case of a double linked list we are storing the `value - next - prev`)-->
+
+Q: What is a disadvantage of using linked lists in terms of lookup speed?  
+A: Linked lists suffer from slow lookup because traversal through the list is necessary when searching for a specific element.
+
+Q: How does the usage of linked lists impact memory usage, especially in the case of a double linked list?  
+A: Using linked lists requires more memory, particularly in the case of a double linked list, where additional properties such as `value`, `next`, and `prev` need to be stored for each node.
 
 #### C19
 
