@@ -1,6 +1,6 @@
 Q: How does a linked list facilitate ordered data?  
 A: Linked lists allow for maintaining ordered data.
-<!--ID: 1690027055886-->
+<!--ID: 1690032123802-->
 
 ---
 

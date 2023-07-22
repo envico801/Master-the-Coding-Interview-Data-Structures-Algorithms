@@ -1,6 +1,6 @@
 Q: Which big O notation generally refers to the divide and conquer approach?  
 A: O(log n)
-<!--ID: 1690027053761-->
+<!--ID: 1690032123433-->
 
 ---
 

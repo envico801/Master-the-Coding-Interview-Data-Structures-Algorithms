@@ -2,7 +2,7 @@ Q: What are the pros of using hash tables?
 A: 1.Fast lookups\* (Good collision resolution needed, usually we dont need to worry about this because our language underneath the hood take care of that for us)  
 2.Fast inserts (same as lookups)  
 3.Flexible keys (depending on the type of hash tables, such as maps, we can have flexibles keys instead of an array that has numbered indexes)
-<!--ID: 1690027054956-->
+<!--ID: 1690032123922-->
 
 ---
 

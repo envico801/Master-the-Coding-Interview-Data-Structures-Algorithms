@@ -1,6 +1,6 @@
 Q: What is the Big O for a lookup operation in a Stack?  
 A: O(n)
-<!--ID: 1690027055797-->
+<!--ID: 1690032123778-->
 
 ---
 

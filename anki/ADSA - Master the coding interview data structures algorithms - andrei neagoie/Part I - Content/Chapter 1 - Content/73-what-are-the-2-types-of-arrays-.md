@@ -1,6 +1,6 @@
 Q: What are the 2 types of Arrays?  
 A: Dynamic and Static
-<!--ID: 1690027055179-->
+<!--ID: 1690032123991-->
 
 ---
 

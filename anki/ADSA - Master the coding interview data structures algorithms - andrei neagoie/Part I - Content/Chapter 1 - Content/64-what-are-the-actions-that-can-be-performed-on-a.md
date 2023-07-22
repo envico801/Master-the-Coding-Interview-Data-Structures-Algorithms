@@ -6,7 +6,7 @@ A: -
 4.Searching: Find the location of the data item if it exists in a given collection  
 5.Sorting: Having data that is sorted  
 6.Access: How do we access this data that we have on our computer
-<!--ID: 1690027055278-->
+<!--ID: 1690032124018-->
 
 ---
 

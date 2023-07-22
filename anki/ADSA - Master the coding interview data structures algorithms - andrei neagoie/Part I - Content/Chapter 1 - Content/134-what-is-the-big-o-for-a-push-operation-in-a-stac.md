@@ -1,6 +1,6 @@
 Q: What is the Big O for a push operation in a Stack?  
 A: O(1)
-<!--ID: 1690027054911-->
+<!--ID: 1690032123773-->
 
 ---
 

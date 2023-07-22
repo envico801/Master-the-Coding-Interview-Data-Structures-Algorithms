@@ -3,7 +3,7 @@ A: 1.Better than O(n)
 2.Priority (searching may be slow, but you have an idea of priority, because insertion is done in order)  
 3.Flexible size  
 4.Fast insert (we might have to bubble up inserts every once in a while. But most of the time you get really fast inserts)
-<!--ID: 1690027054444-->
+<!--ID: 1690032123630-->
 
 ---
 

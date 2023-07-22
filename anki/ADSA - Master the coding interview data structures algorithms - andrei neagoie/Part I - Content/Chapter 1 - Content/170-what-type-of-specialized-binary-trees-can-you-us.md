@@ -1,6 +1,6 @@
 Q: What type of specialized binary trees can you use to maintain balance in a binary tree?  
 A: An AVL tree or a Red/Black tree.
-<!--ID: 1690027054573-->
+<!--ID: 1690032123670-->
 
 ---
 

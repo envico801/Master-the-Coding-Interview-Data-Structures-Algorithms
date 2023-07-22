@@ -1,6 +1,6 @@
 Q: How can you address the space-time tradeoff in programming?  
 A: Hash tables can often provide a solution, using more space to optimize for faster time.
-<!--ID: 1690027055367-->
+<!--ID: 1690032124046-->
 
 ---
 

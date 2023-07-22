@@ -1,6 +1,6 @@
 Q: What is the Big O for a pop operation in a Stack?  
 A: O(1)
-<!--ID: 1690027055789-->
+<!--ID: 1690032123776-->
 
 ---
 

@@ -1,6 +1,6 @@
 Q: Why should you explain why the initial approach is not the best (in an interview)?  
 A: Explain limitations such as high time complexity (O(n^2) or higher) or code readability issues.
-<!--ID: 1690027055608-->
+<!--ID: 1690032124137-->
 
 ---
 

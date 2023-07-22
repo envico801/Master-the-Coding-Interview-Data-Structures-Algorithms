@@ -1,6 +1,6 @@
 Q: When calculating large O and having nested steps (a loop within a loop), which operation should be used?  
 A: Multiplication (\*) must be used for nested steps.
-<!--ID: 1690027055929-->
+<!--ID: 1690032124193-->
 
 ---
 

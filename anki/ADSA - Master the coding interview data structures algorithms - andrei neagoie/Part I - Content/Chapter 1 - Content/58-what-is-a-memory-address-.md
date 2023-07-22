@@ -1,6 +1,6 @@
 Q: What is a memory address?  
 A: It is a reference to a specific memory location
-<!--ID: 1690027055336-->
+<!--ID: 1690032124037-->
 
 ---
 

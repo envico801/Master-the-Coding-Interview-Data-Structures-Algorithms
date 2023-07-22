@@ -1,6 +1,6 @@
 Q: What is a priority queue?  
 A: Is similar to a queue but with the difference that there are "vips" or higher priority values that usually take the first or last positions.
-<!--ID: 1690027054454-->
+<!--ID: 1690032123632-->
 
 ---
 

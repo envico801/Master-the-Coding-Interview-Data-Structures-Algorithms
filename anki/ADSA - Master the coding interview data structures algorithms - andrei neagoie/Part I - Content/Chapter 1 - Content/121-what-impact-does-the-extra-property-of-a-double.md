@@ -1,6 +1,6 @@
 Q: What impact does the extra property of a double linked list have?  
 A: The additional property requires higher memory and storage usage.
-<!--ID: 1690027055911-->
+<!--ID: 1690032123812-->
 
 ---
 

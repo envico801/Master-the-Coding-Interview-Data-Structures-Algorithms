@@ -5,7 +5,7 @@ Algorithms allow us to use data structures to perform actions on data
 Data structures + Algorithms = Programs
 Class {}        + function() = Programs
 ```
-<!--ID: 1690027054292-->
+<!--ID: 1690032123588-->
 
 ---
 

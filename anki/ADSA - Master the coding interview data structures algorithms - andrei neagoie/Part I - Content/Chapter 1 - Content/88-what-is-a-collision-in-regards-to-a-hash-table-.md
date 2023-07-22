@@ -1,7 +1,7 @@
 Q: What is a collision in regards to a Hash Table?  
 A: When a new item is added to the same "address" as an already existing item in a Hash Table.  
 This could slow down the lookup for a Hash Table from O(1) to O(n).
-<!--ID: 1690027055023-->
+<!--ID: 1690032123947-->
 
 ---
 

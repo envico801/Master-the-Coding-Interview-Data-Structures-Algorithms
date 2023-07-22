@@ -1,6 +1,6 @@
 Q: What should you do to promote code reusability and avoid code duplication?  
 A: To promote code reusability and avoid code duplication, you should extract common logic into reusable functions or modules and apply them wherever necessary.
-<!--ID: 1690027055479-->
+<!--ID: 1690032124095-->
 
 ---
 

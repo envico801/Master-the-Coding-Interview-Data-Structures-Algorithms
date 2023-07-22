@@ -1,6 +1,6 @@
 Q: In ES6, what kind of _data-types_ can a **Key** be for a Map?  
 A: Any kind of data-type
-<!--ID: 1690027054997-->
+<!--ID: 1690032123941-->
 
 ---
 

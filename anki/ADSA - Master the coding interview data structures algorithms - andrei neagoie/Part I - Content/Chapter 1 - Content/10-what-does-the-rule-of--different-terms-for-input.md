@@ -2,7 +2,7 @@ Q: What does the rule of "different terms for inputs" mean?
 A: It means that different notations/variables are used for different inputs, because since we do not know the length of each one, we cannot assume that they are the same.  
 1.**O(n) is different from O(a + b)**  
 2.**O(n^2) is different from O(a \* b)**
-<!--ID: 1690027056141-->
+<!--ID: 1690032124204-->
 
 ---
 

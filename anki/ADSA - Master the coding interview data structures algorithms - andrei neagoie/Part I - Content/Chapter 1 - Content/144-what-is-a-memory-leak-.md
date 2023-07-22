@@ -1,6 +1,6 @@
 Q: What is a memory leak?  
 A: Memory leak occurs when programmers create a memory in heap and forget to delete it.
-<!--ID: 1690027054814-->
+<!--ID: 1690032123745-->
 
 ---
 

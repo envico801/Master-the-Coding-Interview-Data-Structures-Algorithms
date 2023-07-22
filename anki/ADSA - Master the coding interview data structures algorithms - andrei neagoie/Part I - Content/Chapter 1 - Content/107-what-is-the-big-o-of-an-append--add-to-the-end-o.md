@@ -1,6 +1,6 @@
 Q: What is the Big O of an append (add to the end of the list) operation on a Linked List/Double link list?  
 A: O(1)
-<!--ID: 1690027056065-->
+<!--ID: 1690032123890-->
 
 ---
 

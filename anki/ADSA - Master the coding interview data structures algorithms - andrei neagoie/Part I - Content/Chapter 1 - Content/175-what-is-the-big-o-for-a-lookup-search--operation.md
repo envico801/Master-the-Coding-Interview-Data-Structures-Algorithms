@@ -1,6 +1,6 @@
 Q: What is the Big O for a lookup(search) operation in a Binary Heap?  
 A: O(n) (because is less ordered than a than a BST, in this data structure left and right can be any value)
-<!--ID: 1690027054523-->
+<!--ID: 1690032123654-->
 
 ---
 

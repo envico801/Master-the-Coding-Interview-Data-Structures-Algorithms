@@ -1,6 +1,6 @@
 Q: What additional question might an interviewer ask after reviewing your solution?  
 A: The interviewer may ask how you would handle the problem if the input is too large to fit into memory or if it arrives as a stream. The typical answer involves a divide-and-conquer approach, performing distributed processing of the data.
-<!--ID: 1690027055505-->
+<!--ID: 1690032124104-->
 
 ---
 

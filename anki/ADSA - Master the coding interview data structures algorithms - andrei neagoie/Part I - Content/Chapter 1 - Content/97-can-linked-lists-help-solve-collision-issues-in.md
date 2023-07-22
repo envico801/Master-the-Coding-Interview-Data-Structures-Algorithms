@@ -1,6 +1,6 @@
 Q: Can Linked Lists help solve collision issues in a Hash Table?  
 A: Yes
-<!--ID: 1690027054936-->
+<!--ID: 1690032123916-->
 
 ---
 

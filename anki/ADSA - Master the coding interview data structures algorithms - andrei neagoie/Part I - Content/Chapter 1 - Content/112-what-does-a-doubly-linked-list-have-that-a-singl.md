@@ -1,6 +1,6 @@
 Q: What does a Doubly Linked List have that a Singly Linked List does not?  
 A: A 'previous' pointer which references the node before it. You can traverse forwards and backwards through a Doubly Linked List. You can only traverse forwards in a Singly Linked List.
-<!--ID: 1690027056012-->
+<!--ID: 1690032123864-->
 
 ---
 

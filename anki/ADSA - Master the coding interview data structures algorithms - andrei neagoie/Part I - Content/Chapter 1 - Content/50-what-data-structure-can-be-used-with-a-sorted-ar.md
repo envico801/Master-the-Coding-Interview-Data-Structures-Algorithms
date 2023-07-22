@@ -1,6 +1,6 @@
 Q: What data structure can be used with a sorted array to achieve O(log N) time complexity?  
 A: Binary Tree. It enables divide and conquer techniques, such as binary search, on sorted data sets.
-<!--ID: 1690027055413-->
+<!--ID: 1690032124061-->
 
 ---
 

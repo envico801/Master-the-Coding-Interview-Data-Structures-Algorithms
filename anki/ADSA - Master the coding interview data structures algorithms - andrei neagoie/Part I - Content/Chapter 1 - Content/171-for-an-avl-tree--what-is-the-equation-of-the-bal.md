@@ -4,7 +4,7 @@ A: -
 **|h1 - h2|** can be equal to **\-1,0, or 1**.  
 **h1** and **h2** are _subtrees of the same node_.  
 The balance factor determines whether or not any given subtree of a tree is balanced.
-<!--ID: 1690027054564-->
+<!--ID: 1690032123667-->
 
 ---
 

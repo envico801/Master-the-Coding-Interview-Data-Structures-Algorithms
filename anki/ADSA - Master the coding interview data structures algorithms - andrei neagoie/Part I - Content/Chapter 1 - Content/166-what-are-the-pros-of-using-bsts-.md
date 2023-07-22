@@ -2,7 +2,7 @@ Q: What are the pros of using BSTs?
 A: 1.Better than O(n) (most operations are log n, assuming that the BST is balanced)  
 2.Ordered  
 3.Flexible size (because we can place a node anywhere in memory we can just have flexible size , we can keep growing our tree)
-<!--ID: 1690027054609-->
+<!--ID: 1690032123681-->
 
 ---
 

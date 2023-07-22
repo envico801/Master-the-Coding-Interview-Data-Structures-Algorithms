@@ -1,6 +1,6 @@
 Q: What are the cons of using BSTs?  
 A: 1.No O(1) operations (we usually have to do some sort of traversal for any sort of operation)
-<!--ID: 1690027054600-->
+<!--ID: 1690032123678-->
 
 ---
 

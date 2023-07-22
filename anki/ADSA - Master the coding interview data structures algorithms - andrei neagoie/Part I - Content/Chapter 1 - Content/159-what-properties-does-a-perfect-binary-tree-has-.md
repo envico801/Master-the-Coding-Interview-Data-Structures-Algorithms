@@ -12,7 +12,7 @@ Based on that formula, we can find the number of nodes in a tree:
 log nodes = height/steps (simplified version)
 log 100 = 2
 10^2 = 100
-<!--ID: 1690027054678-->
+<!--ID: 1690032123700-->
 
 ---
 

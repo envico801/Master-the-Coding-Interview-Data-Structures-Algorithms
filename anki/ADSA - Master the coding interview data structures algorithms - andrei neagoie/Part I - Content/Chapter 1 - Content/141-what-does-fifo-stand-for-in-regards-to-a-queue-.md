@@ -1,6 +1,6 @@
 Q: What does FIFO stand for in regards to a Queue?  
 A: First In First Out
-<!--ID: 1690027054840-->
+<!--ID: 1690032123754-->
 
 ---
 

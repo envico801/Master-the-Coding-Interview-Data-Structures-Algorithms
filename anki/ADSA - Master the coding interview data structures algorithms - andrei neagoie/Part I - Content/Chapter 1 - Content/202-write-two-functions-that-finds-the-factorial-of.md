@@ -32,7 +32,7 @@ findFactorialIterative(5);
 findFactorialRecursive(5);
 //If you want, try to add a base case condition for the recursive solution if the parameter given is less than 2
 ```
-<!--ID: 1690027054253-->
+<!--ID: 1690032123576-->
 
 ---
 

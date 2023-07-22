@@ -30,7 +30,7 @@ function reverseStringRecursive(str) {
 }
 reverseStringRecursive('yoyo master');
 ```
-<!--ID: 1690027054157-->
+<!--ID: 1690032123549-->
 
 ---
 

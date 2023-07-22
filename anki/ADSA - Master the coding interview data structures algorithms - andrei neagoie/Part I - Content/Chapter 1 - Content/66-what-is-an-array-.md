@@ -1,6 +1,6 @@
 Q: What is an array?  
 A: An array is a collection of items stored at contiguous memory locations.
-<!--ID: 1690027055259-->
+<!--ID: 1690032124012-->
 
 ---
 

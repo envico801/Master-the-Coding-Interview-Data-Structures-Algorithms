@@ -1,6 +1,6 @@
 Q: What does it mean for a function to be "idempotent"?  
 A: It is a fancy way of saying that a function given an input always outputs the same output
-<!--ID: 1690027055064-->
+<!--ID: 1690032123961-->
 
 ---
 

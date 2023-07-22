@@ -1,7 +1,7 @@
 Q: What is an undirected graph?  
 A: A graph whose nodes (vertexes) have no defined direction. A node (vertex) can only link to another node (vertex) if that other node (vertex) is also aware of the first node (vertex).  
 Think of how Facebook works with friends. You cannot be someones friend on Facebook unless they are also your friend.
-<!--ID: 1690027054392-->
+<!--ID: 1690032123616-->
 
 ---
 

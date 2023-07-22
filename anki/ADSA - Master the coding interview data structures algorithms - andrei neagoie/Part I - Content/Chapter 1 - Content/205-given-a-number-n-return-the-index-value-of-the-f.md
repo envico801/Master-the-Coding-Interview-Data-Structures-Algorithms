@@ -30,7 +30,7 @@ function fibonacciRecursive(n) {
 }
 fibonacciRecursive(6);
 ```
-<!--ID: 1690027054214-->
+<!--ID: 1690032123568-->
 
 ---
 

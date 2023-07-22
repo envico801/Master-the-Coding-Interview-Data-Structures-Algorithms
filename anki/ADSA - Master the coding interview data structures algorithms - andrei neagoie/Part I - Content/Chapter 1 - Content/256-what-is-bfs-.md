@@ -11,7 +11,7 @@ A: In this technique, each neighboring vertex is inserted into the queue if it i
 >    mark and enqueue all (unvisited) neighbours of u
 Since we are only iterating over the graph’s edges and vertices only once, hence the time complexity for both the algorithms is linear **O(V+E)**.  
 Auxiliary Space Taken is O(V) at worst case.
-<!--ID: 1690027053734-->
+<!--ID: 1690032123425-->
 
 ---
 

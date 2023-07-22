@@ -1,6 +1,6 @@
 Q: How should you respond when the interviewer gives you advice, tips, or hints?  
 A: Follow their advice. Take note of the insights provided by the interviewer.
-<!--ID: 1690027055376-->
+<!--ID: 1690032124050-->
 
 ---
 

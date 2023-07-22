@@ -1,6 +1,6 @@
 Q: What are algorithms?  
 A: These are the steps or processes we put in place to manipulate our data structures to write our programs (instructions for our computer).
-<!--ID: 1690027055762-->
+<!--ID: 1690032124182-->
 
 ---
 

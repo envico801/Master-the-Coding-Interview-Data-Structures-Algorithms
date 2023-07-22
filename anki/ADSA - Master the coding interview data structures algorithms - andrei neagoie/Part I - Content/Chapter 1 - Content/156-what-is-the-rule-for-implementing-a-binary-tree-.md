@@ -3,7 +3,7 @@ A: Each node can have a max of 2 children.
 So a node can have 0, 1, or 2 children.  
 And each child can only have one parent  
 Each node represent a certain state
-<!--ID: 1690027054705-->
+<!--ID: 1690032123709-->
 
 ---
 

@@ -1,6 +1,6 @@
 Q: Is a Binary Heap always balanced?  
 A: Yes. Insertion order is left to right so they easily preserve their insertion order as well.
-<!--ID: 1690027054464-->
+<!--ID: 1690032123635-->
 
 ---
 

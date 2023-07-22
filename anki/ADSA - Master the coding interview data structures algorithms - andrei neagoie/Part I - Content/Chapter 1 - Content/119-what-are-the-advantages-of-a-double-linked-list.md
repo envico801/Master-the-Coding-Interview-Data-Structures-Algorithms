@@ -1,6 +1,6 @@
 Q: What are the advantages of a double linked list in terms of iteration or traversal?  
 A: A double linked list allows iteration or traversal from both the front and the back.
-<!--ID: 1690027055938-->
+<!--ID: 1690032123819-->
 
 ---
 

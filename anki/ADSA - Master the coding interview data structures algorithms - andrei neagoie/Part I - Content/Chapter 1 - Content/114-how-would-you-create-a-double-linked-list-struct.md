@@ -86,7 +86,7 @@ myLinkedList.insert(2, 99);
 // myLinkedList.remove(2)
 // myLinkedList.reverse()
 ```
-<!--ID: 1690027055983-->
+<!--ID: 1690032123848-->
 
 ---
 

@@ -1,6 +1,6 @@
 Q: What is the Big O for a prepend (add to the beginning of the list) operation on a Linked List/Double link list?  
 A: O(1)
-<!--ID: 1690027056074-->
+<!--ID: 1690032123893-->
 
 ---
 

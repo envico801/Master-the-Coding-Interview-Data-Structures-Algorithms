@@ -3,7 +3,7 @@ A: 1.Variables (assignments and mutability with objects)
 2.Data Structures (both custom and native)  
 3.Function Call (function calls, e.g. a recursive one, which is stored in memory as a stack.)  
 4.Allocations (when we create variables, functions or anything else that is stored in the memory)
-<!--ID: 1690027055734-->
+<!--ID: 1690032124174-->
 
 ---
 

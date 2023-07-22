@@ -45,7 +45,7 @@ myArray.push('nice');
 myArray.shiftItems(0);
 console.log(myArray);
 ```
-<!--ID: 1690027055135-->
+<!--ID: 1690032123981-->
 
 ---
 

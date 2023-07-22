@@ -25,7 +25,7 @@ function insertionSort(array) {
 insertionSort(numbers);
 console.log(numbers);
 ```
-<!--ID: 1690027054053-->
+<!--ID: 1690032123520-->
 
 ---
 

@@ -1,7 +1,7 @@
 Q: What are the pros of using recursion?  
 A: 1.DRY (simpler, have less loops happening with confusing code)  
 2.Readability (generally is more readable than an iterative aproach)
-<!--ID: 1690027054199-->
+<!--ID: 1690032123565-->
 
 ---
 

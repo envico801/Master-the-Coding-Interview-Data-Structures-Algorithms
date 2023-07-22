@@ -1,7 +1,7 @@
 Q: What is the Big O for insertion into a Hash Table?  
 A: O(1)  
 Unless there is a collision, then it would be O(n).
-<!--ID: 1690027055055-->
+<!--ID: 1690032123958-->
 
 ---
 
