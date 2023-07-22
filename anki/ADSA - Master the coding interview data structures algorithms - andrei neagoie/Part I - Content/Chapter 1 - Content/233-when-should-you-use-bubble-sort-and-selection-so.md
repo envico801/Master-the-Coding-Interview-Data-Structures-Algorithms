@@ -1,8 +1,6 @@
 Q: When should you use bubble sort and selection sort?
 A: To be honest you're never going to use bubble/selection sort. It's only really used for educational purposes as a way to teach sorting. But it's very rare that you'll find this in real life because is just not very efficient.
-<!--ID: 1689972344392-->
-
-
+<!--ID: 1690026322147-->
 
 ---
 

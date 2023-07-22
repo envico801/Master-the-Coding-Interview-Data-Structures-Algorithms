@@ -1,9 +1,7 @@
 Q: What are the 2 pillars of Data Structures?
 A: How to build one  
 How to use one
-<!--ID: 1689972344207-->
-
-
+<!--ID: 1690026321908-->
 
 ---
 

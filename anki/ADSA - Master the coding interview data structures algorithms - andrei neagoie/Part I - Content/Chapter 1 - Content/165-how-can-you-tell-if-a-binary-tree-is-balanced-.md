@@ -1,8 +1,6 @@
 Q: How can you tell if a binary tree is balanced?
 A: A binary tree is balanced when every node has roughly the same amount of children.
-<!--ID: 1689972344576-->
-
-
+<!--ID: 1690026322400-->
 
 ---
 

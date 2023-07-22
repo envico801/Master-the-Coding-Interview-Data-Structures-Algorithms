@@ -1,10 +1,8 @@
 Q: What are the 3 pillars of good coding?
-A: 1.Readable: (clean code) that can be maintained and others can read.
-2.Speed: (time complexity) that has a Big O that is efficient, scales well.
+A: 1.Readable: (clean code) that can be maintained and others can read.  
+2.Speed: (time complexity) that has a Big O that is efficient, scales well.  
 3.Memory: (space complexity)
-<!--ID: 1689972344533-->
-
-
+<!--ID: 1690026322345-->
 
 ---
 

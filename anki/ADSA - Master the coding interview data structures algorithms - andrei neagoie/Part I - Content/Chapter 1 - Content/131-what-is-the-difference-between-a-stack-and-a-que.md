@@ -2,9 +2,7 @@ Q: What is the difference between a Stack and a Queue?
 A: The order in which the elements are processed.  
 A Stack pops the most recent element from the top (Last In First Out)  
 A Queue processes the first element that went in (First In First Out)
-<!--ID: 1689972344659-->
-
-
+<!--ID: 1690026322525-->
 
 ---
 

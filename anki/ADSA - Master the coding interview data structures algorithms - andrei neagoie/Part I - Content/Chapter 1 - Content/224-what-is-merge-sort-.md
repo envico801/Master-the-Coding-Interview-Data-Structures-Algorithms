@@ -1,8 +1,6 @@
 Q: What is merge sort?
 A: Merge sort is defined as a sorting algorithm that works by dividing an array into smaller subarrays, sorting each subarray, and then merging the sorted subarrays back together to form the final sorted array.
-<!--ID: 1689972344415-->
-
-
+<!--ID: 1690026322178-->
 
 ---
 

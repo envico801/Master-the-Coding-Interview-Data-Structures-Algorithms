@@ -3,9 +3,7 @@ Q: What would you say is the Big O in the following sentence?
 'asdasdljasdk'.length;
 ```
 A: It depends on the language you are working with, we need to know how the method is implemented to be able to give an accurate answer.
-<!--ID: 1689972344478-->
-
-
+<!--ID: 1690026322256-->
 
 ---
 

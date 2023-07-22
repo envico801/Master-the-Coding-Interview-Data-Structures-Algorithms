@@ -1,11 +1,9 @@
 Q: What causes Space complexity? **(how much memory or resources it occupies as the input grows)**
-A: 1.Variables (assignments and mutability with objects)
-2.Data Structures (both custom and native)
-3.Function Call (function calls, e.g. a recursive one, which is stored in memory as a stack.)
+A: 1.Variables (assignments and mutability with objects)  
+2.Data Structures (both custom and native)  
+3.Function Call (function calls, e.g. a recursive one, which is stored in memory as a stack.)  
 4.Allocations (when we create variables, functions or anything else that is stored in the memory)
-<!--ID: 1689972344506-->
-
-
+<!--ID: 1690026322304-->
 
 ---
 

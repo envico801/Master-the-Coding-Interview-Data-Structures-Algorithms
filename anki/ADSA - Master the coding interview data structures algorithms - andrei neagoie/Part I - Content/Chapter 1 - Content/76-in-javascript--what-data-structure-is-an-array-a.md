@@ -1,8 +1,6 @@
 Q: In JavaScript, what data structure is an Array actually?
 A: An Object which contains properties and methods which make it Array-like.
-<!--ID: 1689972344177-->
-
-
+<!--ID: 1690026321864-->
 
 ---
 

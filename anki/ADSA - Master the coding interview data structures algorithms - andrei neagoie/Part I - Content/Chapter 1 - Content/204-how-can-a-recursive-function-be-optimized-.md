@@ -1,8 +1,6 @@
 Q: How can a recursive function be optimized?
 A: Dynamic programming and memoization!
-<!--ID: 1689972344467-->
-
-
+<!--ID: 1690026322241-->
 
 ---
 

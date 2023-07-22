@@ -36,9 +36,7 @@ function swap(array, firstIndex, secondIndex) {
 quickSort(numbers, 0, numbers.length - 1);
 console.log(numbers);
 ```
-<!--ID: 1689972344396-->
-
-
+<!--ID: 1690026322153-->
 
 ---
 

@@ -1,8 +1,6 @@
 Q: What is RAM used for?
 A: RAM is used for immediate data storage and retrieval
-<!--ID: 1689972344231-->
-
-
+<!--ID: 1690026321937-->
 
 ---
 

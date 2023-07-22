@@ -1,14 +1,12 @@
 Q: What is DFS?
-A: While iterating with this technique, we move over each node and edge exactly once, and once we are over a node that has already been visited then we backtrack, which means we are pruning possibilities that have already been marked. So hence the overall complexity is reduced from exponential to linear.
+A: While iterating with this technique, we move over each node and edge exactly once, and once we are over a node that has already been visited then we backtrack, which means we are pruning possibilities that have already been marked. So hence the overall complexity is reduced from exponential to linear.  
 **Pseudocode for DFS:**
 > DFS(Graph, vertex)  
 >     vertex.visited = true  
 >     for each v1 ∈ Graph.Adj\[vertex\]  
 >         if v1.visited ==  false  
 >             DFS(Graph, v1)
-<!--ID: 1689972344328-->
-
-
+<!--ID: 1690026322067-->
 
 ---
 

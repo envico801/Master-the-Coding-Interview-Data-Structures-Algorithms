@@ -1,8 +1,6 @@
 Q: What is the recommended complexity for algorithms?
 A: Less than O(N^2). Optimize algorithms to reduce time complexity, avoiding quadratic time complexity or higher.
-<!--ID: 1689972344261-->
-
-
+<!--ID: 1690026321981-->
 
 ---
 

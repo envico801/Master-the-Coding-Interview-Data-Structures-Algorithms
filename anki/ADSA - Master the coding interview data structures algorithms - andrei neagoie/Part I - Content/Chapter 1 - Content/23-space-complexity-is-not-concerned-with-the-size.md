@@ -1,8 +1,6 @@
 Q: Space complexity is not concerned with the size of the input per se but the...
 A: ...memory that is being allocated for each operation.
-<!--ID: 1689972344401-->
-
-
+<!--ID: 1690026322159-->
 
 ---
 

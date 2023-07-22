@@ -1,8 +1,6 @@
 Q: If a binary tree is unbalanced, what is its worst case time complexity?
 A: O(n) for lookup(search), insert and delete
-<!--ID: 1689972344580-->
-
-
+<!--ID: 1690026322407-->
 
 ---
 

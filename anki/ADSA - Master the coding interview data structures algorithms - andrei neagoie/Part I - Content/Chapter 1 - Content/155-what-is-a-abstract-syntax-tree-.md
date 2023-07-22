@@ -1,8 +1,6 @@
 Q: What is a abstract syntax tree?
 A: This is how programs and code is usually run
-<!--ID: 1689972344602-->
-
-
+<!--ID: 1690026322437-->
 
 ---
 

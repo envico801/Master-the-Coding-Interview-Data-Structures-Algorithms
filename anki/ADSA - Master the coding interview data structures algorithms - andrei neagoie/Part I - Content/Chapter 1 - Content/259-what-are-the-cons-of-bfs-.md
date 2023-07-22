@@ -1,8 +1,6 @@
 Q: What are the cons of BFS?
 A: 1.More memory (it uses more memory to keep track of the parents and the children nodes of that level)
-<!--ID: 1689972344322-->
-
-
+<!--ID: 1690026322060-->
 
 ---
 

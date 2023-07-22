@@ -1,8 +1,6 @@
 Q: What is the official term for Big O?
 A: The official term is Big O asymptotic analysis.
-<!--ID: 1689972344746-->
-
-
+<!--ID: 1690026322641-->
 
 ---
 

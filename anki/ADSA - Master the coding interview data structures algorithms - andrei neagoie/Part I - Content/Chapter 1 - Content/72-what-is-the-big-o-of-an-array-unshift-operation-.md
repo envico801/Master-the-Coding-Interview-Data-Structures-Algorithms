@@ -1,8 +1,6 @@
 Q: What is the Big O of an Array unshift operation? (aka **deletion**: Array.unshift())
 A: O(n)
-<!--ID: 1689972344186-->
-
-
+<!--ID: 1690026321878-->
 
 ---
 

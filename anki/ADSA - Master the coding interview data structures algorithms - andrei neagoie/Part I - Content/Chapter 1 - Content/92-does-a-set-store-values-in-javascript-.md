@@ -1,8 +1,6 @@
 Q: Does a Set store values in JavaScript?
 A: No, only Keys which are unique (no two keys can be the same in a Set).
-<!--ID: 1689972344125-->
-
-
+<!--ID: 1690026321787-->
 
 ---
 

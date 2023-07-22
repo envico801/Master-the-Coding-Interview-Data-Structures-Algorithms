@@ -1,8 +1,6 @@
 Q: When calculating big O and having steps in order (one below the other), which operation should be used?
 A: Addition (+) must be used for steps in order
-<!--ID: 1689972344714-->
-
-
+<!--ID: 1690026322603-->
 
 ---
 

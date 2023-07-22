@@ -1,8 +1,6 @@
 Q: What should you avoid when asking questions during an interview?
 A: Avoid being annoying and asking too many questions.
-<!--ID: 1689972344310-->
-
-
+<!--ID: 1690026322043-->
 
 ---
 

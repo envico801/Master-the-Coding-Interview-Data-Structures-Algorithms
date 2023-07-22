@@ -34,9 +34,7 @@ function merge(left, right) {
 const answer = mergeSort(numbers);
 console.log(answer);
 ```
-<!--ID: 1689972344406-->
-
-
+<!--ID: 1690026322164-->
 
 ---
 

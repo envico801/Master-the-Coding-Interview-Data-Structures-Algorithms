@@ -1,8 +1,6 @@
 Q: Are nodes in a Linked List stored sequentially in memory?
 A: No. They are scattered over memory which makes traversal of a Linked List slower than traversal of an Array.
-<!--ID: 1689972344727-->
-
-
+<!--ID: 1690026322622-->
 
 ---
 

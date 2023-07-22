@@ -9,81 +9,81 @@
 P: What is the official term for Big O?  
 R: The official term is Big O asymptotic analysis.
 
-P: What can big O tell us about a problem?
+P: What can big O tell us about a problem?  
 R: It can tell us how well a problem is solved.
 
 P: What is good code?  
-R: Is the code that is:
-1.Readable (is your code clean? can others understand your code?)
+R: Is the code that is:  
+1.Readable (is your code clean? can others understand your code?)  
 2.Scalable (when we grow bigger and bigger with our input how much does the algorithm or function slow down?)
 
 P: What is algorithmic efficiency?  
 R: The term algorithmic efficiency is used to describe those properties of algorithms that are related to the amount of resources used by the algorithm. Usually referred to as scalability(Big O)
 
 P: What does linear time mean?  
-R: If an algorithm is in the order of O(n), or linear time complexity, the number of operations it performs scales in direct proportion to the input.
+R: If an algorithm is in the order of O(n), or linear time complexity, the number of operations it performs scales in direct proportion to the input.  
 e.g. (for loops, while loops through n items)
 
 P: What does constant time mean?  
 R: Constant time means that the number of steps/operations does not depend on the input size. Also known as O(1). Predictability is always good
 
-P: What does the rule of "worst-case" mean?
+P: What does the rule of "worst-case" mean?  
 R: It means that we always worry about the worst case, because when we talk about scalability we can never assume that things are going to go well (you don't know how the input is going to be). When we talk about Big O we always talk about the worst case scenario.
 
-P: What does the rule of "eliminating constants" mean?
-R: As the name says, if Big 0 is the product of multiple terms, constant terms are eliminated (constant terms are like static numbers, numbers like 1, 4, 5, basically anything that is not a variable).
+P: What does the rule of "eliminating constants" mean?  
+R: As the name says, if Big 0 is the product of multiple terms, constant terms are eliminated (constant terms are like static numbers, numbers like 1, 4, 5, basically anything that is not a variable).  
 We only care about when it scales, when the size of the input is getting larger and larger.
 
-P: What is the big O of iterating over half a collection?
+P: What is the big O of iterating over half a collection?  
 R: It ends up being O(n) because if we apply basic mathematics we can transform the division into a multiplication **(n/2 = 1/2 x n)** and then apply the rule of eliminating constants.
 
-P: What does the rule of "different terms for inputs" mean?
+P: What does the rule of "different terms for inputs" mean?  
 R: It means that different notations/variables are used for different inputs, because since we do not know the length of each one, we cannot assume that they are the same.  
 1.**O(n) is different from O(a + b)**  
 2.**O(n^2) is different from O(a \* b)**
 
-P: When calculating big O and having steps in order (one below the other), which operation should be used?
+P: When calculating big O and having steps in order (one below the other), which operation should be used?  
 R: Addition (+) must be used for steps in order
 
-P: When calculating large O and having nested steps (a loop within a loop), which operation should be used?
+P: When calculating large O and having nested steps (a loop within a loop), which operation should be used?  
 R: Multiplication (\*) must be used for nested steps.
 
 P: What does quadratic time mean?  
-R: It means that the number of operations it performs is proportional to the square of the input.
-e.g. Every element in a collection needs to be compared to ever other element. Two
+R: It means that the number of operations it performs is proportional to the square of the input.  
+e.g. Every element in a collection needs to be compared to ever other element. Two  
 nested loops
 
-P: What does the rule of "drop non dominants" mean?
+P: What does the rule of "drop non dominants" mean?  
 R: It means that we prioritize the term that has more weight (scale) at the moment of calculating the big O.  
 1.**O(n^2+3n+100+n/2) is equal to O(n^2)**
 
-P: What are data structures?
+P: What are data structures?  
 R: They are a way of storing data.  
 You could say they are a collection of values and these values can have relationships between them and functions can be applied to them.  
 The most important thing is that each data structure is good and specialized in its own thing.
 
-P: What are algorithms?
+P: What are algorithms?  
 R: These are the steps or processes we put in place to manipulate our data structures to write our programs (instructions for our computer).
 
 P: What does factorial time mean?  
-R: It means that the number of operations will be proportional to the factorial of the input.
-**We will find ourselves writing algorithms with factorial time complexity when calculating permutations and combinations.**
-Factorial is the multiplication of all positive integer numbers less than itself. For instance:
+R: It means that the number of operations will be proportional to the factorial of the input.  
+**We will find ourselves writing algorithms with factorial time complexity when calculating permutations and combinations.**  
+Factorial is the multiplication of all positive integer numbers less than itself. For instance:  
 The factorial of 5, or _5!_, is:
 
 ```text
 5 * 4 * 3 * 2 * 1 = 120
 ```
 
-P: What are the 3 pillars of good coding?
-R: 1.Readable: (clean code) that can be maintained and others can read.
-2.Speed: (time complexity) that has a Big O that is efficient, scales well.
+P: What are the 3 pillars of good coding?  
+R: 1.Readable: (clean code) that can be maintained and others can read.  
+2.Speed: (time complexity) that has a Big O that is efficient, scales well.  
 3.Memory: (space complexity)
 
-P: What causes Space complexity? **(how much memory or resources it occupies as the input grows)**
-R: 1.Variables (assignments and mutability with objects)
-2.Data Structures (both custom and native)
-3.Function Call (function calls, e.g. a recursive one, which is stored in memory as a stack.)
+P: What causes Space complexity? **(how much memory or resources it occupies as the input grows)**  
+R: 1.Variables (assignments and mutability with objects)  
+2.Data Structures (both custom and native)  
+3.Function Call (function calls, e.g. a recursive one, which is stored in memory as a stack.)  
 4.Allocations (when we create variables, functions or anything else that is stored in the memory)
 
 P: What would you say is the Big O in the following sentence?
@@ -94,10 +94,10 @@ P: What would you say is the Big O in the following sentence?
 
 R: It depends on the language you are working with, we need to know how the method is implemented to be able to give an accurate answer.
 
-P: What can cause time in a function? **(how long does it take to traverse / solve something as the input grows, how many operations does it have to perform?)**
-R: 1.Operations (+, -, \*, /)
-2.Comparisons (<, >, ==)
-3.Looping (for, while)
+P: What can cause time in a function? **(how long does it take to traverse / solve something as the input grows, how many operations does it have to perform?)**  
+R: 1.Operations (+, -, \*, /)  
+2.Comparisons (<, >, ==)  
+3.Looping (for, while)  
 4.Outside Function call (function()) (can be a call to a recursive function or to a regular function.)
 
 P: List the common Big O complexities from worst to best (there are 7)  
@@ -112,7 +112,7 @@ O(1)
 P: Space complexity is not concerned with the size of the input per se but the...  
 R: ...memory that is being allocated for each operation.
 
-P: What skills does the interviewer look for?
+P: What skills does the interviewer look for?  
 R: 1.Analytic Skills - How can you think through problems and analyze things? - (e.g. can you come up with alternatives to solve the problem?)  
 2.Coding Skills - Do you code well, by writing clean, simple, organized, readable code? - (e.g. Big O)  
 3.Technical knowledge - Do you know the fundamentals of the job you're applying for? - (e.g. language JavaScript)  
@@ -243,40 +243,40 @@ What it means is that - technically there is no dedicated data type that represe
 Practically it means that we can safely use only numbers that are safely representable by the aforementioned standard. And it includes integer values in the range: `[-9007199254740991; 9007199254740991]`. Both values are defined as constants: [`Number.MIN_SAFE_INTEGER`](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-number.min_safe_integer) and [`Number.MAX_SAFE_INTEGER`](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-number.max_safe_integer) correspondingly.  
 [Is there or isn't there an integer type in JavaScript?](https://stackoverflow.com/questions/33773296/is-there-or-isnt-there-an-integer-type-in-javascript)
 
-P: What are the actions that can be performed on a data structure?
-R: -
-1.Insertion: Add a new data item in a given collection of items
-2.Deletion: Delete data from a collection
-3.Traversal: Access to each data item exactly once so it can be processed
-4.Searching: Find the location of the data item if it exists in a given collection
-5.Sorting: Having data that is sorted
+P: What are the actions that can be performed on a data structure?  
+R: -  
+1.Insertion: Add a new data item in a given collection of items  
+2.Deletion: Delete data from a collection  
+3.Traversal: Access to each data item exactly once so it can be processed  
+4.Searching: Find the location of the data item if it exists in a given collection  
+5.Sorting: Having data that is sorted  
 6.Access: How do we access this data that we have on our computer
 
 P: What are the 2 pillars of Data Structures?  
 R: How to build one  
 How to use one
 
-P: What is an array?
+P: What is an array?  
 R: An array is a collection of items stored at contiguous memory locations.
 
 P: What is the Big O for an Array lookup operation? (aka **access**: Array\[2\])  
 R: O(1)
 
 P: What is the Big O for an Array find operation? (aka **search**: Array.find(callbackFn))  
-R: O(n)
+R: O(n)  
 e.g. We traverse the entire array to check if an element is present.
 
 P: What is the Big O of an Array push/append operation? (aka **insertion**: Array.push(value))  
 R: O(1) if the array is static  
-O(n) if the array is dynamic and has to grow when the new value is added.
-or if we are using other methods like (shift(), splice())
+O(n) if the array is dynamic and has to grow when the new value is added.  
+or if we are using other methods like (shift(), splice())  
 **Note that the worst case is still O(n).**
 
 P: What is the Big O of an Array shift operation? (aka **insertion**: Array.shift(value))  
 R: O(n)
 
 P: What is the Big O of an Array pop operation? (aka **deletion**: Array.pop())  
-R: O(1)
+R: O(1)  
 **Note that the worst case is still O(n). - (unshift, splice, etc)**
 
 P: What is the Big O of an Array unshift operation? (aka **deletion**: Array.unshift())  
@@ -294,7 +294,7 @@ R: A fixed size array. Must specify the size when it is initiated.
 P: In JavaScript, what data structure is an Array actually?  
 R: An Object which contains properties and methods which make it Array-like.
 
-P: How would you create an array structure?
+P: How would you create an array structure?  
 R: You may use an object:
 
 ```javascript
@@ -344,22 +344,22 @@ myArray.shiftItems(0);
 console.log(myArray);
 ```
 
-P: How should we handle questions related to strings?
-R: We should treat it as an array question, strings are an array of characters.
+P: How should we handle questions related to strings?  
+R: We should treat it as an array question, strings are an array of characters.  
 e.g. reverse a string.
 
-P: What are the pros of using arrays?
-R: 1.Fast lookups (accessing information where you know which index you want to look at)
-2.Fast push/pop (adding or removing things at the end of an array)
+P: What are the pros of using arrays?  
+R: 1.Fast lookups (accessing information where you know which index you want to look at)  
+2.Fast push/pop (adding or removing things at the end of an array)  
 3.Ordered (having something that is ordered and close to each other in memory makes it really fast)
 
-P: What are the cons of using arrays?
-R: 1.Slow inserts (we have to shift the array when at the very end of the array)
-2.Slow deletes (same as inserts)
+P: What are the cons of using arrays?  
+R: 1.Slow inserts (we have to shift the array when at the very end of the array)  
+2.Slow deletes (same as inserts)  
 3.Fixed size\* (sometimes you have to declare the memory ahead of time and how large of an array you want. Most modern languages have dynamic arrays that help with this)
 
 P: What are Hash Tables?  
-R: **Collections of { Key: Value } pairs**
+R: **Collections of { Key: Value } pairs**  
 A Hash table is defined as a data structure used to insert, look up, and remove key-value pairs quickly.  
 It operates on the [hashing concept](https://www.geeksforgeeks.org/what-is-hashing/), where each key is translated by a hash function into a distinct index in an array. The index functions as a storage location for the matching value. In simple words, it maps the keys with the value. (it will store the key and the value at the same address in memory - a "bucket")
 
@@ -380,7 +380,7 @@ Input = 5
 Output (is always) = Ax67def0
 ```
 
-P: What does it mean for a function to be "idempotent"?
+P: What does it mean for a function to be "idempotent"?  
 R: It is a fancy way of saying that a function given an input always outputs the same output
 
 P: What is the Big O for insertion into a Hash Table?  
@@ -388,16 +388,16 @@ R: O(1)
 Unless there is a collision, then it would be O(n).
 
 P: What is the Big O for a lookup (access) in a Hash Table?  
-R: O(1)
+R: O(1)  
 Unless there is a collision, then it would be O(n).
 
 P: What is the Big O for deletion in a Hash Table?  
-R: O(1)
+R: O(1)  
 Unless there is a collision, then it would be O(n).
 
 P: What is the Big O for a search in a Hash Table?  
-R: O(1)
-e.g. `object["key"]` It will return if that key is present in the object (undefined otherwise), that's why it is O(1).
+R: O(1)  
+e.g. `object["key"]` It will return if that key is present in the object (undefined otherwise), that's why it is O(1).  
 Unless there is a collision, then it would be O(n).
 
 P: What is a collision in regards to a Hash Table?  
@@ -416,7 +416,7 @@ R: A Map
 P: Does a Set store values in JavaScript?  
 R: No, only Keys which are unique (no two keys can be the same in a Set).
 
-P: How would you create an object structure?
+P: How would you create an object structure?  
 R: You may use an array:
 
 ```javascript
@@ -469,13 +469,13 @@ R: An Array.
 If your Hash Table has 50 addresses but only 3 addresses contain Keys, you would still have to access all 50 addresses to obtain those Keys.  
 An Array is sequential in memory, which makes it more efficient in this regard.
 
-P: What are the pros of using hash tables?
-R: 1.Fast lookups\* (Good collision resolution needed, usually we dont need to worry about this because our language underneath the hood take care of that for us)
-2.Fast inserts (same as lookups)
+P: What are the pros of using hash tables?  
+R: 1.Fast lookups\* (Good collision resolution needed, usually we dont need to worry about this because our language underneath the hood take care of that for us)  
+2.Fast inserts (same as lookups)  
 3.Flexible keys (depending on the type of hash tables, such as maps, we can have flexibles keys instead of an array that has numbered indexes)
 
-P: What are the cons of using hash tables?
-R: 1.Unordered (its hard to really go through everything in order)
+P: What are the cons of using hash tables?  
+R: 1.Unordered (its hard to really go through everything in order)  
 2.Slow key iteration (if i want to grab all the keys from a hash table I will have to go through the entire memory space)
 
 P: Can Linked Lists help solve collision issues in a Hash Table?  
@@ -486,11 +486,11 @@ R: A collection of nodes and pointers.
 Data is stored in the node itself and a pointer is a reference to the next node in the list.  
 The end of a Linked List is signified by a "null" value.
 
-P: How its called the first node in a linked list?
+P: How its called the first node in a linked list?  
 R: Head.
 
-P: How its called the last node in a linked list?
-R: Tail.
+P: How its called the last node in a linked list?  
+R: Tail.  
 Some people call the tail anything that is after the head.
 
 P: How do you know that you have reached the end of a Linked List?  
@@ -507,7 +507,7 @@ In an Array, you can simply access the element at index 4 ( arr\[4\] ) to get th
 P: Are nodes in a Linked List stored sequentially in memory?  
 R: No. They are scattered over memory which makes traversal of a Linked List slower than traversal of an Array.
 
-P: Whats one advantage that linked list have over hash tables?
+P: Whats one advantage that linked list have over hash tables?  
 R: That there is some sort of order to link list, each node points to the next node.
 
 P: What is the Big O for a prepend (add to the beginning of the list) operation on a Linked List/Double link list?  
@@ -517,7 +517,7 @@ P: What is the Big O of an append (add to the end of the list) operation on a Li
 R: O(1)
 
 P: What is the Big O of a lookup (traversal) operation on a Linked List/Double link list?  
-R: O(n)
+R: O(n)  
 e.g. We go through the whole linked list to check if an element is present. In the case of a double linked list it would technically be O(n/2) because we can start at both ends and if we know in which half of the list is what we are looking for, we can choose the optimal place to start.
 
 P: What is the Big O of an insertion operation on a Linked List/Double link list?  
@@ -535,7 +535,7 @@ R: A 'previous' pointer which references the node before it. You can traverse fo
 P: Does a Doubly Linked List use more memory than a Singly Linked List?  
 R: Yes. The 'previous' pointer will require more memory for the Doubly Linked List to be implemented.
 
-P: How would you create a double linked list structure?
+P: How would you create a double linked list structure?  
 R: -
 
 ```javascript
@@ -627,28 +627,28 @@ myLinkedList.insert(2, 99);
 // myLinkedList.reverse()
 ```
 
-P: What is an advantage of a linked list over a double linked list in terms of implementation complexity?
+P: What is an advantage of a linked list over a double linked list in terms of implementation complexity?  
 R: A linked list offers a relatively simpler implementation compared to a double linked list.
 
-P: How does a linked list compare to a double linked list in terms of memory usage and performance during operations like deletion and insertion?
+P: How does a linked list compare to a double linked list in terms of memory usage and performance during operations like deletion and insertion?  
 R: Linked lists require less memory and exhibit slightly faster performance during operations like deletion and insertion, as there are fewer operations involved and no need to move around the previous property.
 
-P: What is a disadvantage of a linked list compared to a double linked list in terms of iteration and traversal?
+P: What is a disadvantage of a linked list compared to a double linked list in terms of iteration and traversal?  
 R: A linked list cannot be iterated in reverse or traversed from back to front.
 
-P: What scenario can lead to the linked list being lost in memory forever?
+P: What scenario can lead to the linked list being lost in memory forever?  
 R: If the reference to `this.head` of the list is lost, it can result in the linked list being lost in memory permanently.
 
-P: What are the advantages of a double linked list in terms of iteration or traversal?
+P: What are the advantages of a double linked list in terms of iteration or traversal?  
 R: A double linked list allows iteration or traversal from both the front and the back.
 
-P: How does a double linked list facilitate easy insertion or deletion, particularly when deleting a previous node?
+P: How does a double linked list facilitate easy insertion or deletion, particularly when deleting a previous node?  
 R: In a double linked list, there is no need to traverse from the head node to find the previous node when deleting; thus, deletion becomes easier.
 
-P: What impact does the extra property of a double linked list have?
+P: What impact does the extra property of a double linked list have?  
 R: The additional property requires higher memory and storage usage.
 
-P: What extra difficulty do the operations (insert, delete) in a double linked list bring?
+P: What extra difficulty do the operations (insert, delete) in a double linked list bring?  
 R: Due to the presence of the "previous" pointer, additional operations must be performed when inserting or deleting.
 
 P: What are the advantages of using linked lists in terms of insertion and deletion speed?  
@@ -669,7 +669,7 @@ R: Linked lists suffer from slow lookup because traversal through the list is ne
 P: How does the usage of linked lists impact memory usage, especially in the case of a double linked list?  
 R: Using linked lists requires more memory, particularly in the case of a double linked list, where additional properties such as `value`, `next`, and `prev` need to be stored for each node.
 
-P: How would you create a linked list structure?
+P: How would you create a linked list structure?  
 R: -
 
 ```javascript
@@ -791,6 +791,7 @@ A Queue processes the first element that went in (First In First Out)
 
 P: What is the Big O for a lookup operation in a Stack?  
 R: O(n)
+
 P: What is the Big O for a pop operation in a Stack?  
 R: O(1)
 
@@ -819,29 +820,29 @@ R: O(1)
 P: What does FIFO stand for in regards to a Queue?  
 R: First In First Out
 
-P: What is a program?
-R: Well a program has to do some simple things.
-1.It has to allocate memory. Otherwise we would be able to have variables or even have a file on our computer.
+P: What is a program?  
+R: Well a program has to do some simple things.  
+1.It has to allocate memory. Otherwise we would be able to have variables or even have a file on our computer.  
 2.It also has to parse and execute scripts which means read and run commands.
 
-P: How many parts has a engine (javascript)?
-R: Now the engine consists of two parts a memory heap and a call stack.
-1.Now the memory heap. This is where the memory allocation happens.
+P: How many parts has a engine (javascript)?  
+R: Now the engine consists of two parts a memory heap and a call stack.  
+1.Now the memory heap. This is where the memory allocation happens.  
 2.And then the call stack. This is where your code is read and execute it. It tells you where you are in the program.
 
-P: What is a memory leak?
+P: What is a memory leak?  
 R: Memory leak occurs when programmers create a memory in heap and forget to delete it.
 
-P: What does it mean that javascript is a single threaded language that can be nonblocking?
+P: What does it mean that javascript is a single threaded language that can be nonblocking?  
 R: Single threaded means that it has only one call stack. And one call stack only you can only do one thing at a time Now other languages can have multiple calls. And these are called multi-thread.
 
-P: Why was javascript designed to be single threaded?
+P: Why was javascript designed to be single threaded?  
 R: While running code on a single thread can be quite easy since you don't have to deal with complicateda scenarios that arise in multithreaded environment. You just have one thing to worry about.
 
-P: What is a deadlock?
+P: What is a deadlock?  
 R: A deadlock is a situation where a set of processes are blocked because each process is holding a resource and waiting for another resource acquired by some other process.
 
-P: How would you create a stack structure using a linked list?
+P: How would you create a stack structure using a linked list?  
 R: -
 
 ```javascript
@@ -904,7 +905,7 @@ myStack.pop();
 //google
 ```
 
-P: How would you create a stack structure using an array?
+P: How would you create a stack structure using an array?  
 R: -
 
 ```javascript
@@ -940,7 +941,7 @@ myStack.pop();
 //google
 ```
 
-P: How would you create a queue structure using a linked list?
+P: How would you create a queue structure using a linked list?  
 R: -
 
 ```javascript
@@ -999,7 +1000,7 @@ myQueue.dequeue();
 myQueue.peek();
 ```
 
-P: How would you create a queue using 2 stacks?
+P: How would you create a queue using 2 stacks?  
 R: -
 
 ```javascript
@@ -1046,35 +1047,35 @@ myQueue.dequeue();
 myQueue.peek();
 ```
 
-P: What are the pros of using stacks and queues?
-R: 1.Fast operations (such as removing or inserting, such as the end of the data structure)
-2.Fast peek (we can access the very first item in a queue or the very top item in a stack)
+P: What are the pros of using stacks and queues?  
+R: 1.Fast operations (such as removing or inserting, such as the end of the data structure)  
+2.Fast peek (we can access the very first item in a queue or the very top item in a stack)  
 3.Ordered (we have all our data ordered)
 
-P: What are the cons of using stacks and queues?
+P: What are the cons of using stacks and queues?  
 R: 1.Slow lookup (we dont usually use ours stack or queues to do any sort of look up or search through the data structure, all we are interested in is the end bits of the data structure)
 
 P: What is a Tree data-structure?  
 R: A hierarchical data-structure consisting of a root node and parent/child nodes.  
 A Linked List is technically a type of Tree but it is linear instead of having multiple 'branches' or paths.
 
-P: What is a abstract syntax tree?
+P: What is a abstract syntax tree?  
 R: This is how programs and code is usually run
 
 P: What is the rule for implementing a Binary Tree?  
 R: Each node can have a max of 2 children.  
-So a node can have 0, 1, or 2 children.
-And each child can only have one parent
+So a node can have 0, 1, or 2 children.  
+And each child can only have one parent  
 Each node represent a certain state
 
-P: What is a perfect binary tree?
+P: What is a perfect binary tree?  
 R: A perfect binary tree has everything filled in, that means that all the leaf nodes are full and there is no node that only has one child, a node either has zero or two children. Also, the bottom layer of the tree is completely filled, nothings is missing
 
-P: What is a full binary tree?
+P: What is a full binary tree?  
 R: A full binary tree says that a node has either 0 or 2 children, but never one child
 
-P: What properties does a perfect binary tree has?
-R: 1.The number of total nodes doubles as we move down the tree
+P: What properties does a perfect binary tree has?  
+R: 1.The number of total nodes doubles as we move down the tree  
 2.The number of nodes on the last level is equal to the sum of the number of nodes on all the other levels plus 1
 
 ```text
@@ -1095,13 +1096,13 @@ P: What is the time complexity for a perfect binary tree's search(lookup), inser
 R: O(log n)
 
 P: What does logarithmic time mean?  
-R: All that is saying is that the choice of the next element on which to perform some sort of action is one of several possibilities and only one needs to be chosen.
+R: All that is saying is that the choice of the next element on which to perform some sort of action is one of several possibilities and only one needs to be chosen.  
 e.g. (usually searching algorithms have log n if they are sorted (Binary Search))
 
-P: What is a binary search tree?
+P: What is a binary search tree?  
 R: BSTs excel at preserving relationships, making them suitable for scenarios where maintaining order and structure is important.  
 For instance, while a hash table lacks such relationships, organizing folders on a computer necessitates a hierarchical structure with parent and subfolders, which can be achieved using a binary search tree.  
-1.In a BST, all child nodes to the right of a root node must have values greater than the current node. This implies that moving to the right within the tree leads to nodes with increasing values, while moving to the left results in nodes with decreasing values.
+1.In a BST, all child nodes to the right of a root node must have values greater than the current node. This implies that moving to the right within the tree leads to nodes with increasing values, while moving to the left results in nodes with decreasing values.  
 2.Due to its nature as a binary tree, each node in a BST can have a maximum of two children.
 
 P: If a binary tree is unbalanced, what is its worst case time complexity?  
@@ -1113,18 +1114,18 @@ R: A binary tree becomes unbalanced when new nodes are continually placed to the
 P: How can you tell if a binary tree is balanced?  
 R: A binary tree is balanced when every node has roughly the same amount of children.
 
-P: What are the pros of using BSTs?
-R: 1.Better than O(n) (most operations are log n, assuming that the BST is balanced)
-2.Ordered
+P: What are the pros of using BSTs?  
+R: 1.Better than O(n) (most operations are log n, assuming that the BST is balanced)  
+2.Ordered  
 3.Flexible size (because we can place a node anywhere in memory we can just have flexible size , we can keep growing our tree)
 
-P: What are the cons of using BSTs?
+P: What are the cons of using BSTs?  
 R: 1.No O(1) operations (we usually have to do some sort of traversal for any sort of operation)
 
-P: What does divide and conquer refers to?
+P: What does divide and conquer refers to?  
 R: Divide and conquer simply means we are dividing up so that we dont visit all the nodes, each node that we visit we make a decision to go left or right
 
-P: How would you create a BST structure?
+P: How would you create a BST structure?  
 R: -
 
 ```javascript
@@ -1286,7 +1287,7 @@ P: What type of specialized binary trees can you use to maintain balance in a bi
 R: An AVL tree or a Red/Black tree.
 
 P: For an AVL tree, what is the equation of the balance factor?  
-R: -
+R: -  
 **|h1 - h2|  <= 1** (Balance factor)  
 **|h1 - h2|** can be equal to **\-1,0, or 1**.  
 **h1** and **h2** are _subtrees of the same node_.  
@@ -1310,7 +1311,7 @@ R: A binary heap is a binary tree with the following properties:
 1.It's a complete tree. All levels are completely filled except possibly the last level, which will have elements positioned as left as possible.  
 2.It is either a Min Heap or a Max Heap.  
 In a Min Heap the root element must be the smallest (or the one with the least importance) among all elements present in the tree.  
-In a Max Heap the root element must be the largest (or the one with the higher importance) of all elements present in the tree.
+In a Max Heap the root element must be the largest (or the one with the higher importance) of all elements present in the tree.  
 3.And have a max of 2 children (like a BT)
 
 P: What is the Big O for a lookup(search) operation in a Binary Heap?  
@@ -1322,29 +1323,29 @@ R: O(log n) - O(1) in the best scenario, but if the order is broken it is possib
 P: What is the Big O for a deletion operation in a Binary Heap?  
 R: O(log n)
 
-P: Where a BH (binary heap) can be used?
+P: Where a BH (binary heap) can be used?  
 R: A BH can be used in any algorithm where ordering is important.
 
 P: What data-structure are Binary Heaps typically used to implement?  
 R: A Priority Queue, data storage, sorting algorithms
 
-P: For what BH (binary heap) are good?
-R: They are great at doing comparative operations
+P: For what BH (binary heap) are good?  
+R: They are great at doing comparative operations  
 e.g. I want people that have a value over 33
 
 P: Is a Binary Heap always balanced?  
 R: Yes. Insertion order is left to right so they easily preserve their insertion order as well.
 
-P: What is a priority queue?
+P: What is a priority queue?  
 R: Is similar to a queue but with the difference that there are "vips" or higher priority values that usually take the first or last positions.
 
-P: What are the pros of using BH?
-R: 1.Better than O(n)
-2.Priority (searching may be slow, but you have an idea of priority, because insertion is done in order)
-3.Flexible size
+P: What are the pros of using BH?  
+R: 1.Better than O(n)  
+2.Priority (searching may be slow, but you have an idea of priority, because insertion is done in order)  
+3.Flexible size  
 4.Fast insert (we might have to bubble up inserts every once in a while. But most of the time you get really fast inserts)
 
-P: What are the cons of using BH?
+P: What are the cons of using BH?  
 R: 1.Slow lookup (it must be taken into account that many times there is a method to find the minimum or maximum which is O(1) - (it all depends if it is a min heap or max heap))
 
 P: What is a Trie (aka prefix tree)?  
@@ -1377,7 +1378,7 @@ R: A graph that contains no cycles.
 You cannot get back to a node you started from once you have left it.
 
 P: What is an edge list?  
-R: A collection of edges (connections) which represent a graph.
+R: A collection of edges (connections) which represent a graph.  
 e.g.
 
 ```javascript
@@ -1406,7 +1407,7 @@ const graph = [
 
 P: What is an adjacent matrix?  
 R: A graph representation by an array matrix which contain 0s and 1s that show the relationship of vertices to other vertices in the graph.  
-It will indicate if node X has a connection to node Y, 0 means NO, 1 means YES
+It will indicate if node X has a connection to node Y, 0 means NO, 1 means YES  
 If you have a weighted graph you can add weights here instead of 1 (is replaced by the weight) and 0
 
 ```javascript
@@ -1420,7 +1421,7 @@ const graph = [
 ];
 ```
 
-P: How would you create a graph structure?
+P: How would you create a graph structure?  
 R: -
 
 ```javascript
@@ -1472,14 +1473,14 @@ myGraph.addEdge('6', '5');
 myGraph.showConnections();
 ```
 
-P: What are the pros of using graphs?
+P: What are the pros of using graphs?  
 R: 1.Relationships (some data needs to be in a graph form)
 
-P: What are the cons of using graphs?
+P: What are the cons of using graphs?  
 R: 1.Scaling is hard (they can get complicated, you need a big company or at least a lot of resources and engineering power to make sure that you build graphs that scale well)
 
 P: What is an algorithm?  
-R: Steps to complete a desired action in computers. Technically all functions are algorithms.
+R: Steps to complete a desired action in computers. Technically all functions are algorithms.  
 Algorithms allow us to use data structures to perform actions on data
 
 ```text
@@ -1541,8 +1542,8 @@ findFactorialRecursive(5);
 //If you want, try to add a base case condition for the recursive solution if the parameter given is less than 2
 ```
 
-P: What does exponential time mean?
-R: It means that every additional element in a function we get an increase in function calls exponentially
+P: What does exponential time mean?  
+R: It means that every additional element in a function we get an increase in function calls exponentially  
 e.g. (recursive algorithms that solves a problem of size N)
 
 P: How can a recursive function be optimized?  
@@ -1590,20 +1591,20 @@ function fibonacciRecursive(n) {
 fibonacciRecursive(6);
 ```
 
-P: What are the pros of using recursion?
-R: 1.DRY (simpler, have less loops happening with confusing code)
+P: What are the pros of using recursion?  
+R: 1.DRY (simpler, have less loops happening with confusing code)  
 2.Readability (generally is more readable than an iterative aproach)
 
-P: What are the cons of using recursion?
+P: What are the cons of using recursion?  
 R: 1.Large stack (it creates an extra memory footprint, because every time we add a function to the call stacks it adds extra piece of memory)
 
-P: What is tail call optimization?
+P: What is tail call optimization?  
 R: There's something called tail call optimization in many languages And for example in Javascript with 6 it allows recursions to be called without increasing the call stack  
 There are certain ways to write recursion So there are more memory efficient.
 
-P: When shall we use recursion?
-R: When it gets to complicated problems like traversing or searching through trees or graphs (DFS & BFS) recursion is really really useful and better than iterative aproaches
-When we're sorting through items there's also cases that will see that recursion is preferred
+P: When shall we use recursion?  
+R: When it gets to complicated problems like traversing or searching through trees or graphs (DFS & BFS) recursion is really really useful and better than iterative aproaches  
+When we're sorting through items there's also cases that will see that recursion is preferred  
 e.g. (merge sort, quick sort)
 
 P: What are the rules/factors to consider when deciding to write a recursive function?  
@@ -1611,7 +1612,7 @@ R: **Every time you are using a tree or converting Something into a tree, consid
 1.Divided into a number of subproblems that are smaller instances of the same problem. e.g.(fibonacci / factorial problems)  
 2.Each instance of the subproblem is identical in nature. (the calculations that we need to do are pretty much the same)  
 3.The solutions of each subproblem can be combined to solve the problem at hand. (if you solve the smaller problems and you combine them that solves the problem at hand)  
-**Divide and Conquer using Recursion**
+**Divide and Conquer using Recursion**  
 e.g. (looking through a phone book when you're looking for Bell in the phone book You're not going to start from a and simply go one page at a time from left to right. o you usually split the phonebook in the middle or try to go to the B section of the phone book and start dividing up the problem page by page until you get closer and closer)
 
 P: Implement a function that reverses a string using iteration...and then recursion!
@@ -1654,22 +1655,22 @@ function reverseStringRecursive(str) {
 reverseStringRecursive('yoyo master');
 ```
 
-P: Why should we review the documentation of the (native) methods we are using?
+P: Why should we review the documentation of the (native) methods we are using?  
 R: To understand how it works in the language, it can also serve as a reference and a guide.  
 For example, in the case of javascript the implementation of the sort() method will vary depending on the environment where it is executed, ECMAScript says how it should look like (grab this argument and return this), but does not talk anything about the implementation.
 
-P: What are the algorithms found in the "elementary sorts" category?
+P: What are the algorithms found in the "elementary sorts" category?  
 R: Bubble sort, insertion sort, selection sort  
 **They are, let's say, the first ones you would think of if you were told to implement some kind of order.**
 
-P: What is bubble sort?
+P: What is bubble sort?  
 R: Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.
 
 P: What is the time and space complexity of Bubble Sort? (worst case)  
 R: Time: O(n^2)  
 Space: O(1)
 
-P: How would you implement bubble sort?
+P: How would you implement bubble sort?  
 R: -
 
 ```javascript
@@ -1693,14 +1694,14 @@ bubbleSort(numbers);
 console.log(numbers);
 ```
 
-P: What is selection sort?
+P: What is selection sort?  
 R: Selection sort is a simple and efficient sorting algorithm that works by repeatedly selecting the smallest (or largest) element from the unsorted portion of the list and moving it to the sorted portion of the list (usually the beginning of an array).
 
 P: What is the time and space complexity of Selection Sort? (worst case)  
 R: Time: O(n^2)  
 Space: O(1)
 
-P: How would you implement selection sort?
+P: How would you implement selection sort?  
 R: -
 
 ```javascript
@@ -1728,14 +1729,14 @@ selectionSort(numbers);
 console.log(numbers);
 ```
 
-P: What is insertion sort?
+P: What is insertion sort?  
 R: Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.
 
 P: What is the time and space complexity for Insertion Sort? (worst case)  
 R: Time: O(n^2)  
 Space: O(1)
 
-P: How would you implement insertion sort?
+P: How would you implement insertion sort?  
 R: -
 
 ```javascript
@@ -1766,16 +1767,16 @@ insertionSort(numbers);
 console.log(numbers);
 ```
 
-P: What does Log Linear time mean?
+P: What does Log Linear time mean?  
 R: It means that:  
 1.Has linear behavior nested in log steps  
-2.Is bigger than O(n) but smaller than O(n^2)
+2.Is bigger than O(n) but smaller than O(n^2)  
 e.g. usually sorting operations
 
-P: What is merge sort?
+P: What is merge sort?  
 R: Merge sort is defined as a sorting algorithm that works by dividing an array into smaller subarrays, sorting each subarray, and then merging the sorted subarrays back together to form the final sorted array.
 
-P: What technique do the merge sort and quick sort algorithms use?
+P: What technique do the merge sort and quick sort algorithms use?  
 R: Divide & Conquer
 
 P: What is the time and space complexity of Merge Sort? (worst case)  
@@ -1786,7 +1787,7 @@ P: What does it mean when a sorting algorithm is stable?
 R: If a sorting algorithm is stable then it will retain the original order of the data after sorting is completed.  
 If there are duplicates of data then the duplicate piece of data that was on the left will remain on the left and the right will remain to the right after sorting is done.
 
-P: How would you implement merge sort?
+P: How would you implement merge sort?  
 R: -
 
 ```javascript
@@ -1828,14 +1829,14 @@ const answer = mergeSort(numbers);
 console.log(answer);
 ```
 
-P: What is quick sort?
+P: What is quick sort?  
 R: QuickSort is a sorting algorithm based on the Divide and Conquer algorithm that picks an element as a pivot and partitions the given array around the picked pivot by placing the pivot in its correct position in the sorted array.
 
 P: What is the time and space complexity of Quick Sort? (worst case)  
 R: Time: O(n^2) # This can usually be avoided with a good 'pivot' point  
 Space: O(log(n))
 
-P: How would you implement quick sort?
+P: How would you implement quick sort?  
 R: -
 
 ```javascript
@@ -1882,118 +1883,118 @@ quickSort(numbers, 0, numbers.length - 1);
 console.log(numbers);
 ```
 
-P: When should you use insertion sort?
+P: When should you use insertion sort?  
 R: Insertion sort is recommended when dealing with a small number of items or when the items are already mostly sorted. It is fast in such cases. Additionally, insertion sort requires minimal space and is easy to implement in code.
 
-P: When should you use bubble sort and selection sort?
+P: When should you use bubble sort and selection sort?  
 R: To be honest you're never going to use bubble/selection sort. It's only really used for educational purposes as a way to teach sorting. But it's very rare that you'll find this in real life because is just not very efficient.
 
-P: When should you use merge sort?
+P: When should you use merge sort?  
 R: The main reason is its efficient time complexity of O(n log(n)) in both best and worst case scenarios. If one is concerned about worst case scenarios, merge sort is a suitable choice.  
 However, if the goal is to sort data in memory and space complexity is a concern, merge sort can be costly because it requires O(n) space complexity. This means it uses a significant amount of memory.  
 On the other hand, if there are large files that cannot be sorted within memory limits, external sorting is required. In this case, merge sort becomes a good option because space complexity matters less. External sorting involves using a process outside of the main memory to sort the data.  
 In summary, merge sort is a favorable algorithm due to its efficient time complexity, making it suitable for worst case scenarios. However, if sorting in memory and space complexity is a concern, alternatives may be considered. For external sorting, such as with large files, merge sort is a good choice as space complexity becomes less significant.
 
-P: When should you use quick sort?
+P: When should you use quick sort?  
 R: Quicksort is superior to merge sort in terms of average case time complexity and space complexity. It has comparable speed to merge sort, but with lower space requirements. Quicksort is considered one of the most popular sorting algorithms.  
 However, a drawback of Quicksort is its worst case scenario, where if the pivot is not chosen properly, the sorting process can become significantly slower. Therefore, it is important to exercise caution when using Quicksort, particularly if worst case scenarios are a concern. In such cases, it may be advisable to choose a different sorting algorithm.
 
-P: When should you use heap sort?
+P: When should you use heap sort?  
 R: Heapsort is similar to quicksort and merge sort but has a space complexity of O(1), meaning it uses a constant amount of memory. However, in terms of average performance, heapsort is generally slower than quicksort in most cases.  
 Heapsort is recommended only when there is a significant concern about worst-case scenarios and memory usage. In most situations, the text suggests that quicksort or merge sort would be the preferred choices for sorting algorithms.
 
 P: What is the time and space complexity of Heap Sort? (worst case)  
-R: Time: O(n log n)
+R: Time: O(n log n)  
 Space: O(1)
 
-P: What are the most used comparison algorithms?
+P: What are the most used comparison algorithms?  
 R: Merge sort & Quick sort. they use divie and conquer to give us this O(n log (n)) performance boost
 
-P: Can we beat O(n log (n)) when it comes to sorting?
+P: Can we beat O(n log (n)) when it comes to sorting?  
 R: Mathematically it is impossible to improve on this . it's impossible because O(n log (n)) means that we have to sort by comparison, But there is one exception to this rule. you can beat O(n log (n)) with **non-comparison sorts**
 
-P: What are the most commonly used non-comparison algorithms?
+P: What are the most commonly used non-comparison algorithms?  
 R: Counting sort & Radix sort
 
-P: How do the algorithms work without comparison?
+P: How do the algorithms work without comparison?  
 R: For non-comparison algorithms, the approach involves leveraging the binary representation of numbers and data stored in computers (zeros and ones) to facilitate sorting. By utilizing the inherent properties of binary representation, these algorithms can effectively organize and sort data.
 
-P: On what type of data do non-comparison algorithms work?
+P: On what type of data do non-comparison algorithms work?  
 R: It only really works on numbers because of the way numbers are stored in memory.
 
-P: Sort algorithm question
-Which algorithm would you use for the following context?
-**Sort 10 schools around your house by distance**
+P: Sort algorithm question  
+Which algorithm would you use for the following context?  
+**Sort 10 schools around your house by distance**  
 R: Insertion sort  
 It's really fast on small sorts. It's easy to code and it has space complexity of of one. It also could be that these 10 schools are already presorted or nearly sorted on our list. So insertion is just the simplest for this type of small data.
 
-P: Sort algorithm question
-Which algorithm would you use for the following context?
-**eBay sorts listings by the current Bid amount**
+P: Sort algorithm question  
+Which algorithm would you use for the following context?  
+**eBay sorts listings by the current Bid amount**  
 R: Radix sort / Counting sort  
 I would actually use something like radix or counting sort because well a bid is usually a number between let's say $1 to let's say 50000. Probably even less. And because it's a fixed length of integers. Integers are most likely not going to be a hundred million because well hopefully nobody's bidding that much on eBay.
 
-P: Sort algorithm question
-Which algorithm would you use for the following context?
-**Sport scores on ESPN**
+P: Sort algorithm question  
+Which algorithm would you use for the following context?  
+**Sport scores on ESPN**  
 R: Quick sort  
-Sports scores on ESPN sports scores can vary. There's decimal places sometimes there's there's different formats such as tennis and soccer and different things and there's definitely lots of sports and lots of scores to handle. It's going to be the most efficient and although we might have the worst case I doubt that the scores are going to be sorted because there are just so many different kinds. But I'm also worried about in-memory sorting. So if I used merge sort it might be a little too much for this because of our increase space complexity
+Sports scores on ESPN sports scores can vary. There's decimal places sometimes there's there's different formats such as tennis and soccer and different things and there's definitely lots of sports and lots of scores to handle. It's going to be the most efficient and although we might have the worst case I doubt that the scores are going to be sorted because there are just so many different kinds. But I'm also worried about in-memory sorting. So if I used merge sort it might be a little too much for this because of our increase space complexity  
 versus quicksort which if you remember has better space complexity.
 
-P: Sort algorithm question
-Which algorithm would you use for the following context?
-**Massive database (can't fit all into memory) needs to sort through past year's user data**
+P: Sort algorithm question  
+Which algorithm would you use for the following context?  
+**Massive database (can't fit all into memory) needs to sort through past year's user data**  
 R: Merge sort  
 We can fill all this data into memory to sort it So we probably need to sort it out externally and let's say we need to sort through past years user data So it's a ton of data and we need to sort it somehow let's say by some sort of a date. What based on the information that I got here it sounds like I need to do something called merge sort And the reason I would pick this is because well it sounds that we're not gonna be storing really in memory because the data is so big but because the data is so big I'm really worried about the performance. I don't want the worst case of quicksort of O(n^2).
 
-P: Sort algorithm question
-Which algorithm would you use for the following context?
-**Almost sorted Udemy review data needs to update and add 2 new reviews**
-R: Insertion sort
+P: Sort algorithm question  
+Which algorithm would you use for the following context?  
+**Almost sorted Udemy review data needs to update and add 2 new reviews**  
+R: Insertion sort  
 Although this data might be huge and maybe I have a lot of reviews. I'm assuming that most of the previous data is already sorted and all I'm doing is adding two new reviews to this data Insertion sort for pre ordered lists is going to work better than any other type of sorting.
 
-P: Sort algorithm question
-Which algorithm would you use for the following context?
-**Temperature Records for the past 50 years in Canada**
-R: Radix sort / Counting sort / Quick sort
+P: Sort algorithm question  
+Which algorithm would you use for the following context?  
+**Temperature Records for the past 50 years in Canada**  
+R: Radix sort / Counting sort / Quick sort  
 I would say that our First I would use something like radix or counting sort if the temperatures have no decimal places. If we're saying you know it's -30 to let's say 40 degrees that's a integer number between a small range that can workwell but if I want to sort through data that also has maybe temperatures that are really accurate and have decimal places which you cant do with radix or counting sort then I'm probably going to use quick sort again just so we can do some in memory sorting and hopefully save on that space complexity.
 
-P: Sort algorithm question
-Which algorithm would you use for the following context?
-**Large user name database needs to be sorted. Data is very random.**
-R: Merge sort / Quick sort
+P: Sort algorithm question  
+Which algorithm would you use for the following context?  
+**Large user name database needs to be sorted. Data is very random.**  
+R: Merge sort / Quick sort  
 I'm not really sure I don't have enough information to make a decision here. Maybe I would use merge sort if we have enough memory and memory isn't too expensive on the machine. Or maybe I'll use quicksort if I'm not too worried about worst case and that the user name databases isnt that large Maybe I'll just use quicksort just to save memory space
 
-P: Sort algorithm question
-Which algorithm would you use for the following context?
-**You want to teach sorting for the first time**
+P: Sort algorithm question  
+Which algorithm would you use for the following context?  
+**You want to teach sorting for the first time**  
 R: Bubble sort / Selection sort
 
-P: What is linear/secuencial search?
+P: What is linear/secuencial search?  
 R: Linear Search is defined as a sequential search algorithm that starts at one end and goes through each element of a list until the desired element is found, otherwise the search continues till the end of the data set.
 
-P: What is binary search?
+P: What is binary search?  
 R: Binary Search is defined as a searching algorithm used in a sorted array by repeatedly dividing the search interval in half. The idea of binary search is to use the information that the array is sorted and reduce the time complexity to O(log N).
 
-P: Which big O notation generally refers to the divide and conquer approach?
+P: Which big O notation generally refers to the divide and conquer approach?  
 R: O(log n)
 
-P: What are traversals in a data structure?
+P: What are traversals in a data structure?  
 R: You can think of traversals as visiting every node O(n)
 
-P: What is the big O of BFS and DFS?
-R: O(n)
-**BFS:**
+P: What is the big O of BFS and DFS?  
+R: O(n)  
+**BFS:**  
 Time complexity is `O(|V|)`, where `|V|` is the number of nodes. You need to traverse all nodes.  
-Space complexity is `O(|V|)` as well - since at worst case you need to hold all vertices in the queue.
-**DFS:**
+Space complexity is `O(|V|)` as well - since at worst case you need to hold all vertices in the queue.  
+**DFS:**  
 Time complexity is again `O(|V|)`, you need to traverse all nodes.  
 Space complexity - depends on the implementation, a recursive implementation can have a `O(h)` space complexity \[worst case\], where `h` is the maximal depth of your tree.  
-Using an iterative solution with a stack is actually the same as BFS, just using a stack instead of a queue - so you get both `O(|V|)` time and space complexity.
+Using an iterative solution with a stack is actually the same as BFS, just using a stack instead of a queue - so you get both `O(|V|)` time and space complexity.  
 (\*) Note that the space complexity and time complexity is a bit different for a tree than for a general graphs becase you do not need to maintain a `visited` set for a tree, and `|E| = O(|V|)`, so the `|E|` factor is actually redundant.
 
-P: What is BFS?
-R: In this technique, each neighboring vertex is inserted into the queue if it is not visited. This is done by looking at the edges of the vertex. Each visited vertex is marked visited once we visit them hence, each vertex is visited exactly once, and all edges of each vertex are checked. So the complexity of BFS is V + E
+P: What is BFS?  
+R: In this technique, each neighboring vertex is inserted into the queue if it is not visited. This is done by looking at the edges of the vertex. Each visited vertex is marked visited once we visit them hence, each vertex is visited exactly once, and all edges of each vertex are checked. So the complexity of BFS is V + E  
 **Pseudocode for BFS:**
 
 > create a queue Q
@@ -2008,8 +2009,8 @@ R: In this technique, each neighboring vertex is inserted into the queue if it i
 Since we are only iterating over the graph’s edges and vertices only once, hence the time complexity for both the algorithms is linear **O(V+E)**.  
 Auxiliary Space Taken is O(V) at worst case.
 
-P: What is DFS?
-R: While iterating with this technique, we move over each node and edge exactly once, and once we are over a node that has already been visited then we backtrack, which means we are pruning possibilities that have already been marked. So hence the overall complexity is reduced from exponential to linear.
+P: What is DFS?  
+R: While iterating with this technique, we move over each node and edge exactly once, and once we are over a node that has already been visited then we backtrack, which means we are pruning possibilities that have already been marked. So hence the overall complexity is reduced from exponential to linear.  
 **Pseudocode for DFS:**
 
 > DFS(Graph, vertex)  
@@ -2018,18 +2019,18 @@ R: While iterating with this technique, we move over each node and edge exactly 
 >         if v1.visited ==  false  
 >             DFS(Graph, v1)
 
-P: What are the pros of BFS?
-R: 1.Shortest path (It's very good for finding the shortest path between a starting point and any other reachable node because we always start off with the root node and then search the closest nodes first and then the nodes further)
+P: What are the pros of BFS?  
+R: 1.Shortest path (It's very good for finding the shortest path between a starting point and any other reachable node because we always start off with the root node and then search the closest nodes first and then the nodes further)  
 2.Closer nodes (it will look at the closest node first)
 
-P: What are the cons of BFS?
+P: What are the cons of BFS?  
 R: 1.More memory (it uses more memory to keep track of the parents and the children nodes of that level)
 
-P: What are the pros of DFS?
-R: 1.Less memory
+P: What are the pros of DFS?  
+R: 1.Less memory  
 2.Does path exist? (Does the path exist to us or not from a source know to a target note)
 
-P: What are the cons of DFS?
+P: What are the cons of DFS?  
 R: 1.Can get slow (The downside with depth first search is that it can get slow especially if the tree or graph is really really deep and it's not necessarily good at finding the shortest path.)
 
 ---

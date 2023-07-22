@@ -1,9 +1,7 @@
 Q: What is the Big O of a lookup (traversal) operation on a Linked List/Double link list?
-A: O(n)
+A: O(n)  
 e.g. We go through the whole linked list to check if an element is present. In the case of a double linked list it would technically be O(n/2) because we can start at both ends and if we know in which half of the list is what we are looking for, we can choose the optimal place to start.
-<!--ID: 1689972344718-->
-
-
+<!--ID: 1690026322609-->
 
 ---
 

@@ -1,9 +1,7 @@
 Q: What is the time and space complexity of Selection Sort? (worst case)
 A: Time: O(n^2)  
 Space: O(1)
-<!--ID: 1689972344431-->
-
-
+<!--ID: 1690026322196-->
 
 ---
 

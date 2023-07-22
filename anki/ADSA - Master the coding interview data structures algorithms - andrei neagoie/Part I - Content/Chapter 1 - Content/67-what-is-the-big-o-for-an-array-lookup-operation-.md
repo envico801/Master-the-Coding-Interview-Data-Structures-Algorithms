@@ -1,8 +1,6 @@
 Q: What is the Big O for an Array lookup operation? (aka **access**: Array\[2\])
 A: O(1)
-<!--ID: 1689972344201-->
-
-
+<!--ID: 1690026321902-->
 
 ---
 

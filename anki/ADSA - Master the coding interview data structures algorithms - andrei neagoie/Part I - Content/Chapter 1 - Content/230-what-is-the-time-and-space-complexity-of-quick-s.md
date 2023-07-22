@@ -1,9 +1,7 @@
 Q: What is the time and space complexity of Quick Sort? (worst case)
 A: Time: O(n^2) # This can usually be avoided with a good 'pivot' point  
 Space: O(log(n))
-<!--ID: 1689972344398-->
-
-
+<!--ID: 1690026322156-->
 
 ---
 

@@ -1,8 +1,6 @@
 Q: Whats one advantage that linked list have over hash tables?
 A: That there is some sort of order to link list, each node points to the next node.
-<!--ID: 1689972344725-->
-
-
+<!--ID: 1690026322619-->
 
 ---
 

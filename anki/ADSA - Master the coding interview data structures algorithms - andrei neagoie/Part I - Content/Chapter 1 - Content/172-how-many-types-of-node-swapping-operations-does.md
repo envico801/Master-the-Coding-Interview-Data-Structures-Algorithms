@@ -1,9 +1,7 @@
 Q: How many types of node-swapping operations does an AVL tree have to balance itself? What are they?
 A: **2** types of node-swapping operations:  
 **Single Rotations** and **Double Rotations**.
-<!--ID: 1689972344557-->
-
-
+<!--ID: 1690026322373-->
 
 ---
 

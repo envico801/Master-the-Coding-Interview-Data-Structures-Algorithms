@@ -1,8 +1,6 @@
 Q: How should you handle error checks in your code during an interview?
 A: Assume people will try to break your code and consider potential false inputs. Safeguard your code and discuss additional checks or tests that could be implemented.
-<!--ID: 1689972344289-->
-
-
+<!--ID: 1690026322017-->
 
 ---
 

@@ -1,8 +1,6 @@
 Q: What is the Big O of a deletion operation on a Linked List/Double link list?
 A: O(n)
-<!--ID: 1689972344712-->
-
-
+<!--ID: 1690026322600-->
 
 ---
 

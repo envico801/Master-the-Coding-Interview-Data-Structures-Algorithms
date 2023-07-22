@@ -1,8 +1,6 @@
 Q: In ES6, what kind of Hash Table maintains insertion order?
 A: A Map
-<!--ID: 1689972344127-->
-
-
+<!--ID: 1690026321790-->
 
 ---
 

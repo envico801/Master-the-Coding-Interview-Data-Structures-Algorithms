@@ -2,9 +2,7 @@ Q: What is a weighted graph?
 A: A graph whose edges have a value.  
 This is useful in shortest path algorithms, like Dijkstra's algorithm.  
 Weighted graphs are really common in cyclic graphs
-<!--ID: 1689972344509-->
-
-
+<!--ID: 1690026322308-->
 
 ---
 

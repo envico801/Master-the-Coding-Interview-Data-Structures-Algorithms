@@ -2,9 +2,7 @@ Q: Which data-structure is more efficient at looping over data: An Array or a Ha
 A: An Array.  
 If your Hash Table has 50 addresses but only 3 addresses contain Keys, you would still have to access all 50 addresses to obtain those Keys.  
 An Array is sequential in memory, which makes it more efficient in this regard.
-<!--ID: 1689972344120-->
-
-
+<!--ID: 1690026321781-->
 
 ---
 

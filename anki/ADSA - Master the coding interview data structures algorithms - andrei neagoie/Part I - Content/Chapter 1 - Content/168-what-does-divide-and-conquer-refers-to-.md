@@ -1,8 +1,6 @@
 Q: What does divide and conquer refers to?
 A: Divide and conquer simply means we are dividing up so that we dont visit all the nodes, each node that we visit we make a decision to go left or right
-<!--ID: 1689972344568-->
-
-
+<!--ID: 1690026322390-->
 
 ---
 

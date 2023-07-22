@@ -1,8 +1,6 @@
 Q: What data structure is often the answer to improve time complexity?
 A: Hash Maps. They can provide efficient lookup and retrieval operations.
-<!--ID: 1689972344253-->
-
-
+<!--ID: 1690026321972-->
 
 ---
 

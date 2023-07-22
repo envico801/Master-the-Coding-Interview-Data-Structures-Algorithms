@@ -1,10 +1,8 @@
 Q: What does quadratic time mean?
-A: It means that the number of operations it performs is proportional to the square of the input.
-e.g. Every element in a collection needs to be compared to ever other element. Two
+A: It means that the number of operations it performs is proportional to the square of the input.  
+e.g. Every element in a collection needs to be compared to ever other element. Two  
 nested loops
-<!--ID: 1689972344664-->
-
-
+<!--ID: 1690026322532-->
 
 ---
 

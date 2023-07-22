@@ -1,8 +1,6 @@
 Q: What is the Big O for a lookup operation in a Queue?
 A: O(n)
-<!--ID: 1689972344646-->
-
-
+<!--ID: 1690026322505-->
 
 ---
 

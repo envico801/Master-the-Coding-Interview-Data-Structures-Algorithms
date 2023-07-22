@@ -1,8 +1,6 @@
 Q: How should you structure your code from the beginning (in an interview)?
 A: Modularize your code into smaller pieces and add comments if necessary.
-<!--ID: 1689972344296-->
-
-
+<!--ID: 1690026322026-->
 
 ---
 

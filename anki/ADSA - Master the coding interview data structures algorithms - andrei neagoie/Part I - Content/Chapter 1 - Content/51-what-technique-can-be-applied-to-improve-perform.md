@@ -1,8 +1,6 @@
 Q: What technique can be applied to improve performance when working with data?
 A: Sorting the input. It can facilitate more efficient algorithms and operations.
-<!--ID: 1689972344246-->
-
-
+<!--ID: 1690026321961-->
 
 ---
 

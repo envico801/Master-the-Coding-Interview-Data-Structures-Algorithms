@@ -1,9 +1,7 @@
 Q: What are the pros of DFS?
-A: 1.Less memory
+A: 1.Less memory  
 2.Does path exist? (Does the path exist to us or not from a source know to a target note)
-<!--ID: 1689972344317-->
-
-
+<!--ID: 1690026322054-->
 
 ---
 

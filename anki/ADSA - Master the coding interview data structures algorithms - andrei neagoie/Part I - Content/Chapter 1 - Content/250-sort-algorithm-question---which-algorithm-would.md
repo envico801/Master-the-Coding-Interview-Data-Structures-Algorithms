@@ -1,10 +1,8 @@
-Q: Sort algorithm question
-Which algorithm would you use for the following context?
+Q: Sort algorithm question  
+Which algorithm would you use for the following context?  
 **You want to teach sorting for the first time**
 A: Bubble sort / Selection sort
-<!--ID: 1689972344344-->
-
-
+<!--ID: 1690026322091-->
 
 ---
 

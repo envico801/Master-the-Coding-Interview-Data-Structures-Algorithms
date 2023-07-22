@@ -1,8 +1,6 @@
 Q: What is the Big O of an Array shift operation? (aka **insertion**: Array.shift(value))
 A: O(n)
-<!--ID: 1689972344192-->
-
-
+<!--ID: 1690026321886-->
 
 ---
 

@@ -1,8 +1,6 @@
 Q: What should you do before starting the coding process in an interview?
 A: Walk through your code and outline the steps you will follow.
-<!--ID: 1689972344298-->
-
-
+<!--ID: 1690026322029-->
 
 ---
 

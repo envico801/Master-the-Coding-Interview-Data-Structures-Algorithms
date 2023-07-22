@@ -1,8 +1,6 @@
 Q: How do you terminate a recursive funtion?
 A: With a base case. Recursion breaks a task down into smaller tasks which terminate at the base case. This base case termination prevents the function from calling itself infinitely.
-<!--ID: 1689972344477-->
-
-
+<!--ID: 1690026322254-->
 
 ---
 

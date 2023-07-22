@@ -1,8 +1,6 @@
 Q: How does the selection of appropriate data structures impact program efficiency?
 A: By choosing appropriate data structures, programs can achieve efficient data storage and manipulation.
-<!--ID: 1689972344272-->
-
-
+<!--ID: 1690026321994-->
 
 ---
 

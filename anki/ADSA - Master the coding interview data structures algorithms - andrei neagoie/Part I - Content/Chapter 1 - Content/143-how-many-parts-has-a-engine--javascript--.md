@@ -1,10 +1,8 @@
 Q: How many parts has a engine (javascript)?
-A: Now the engine consists of two parts a memory heap and a call stack.
-1.Now the memory heap. This is where the memory allocation happens.
+A: Now the engine consists of two parts a memory heap and a call stack.  
+1.Now the memory heap. This is where the memory allocation happens.  
 2.And then the call stack. This is where your code is read and execute it. It tells you where you are in the program.
-<!--ID: 1689972344629-->
-
-
+<!--ID: 1690026322482-->
 
 ---
 

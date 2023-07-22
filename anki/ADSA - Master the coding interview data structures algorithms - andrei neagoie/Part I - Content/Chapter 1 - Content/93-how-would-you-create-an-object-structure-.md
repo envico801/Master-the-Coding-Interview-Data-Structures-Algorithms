@@ -40,9 +40,7 @@ myHashTable.get('grapes');
 myHashTable.set('apples', 9);
 myHashTable.get('apples');
 ```
-<!--ID: 1689972344122-->
-
-
+<!--ID: 1690026321784-->
 
 ---
 

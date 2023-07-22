@@ -1,8 +1,6 @@
 Q: What potential issues can arise from recursion?
 A: Recursion can cause stack overflow due to excessive function calls.
-<!--ID: 1689972344259-->
-
-
+<!--ID: 1690026321978-->
 
 ---
 

@@ -143,9 +143,7 @@ function traverse(node) {
   return tree;
 }
 ```
-<!--ID: 1689972344566-->
-
-
+<!--ID: 1690026322386-->
 
 ---
 

@@ -1,9 +1,7 @@
 Q: What is the Big O for a dequeue operation in a Queue?
 A: O(1) - If you did not use an Array to implement the queue.  
 An Array unshift operation would be O(n).
-<!--ID: 1689972344641-->
-
-
+<!--ID: 1690026322498-->
 
 ---
 

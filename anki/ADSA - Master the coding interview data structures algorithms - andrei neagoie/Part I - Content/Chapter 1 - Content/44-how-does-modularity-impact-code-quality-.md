@@ -1,8 +1,6 @@
 Q: How does modularity impact code quality?
 A: Modularity improves code quality by enhancing readability, maintainability, and testability.
-<!--ID: 1689972344266-->
-
-
+<!--ID: 1690026321987-->
 
 ---
 

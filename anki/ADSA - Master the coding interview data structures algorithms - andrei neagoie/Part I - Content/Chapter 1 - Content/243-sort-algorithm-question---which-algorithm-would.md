@@ -1,11 +1,9 @@
-Q: Sort algorithm question
-Which algorithm would you use for the following context?
+Q: Sort algorithm question  
+Which algorithm would you use for the following context?  
 **Sort 10 schools around your house by distance**
 A: Insertion sort  
 It's really fast on small sorts. It's easy to code and it has space complexity of of one. It also could be that these 10 schools are already presorted or nearly sorted on our list. So insertion is just the simplest for this type of small data.
-<!--ID: 1689972344365-->
-
-
+<!--ID: 1690026322117-->
 
 ---
 

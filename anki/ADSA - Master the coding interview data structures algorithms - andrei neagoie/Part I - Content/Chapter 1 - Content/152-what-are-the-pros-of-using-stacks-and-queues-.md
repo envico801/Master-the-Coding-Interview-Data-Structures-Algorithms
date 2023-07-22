@@ -1,10 +1,8 @@
 Q: What are the pros of using stacks and queues?
-A: 1.Fast operations (such as removing or inserting, such as the end of the data structure)
-2.Fast peek (we can access the very first item in a queue or the very top item in a stack)
+A: 1.Fast operations (such as removing or inserting, such as the end of the data structure)  
+2.Fast peek (we can access the very first item in a queue or the very top item in a stack)  
 3.Ordered (we have all our data ordered)
-<!--ID: 1689972344608-->
-
-
+<!--ID: 1690026322446-->
 
 ---
 

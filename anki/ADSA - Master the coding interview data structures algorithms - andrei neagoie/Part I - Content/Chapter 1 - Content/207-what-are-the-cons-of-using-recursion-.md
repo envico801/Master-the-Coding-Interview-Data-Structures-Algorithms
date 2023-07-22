@@ -1,8 +1,6 @@
 Q: What are the cons of using recursion?
 A: 1.Large stack (it creates an extra memory footprint, because every time we add a function to the call stacks it adds extra piece of memory)
-<!--ID: 1689972344460-->
-
-
+<!--ID: 1690026322232-->
 
 ---
 

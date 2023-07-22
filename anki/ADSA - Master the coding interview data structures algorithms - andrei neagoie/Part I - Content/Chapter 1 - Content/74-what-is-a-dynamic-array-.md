@@ -1,8 +1,6 @@
 Q: What is a dynamic array?
 A: An array that can grow in size when it needs to. No specification of size is needed when it is initiated.
-<!--ID: 1689972344182-->
-
-
+<!--ID: 1690026321872-->
 
 ---
 

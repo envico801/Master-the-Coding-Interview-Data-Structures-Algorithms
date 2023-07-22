@@ -6,9 +6,7 @@ A: 1.Each node must be either Red or Black
 Extras:  
 A null leaf node is always considered to be black, even if it is marked red.  
 A chain of 3 nodes can never be a valid Red/Black Tree.
-<!--ID: 1689972344554-->
-
-
+<!--ID: 1690026322369-->
 
 ---
 

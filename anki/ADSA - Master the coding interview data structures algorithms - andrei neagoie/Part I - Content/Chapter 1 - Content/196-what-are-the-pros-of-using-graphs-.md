@@ -1,8 +1,6 @@
 Q: What are the pros of using graphs?
 A: 1.Relationships (some data needs to be in a graph form)
-<!--ID: 1689972344490-->
-
-
+<!--ID: 1690026322275-->
 
 ---
 

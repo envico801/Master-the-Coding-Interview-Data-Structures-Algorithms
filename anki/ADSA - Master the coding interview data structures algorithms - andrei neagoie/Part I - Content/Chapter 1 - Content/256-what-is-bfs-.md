@@ -1,5 +1,5 @@
 Q: What is BFS?
-A: In this technique, each neighboring vertex is inserted into the queue if it is not visited. This is done by looking at the edges of the vertex. Each visited vertex is marked visited once we visit them hence, each vertex is visited exactly once, and all edges of each vertex are checked. So the complexity of BFS is V + E
+A: In this technique, each neighboring vertex is inserted into the queue if it is not visited. This is done by looking at the edges of the vertex. Each visited vertex is marked visited once we visit them hence, each vertex is visited exactly once, and all edges of each vertex are checked. So the complexity of BFS is V + E  
 **Pseudocode for BFS:**
 > create a queue Q
 >
@@ -11,9 +11,7 @@ A: In this technique, each neighboring vertex is inserted into the queue if it i
 >    mark and enqueue all (unvisited) neighbours of u
 Since we are only iterating over the graph’s edges and vertices only once, hence the time complexity for both the algorithms is linear **O(V+E)**.  
 Auxiliary Space Taken is O(V) at worst case.
-<!--ID: 1689972344330-->
-
-
+<!--ID: 1690026322071-->
 
 ---
 

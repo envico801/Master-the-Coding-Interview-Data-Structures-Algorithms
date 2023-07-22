@@ -1,8 +1,6 @@
 Q: When should you start writing the actual code in an interview?
 A: Begin coding once you have a clear understanding of the problem and the steps you need to implement.
-<!--ID: 1689972344293-->
-
-
+<!--ID: 1690026322024-->
 
 ---
 

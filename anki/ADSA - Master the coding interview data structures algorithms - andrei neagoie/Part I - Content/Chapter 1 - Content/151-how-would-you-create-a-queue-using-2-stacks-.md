@@ -40,9 +40,7 @@ myQueue.dequeue();
 myQueue.dequeue();
 myQueue.peek();
 ```
-<!--ID: 1689972344610-->
-
-
+<!--ID: 1690026322449-->
 
 ---
 

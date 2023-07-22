@@ -1,5 +1,5 @@
 Q: What is an edge list?
-A: A collection of edges (connections) which represent a graph.
+A: A collection of edges (connections) which represent a graph.  
 e.g.
 ```javascript
 // a third element can be inserted into each array to apply a weight graph e.g. [0, 2 ,88]
@@ -10,9 +10,7 @@ const graph = [
   [1, 3],
 ];
 ```
-<!--ID: 1689972344500-->
-
-
+<!--ID: 1690026322291-->
 
 ---
 

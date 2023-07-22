@@ -1,8 +1,6 @@
 Q: What should you consider while coding to showcase your abilities in an interview?
 A: Break the problem into functions and focus on demonstrating your skills. Even if you forget a specific method, create a function as a placeholder.
-<!--ID: 1689972344291-->
-
-
+<!--ID: 1690026322021-->
 
 ---
 

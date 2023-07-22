@@ -1,8 +1,6 @@
 Q: What are the most used comparison algorithms?
 A: Merge sort & Quick sort. they use divie and conquer to give us this O(n log (n)) performance boost
-<!--ID: 1689972344380-->
-
-
+<!--ID: 1690026322133-->
 
 ---
 

@@ -1,8 +1,6 @@
 Q: On what type of data do non-comparison algorithms work?
 A: It only really works on numbers because of the way numbers are stored in memory.
-<!--ID: 1689972344368-->
-
-
+<!--ID: 1690026322120-->
 
 ---
 

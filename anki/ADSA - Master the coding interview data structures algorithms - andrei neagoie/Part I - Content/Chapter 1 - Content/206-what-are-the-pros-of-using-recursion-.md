@@ -1,9 +1,7 @@
 Q: What are the pros of using recursion?
-A: 1.DRY (simpler, have less loops happening with confusing code)
+A: 1.DRY (simpler, have less loops happening with confusing code)  
 2.Readability (generally is more readable than an iterative aproach)
-<!--ID: 1689972344462-->
-
-
+<!--ID: 1690026322235-->
 
 ---
 

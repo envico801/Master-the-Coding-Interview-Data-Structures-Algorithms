@@ -104,9 +104,7 @@ myLinkedList.printList();
 myLinkedList.remove(2);
 myLinkedList.reverse();
 ```
-<!--ID: 1689972344666-->
-
-
+<!--ID: 1690026322537-->
 
 ---
 

@@ -1,9 +1,7 @@
 Q: What is a Graph?
 A: A Graph is a non-linear data structure consisting of nodes and edges. The nodes are sometimes referred to as vertices and the edges are lines or arcs that connect any two nodes in the graph.  
 Technically Trees and Linked Lists are types of a Graph.
-<!--ID: 1689972344516-->
-
-
+<!--ID: 1690026322319-->
 
 ---
 

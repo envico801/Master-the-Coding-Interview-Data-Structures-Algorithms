@@ -1,8 +1,6 @@
 Q: What does LIFO stand for in regard to a Stack?
 A: Last In First Out
-<!--ID: 1689972344648-->
-
-
+<!--ID: 1690026322507-->
 
 ---
 

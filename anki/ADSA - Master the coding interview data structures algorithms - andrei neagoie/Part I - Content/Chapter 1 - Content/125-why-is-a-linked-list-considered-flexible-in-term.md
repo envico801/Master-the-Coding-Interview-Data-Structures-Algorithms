@@ -1,8 +1,6 @@
 Q: Why is a linked list considered flexible in terms of size?
 A: Linked lists are flexible in size, meaning they can grow and shrink dynamically as needed.
-<!--ID: 1689972344675-->
-
-
+<!--ID: 1690026322549-->
 
 ---
 

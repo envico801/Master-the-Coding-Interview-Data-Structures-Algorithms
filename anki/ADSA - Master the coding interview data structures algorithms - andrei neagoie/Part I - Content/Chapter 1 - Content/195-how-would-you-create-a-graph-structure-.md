@@ -46,9 +46,7 @@ myGraph.addEdge('0', '2');
 myGraph.addEdge('6', '5');
 myGraph.showConnections();
 ```
-<!--ID: 1689972344492-->
-
-
+<!--ID: 1690026322278-->
 
 ---
 

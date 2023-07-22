@@ -2,9 +2,7 @@ Q: What is a memory controller?
 A: A memory controller is a device that manages the data flow between the CPU and system RAM.  
 The memory controller acts as the middleman in these operations, ensuring that the proper information is retrieved from the right locations.  
 **The closer the information is to the CPU and the less it has to travel, the faster a program can be executed.**
-<!--ID: 1689972344220-->
-
-
+<!--ID: 1690026321921-->
 
 ---
 

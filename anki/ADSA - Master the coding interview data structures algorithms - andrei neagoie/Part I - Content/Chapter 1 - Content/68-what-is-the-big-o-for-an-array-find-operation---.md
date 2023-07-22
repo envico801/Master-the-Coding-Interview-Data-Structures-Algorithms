@@ -1,9 +1,7 @@
 Q: What is the Big O for an Array find operation? (aka **search**: Array.find(callbackFn))
-A: O(n)
+A: O(n)  
 e.g. We traverse the entire array to check if an element is present.
-<!--ID: 1689972344198-->
-
-
+<!--ID: 1690026321898-->
 
 ---
 

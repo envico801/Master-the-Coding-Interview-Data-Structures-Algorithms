@@ -1,9 +1,7 @@
 Q: How should we handle questions related to strings?
-A: We should treat it as an array question, strings are an array of characters.
+A: We should treat it as an array question, strings are an array of characters.  
 e.g. reverse a string.
-<!--ID: 1689972344173-->
-
-
+<!--ID: 1690026321856-->
 
 ---
 

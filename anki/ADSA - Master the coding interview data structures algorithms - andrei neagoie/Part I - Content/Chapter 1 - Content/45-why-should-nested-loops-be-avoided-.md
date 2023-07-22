@@ -1,8 +1,6 @@
 Q: Why should nested loops be avoided?
 A: They can be expensive in terms of time complexity. It is better to have separate loops than nesting them.
-<!--ID: 1689972344264-->
-
-
+<!--ID: 1690026321984-->
 
 ---
 

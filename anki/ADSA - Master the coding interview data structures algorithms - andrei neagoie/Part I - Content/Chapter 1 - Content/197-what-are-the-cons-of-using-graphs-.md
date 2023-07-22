@@ -1,8 +1,6 @@
 Q: What are the cons of using graphs?
 A: 1.Scaling is hard (they can get complicated, you need a big company or at least a lot of resources and engineering power to make sure that you build graphs that scale well)
-<!--ID: 1689972344488-->
-
-
+<!--ID: 1690026322271-->
 
 ---
 

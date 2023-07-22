@@ -22,9 +22,7 @@ function selectionSort(array) {
 selectionSort(numbers);
 console.log(numbers);
 ```
-<!--ID: 1689972344429-->
-
-
+<!--ID: 1690026322193-->
 
 ---
 

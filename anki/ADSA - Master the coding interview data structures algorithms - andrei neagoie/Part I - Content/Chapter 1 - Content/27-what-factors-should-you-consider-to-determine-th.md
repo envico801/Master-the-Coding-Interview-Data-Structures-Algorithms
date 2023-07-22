@@ -1,8 +1,6 @@
 Q: What factors should you consider to determine the most important value of the problem in an interview?
 A: Consider time, space, memory, and the main goal of the problem.
-<!--ID: 1689972344312-->
-
-
+<!--ID: 1690026322047-->
 
 ---
 

@@ -2,9 +2,7 @@ Q: What is a cyclic graph?
 A: A graph which contains a cycle.  
 You can start at one node (vertex) and make your way back to that same node by following other nodes back to the node you started on.  
 Cyclic graphs are really common in weighted graphs
-<!--ID: 1689972344505-->
-
-
+<!--ID: 1690026322300-->
 
 ---
 

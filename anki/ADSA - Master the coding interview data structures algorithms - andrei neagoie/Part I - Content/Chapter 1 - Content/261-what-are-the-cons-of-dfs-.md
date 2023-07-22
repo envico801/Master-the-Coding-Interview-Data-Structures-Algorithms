@@ -1,8 +1,6 @@
 Q: What are the cons of DFS?
 A: 1.Can get slow (The downside with depth first search is that it can get slow especially if the tree or graph is really really deep and it's not necessarily good at finding the shortest path.)
-<!--ID: 1689972344315-->
-
-
+<!--ID: 1690026322051-->
 
 ---
 

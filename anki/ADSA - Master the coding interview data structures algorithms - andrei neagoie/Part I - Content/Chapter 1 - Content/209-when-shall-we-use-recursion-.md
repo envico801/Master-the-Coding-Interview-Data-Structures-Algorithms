@@ -1,10 +1,8 @@
 Q: When shall we use recursion?
-A: When it gets to complicated problems like traversing or searching through trees or graphs (DFS & BFS) recursion is really really useful and better than iterative aproaches
-When we're sorting through items there's also cases that will see that recursion is preferred
+A: When it gets to complicated problems like traversing or searching through trees or graphs (DFS & BFS) recursion is really really useful and better than iterative aproaches  
+When we're sorting through items there's also cases that will see that recursion is preferred  
 e.g. (merge sort, quick sort)
-<!--ID: 1689972344454-->
-
-
+<!--ID: 1690026322226-->
 
 ---
 

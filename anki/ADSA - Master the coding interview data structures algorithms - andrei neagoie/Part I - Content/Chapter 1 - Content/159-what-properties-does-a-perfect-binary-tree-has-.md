@@ -1,5 +1,5 @@
 Q: What properties does a perfect binary tree has?
-A: 1.The number of total nodes doubles as we move down the tree
+A: 1.The number of total nodes doubles as we move down the tree  
 2.The number of nodes on the last level is equal to the sum of the number of nodes on all the other levels plus 1
 ```text
 Level 0: 2^0 = 1
@@ -12,9 +12,7 @@ Based on that formula, we can find the number of nodes in a tree:
 log nodes = height/steps (simplified version)
 log 100 = 2
 10^2 = 100
-<!--ID: 1689972344592-->
-
-
+<!--ID: 1690026322423-->
 
 ---
 

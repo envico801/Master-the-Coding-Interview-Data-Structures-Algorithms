@@ -18,9 +18,7 @@ function bubbleSort(array) {
 bubbleSort(numbers);
 console.log(numbers);
 ```
-<!--ID: 1689972344436-->
-
-
+<!--ID: 1690026322204-->
 
 ---
 

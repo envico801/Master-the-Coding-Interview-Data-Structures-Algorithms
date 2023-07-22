@@ -1,8 +1,6 @@
 Q: What is the big O of iterating over half a collection?
 A: It ends up being O(n) because if we apply basic mathematics we can transform the division into a multiplication **(n/2 = 1/2 x n)** and then apply the rule of eliminating constants.
-<!--ID: 1689972344132-->
-
-
+<!--ID: 1690026321796-->
 
 ---
 

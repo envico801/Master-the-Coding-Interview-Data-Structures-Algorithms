@@ -1,8 +1,6 @@
 Q: What is the Big O of an insertion operation on a Linked List/Double link list?
 A: O(n)
-<!--ID: 1689972344716-->
-
-
+<!--ID: 1690026322606-->
 
 ---
 

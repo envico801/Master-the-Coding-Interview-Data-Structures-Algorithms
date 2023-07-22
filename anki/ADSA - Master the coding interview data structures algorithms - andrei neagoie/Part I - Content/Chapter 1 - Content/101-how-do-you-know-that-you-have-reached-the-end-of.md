@@ -1,8 +1,6 @@
 Q: How do you know that you have reached the end of a Linked List?
 A: Linked Lists are "null-terminated" which means the end of the list is denoted by the value "null".
-<!--ID: 1689972344737-->
-
-
+<!--ID: 1690026322631-->
 
 ---
 
