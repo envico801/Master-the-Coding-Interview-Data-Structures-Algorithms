@@ -1,6 +1,6 @@
-Q: What technique do the merge sort and quick sort algorithms use?
+Q: What technique do the merge sort and quick sort algorithms use?  
 A: Divide & Conquer
-<!--ID: 1690026322175-->
+<!--ID: 1690027054026-->
 
 ---
 

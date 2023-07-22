@@ -1,4 +1,4 @@
-Q: How would you implement merge sort?
+Q: How would you implement merge sort?  
 A: -
 ```javascript
 const numbers = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0];
@@ -34,7 +34,7 @@ function merge(left, right) {
 const answer = mergeSort(numbers);
 console.log(answer);
 ```
-<!--ID: 1690026322164-->
+<!--ID: 1690027053998-->
 
 ---
 

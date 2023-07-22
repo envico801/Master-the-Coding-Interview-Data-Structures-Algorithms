@@ -1,6 +1,6 @@
-Q: How does copying large arrays affect space complexity?
+Q: How does copying large arrays affect space complexity?  
 A: Copying large arrays may exceed the memory capacity of the machine, leading to potential issues.
-<!--ID: 1690026321974-->
+<!--ID: 1690027055438-->
 
 ---
 

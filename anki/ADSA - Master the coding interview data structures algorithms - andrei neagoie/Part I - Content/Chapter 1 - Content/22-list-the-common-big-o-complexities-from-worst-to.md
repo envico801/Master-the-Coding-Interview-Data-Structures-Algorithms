@@ -1,4 +1,4 @@
-Q: List the common Big O complexities from worst to best (there are 7)
+Q: List the common Big O complexities from worst to best (there are 7)  
 A: O(n!)  
 O(2^n)  
 O(n^2)  
@@ -6,7 +6,7 @@ O(n log n)
 O(n)  
 O(log n)  
 O(1)
-<!--ID: 1690026322191-->
+<!--ID: 1690027055696-->
 
 ---
 

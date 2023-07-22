@@ -1,4 +1,4 @@
-Q: How would you create a stack structure using an array?
+Q: How would you create a stack structure using an array?  
 A: -
 ```javascript
 class Stack {
@@ -30,7 +30,7 @@ myStack.pop();
 //Udemy
 //google
 ```
-<!--ID: 1690026322459-->
+<!--ID: 1690027054769-->
 
 ---
 

@@ -1,6 +1,6 @@
-Q: What kind of _data-type_ is a **Key** in a typical Hash Table?
+Q: What kind of _data-type_ is a **Key** in a typical Hash Table?  
 A: A String
-<!--ID: 1690026321799-->
+<!--ID: 1690027055016-->
 
 ---
 

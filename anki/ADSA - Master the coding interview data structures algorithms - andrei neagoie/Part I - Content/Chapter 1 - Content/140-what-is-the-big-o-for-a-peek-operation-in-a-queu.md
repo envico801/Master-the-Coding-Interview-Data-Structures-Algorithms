@@ -1,6 +1,6 @@
-Q: What is the Big O for a peek operation in a Queue? (see who is the fist in the queue)
+Q: What is the Big O for a peek operation in a Queue? (see who is the fist in the queue)  
 A: O(1)
-<!--ID: 1690026322492-->
+<!--ID: 1690027054851-->
 
 ---
 

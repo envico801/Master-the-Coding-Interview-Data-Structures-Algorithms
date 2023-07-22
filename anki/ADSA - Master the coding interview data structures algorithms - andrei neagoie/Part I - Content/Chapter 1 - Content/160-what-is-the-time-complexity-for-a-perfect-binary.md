@@ -1,6 +1,6 @@
-Q: What is the time complexity for a perfect binary tree's search(lookup), insert, and delete methods?
+Q: What is the time complexity for a perfect binary tree's search(lookup), insert, and delete methods?  
 A: O(log n)
-<!--ID: 1690026322417-->
+<!--ID: 1690027054667-->
 
 ---
 

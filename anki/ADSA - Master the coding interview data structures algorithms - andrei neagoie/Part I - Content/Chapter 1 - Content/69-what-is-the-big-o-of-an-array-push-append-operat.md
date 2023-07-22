@@ -1,9 +1,9 @@
-Q: What is the Big O of an Array push/append operation? (aka **insertion**: Array.push(value))
+Q: What is the Big O of an Array push/append operation? (aka **insertion**: Array.push(value))  
 A: O(1) if the array is static  
 O(n) if the array is dynamic and has to grow when the new value is added.  
 or if we are using other methods like (shift(), splice())  
 **Note that the worst case is still O(n).**
-<!--ID: 1690026321894-->
+<!--ID: 1690027055232-->
 
 ---
 

@@ -1,6 +1,6 @@
-Q: What are traversals in a data structure?
+Q: What are traversals in a data structure?  
 A: You can think of traversals as visiting every node O(n)
-<!--ID: 1690026322078-->
+<!--ID: 1690027053752-->
 
 ---
 

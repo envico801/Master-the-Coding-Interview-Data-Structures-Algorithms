@@ -1,6 +1,6 @@
-Q: What is a full binary tree?
+Q: What is a full binary tree?  
 A: A full binary tree says that a node has either 0 or 2 children, but never one child
-<!--ID: 1690026322426-->
+<!--ID: 1690027054689-->
 
 ---
 

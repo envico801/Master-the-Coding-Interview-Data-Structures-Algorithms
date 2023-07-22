@@ -1,4 +1,4 @@
-Q: How would you create a linked list structure?
+Q: How would you create a linked list structure?  
 A: -
 ```javascript
 class LinkedList {
@@ -104,7 +104,7 @@ myLinkedList.printList();
 myLinkedList.remove(2);
 myLinkedList.reverse();
 ```
-<!--ID: 1690026322537-->
+<!--ID: 1690027055837-->
 
 ---
 

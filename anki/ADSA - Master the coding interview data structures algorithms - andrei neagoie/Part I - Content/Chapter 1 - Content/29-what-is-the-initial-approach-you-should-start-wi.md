@@ -1,6 +1,6 @@
-Q: What is the initial approach you should start with in an interview?
+Q: What is the initial approach you should start with in an interview?  
 A: Start with the naive/brute force approach, demonstrating your ability to think critically.
-<!--ID: 1690026322040-->
+<!--ID: 1690027055626-->
 
 ---
 

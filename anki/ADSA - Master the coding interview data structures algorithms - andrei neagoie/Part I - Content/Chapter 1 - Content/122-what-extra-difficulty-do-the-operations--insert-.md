@@ -1,6 +1,6 @@
-Q: What extra difficulty do the operations (insert, delete) in a double linked list bring?
+Q: What extra difficulty do the operations (insert, delete) in a double linked list bring?  
 A: Due to the presence of the "previous" pointer, additional operations must be performed when inserting or deleting.
-<!--ID: 1690026322559-->
+<!--ID: 1690027055903-->
 
 ---
 

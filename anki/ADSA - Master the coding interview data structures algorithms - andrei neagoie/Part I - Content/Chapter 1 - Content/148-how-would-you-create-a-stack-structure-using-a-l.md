@@ -1,4 +1,4 @@
-Q: How would you create a stack structure using a linked list?
+Q: How would you create a stack structure using a linked list?  
 A: -
 ```javascript
 class Node {
@@ -56,7 +56,7 @@ myStack.pop();
 //Udemy
 //google
 ```
-<!--ID: 1690026322463-->
+<!--ID: 1690027054779-->
 
 ---
 

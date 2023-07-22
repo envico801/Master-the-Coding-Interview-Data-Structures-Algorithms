@@ -1,6 +1,6 @@
-Q: What is the first step when approaching a problem in an interview?
+Q: What is the first step when approaching a problem in an interview?  
 A: When the interviewer says the question, write down the key points at the top and ensure you have all the details.
-<!--ID: 1690026322094-->
+<!--ID: 1690027055668-->
 
 ---
 

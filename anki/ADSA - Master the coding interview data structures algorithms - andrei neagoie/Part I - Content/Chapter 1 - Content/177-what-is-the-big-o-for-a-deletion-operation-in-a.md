@@ -1,6 +1,6 @@
-Q: What is the Big O for a deletion operation in a Binary Heap?
+Q: What is the Big O for a deletion operation in a Binary Heap?  
 A: O(log n)
-<!--ID: 1690026322355-->
+<!--ID: 1690027054502-->
 
 ---
 

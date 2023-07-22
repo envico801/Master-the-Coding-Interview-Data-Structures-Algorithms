@@ -1,4 +1,4 @@
-Q: How would you create a BST structure?
+Q: How would you create a BST structure?  
 A: -
 ```javascript
 class Node {
@@ -143,7 +143,7 @@ function traverse(node) {
   return tree;
 }
 ```
-<!--ID: 1690026322386-->
+<!--ID: 1690027054581-->
 
 ---
 

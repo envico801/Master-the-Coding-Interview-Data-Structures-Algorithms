@@ -1,6 +1,6 @@
-Q: What is a static array?
+Q: What is a static array?  
 A: A fixed size array. Must specify the size when it is initiated.
-<!--ID: 1690026321869-->
+<!--ID: 1690027055158-->
 
 ---
 

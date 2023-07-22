@@ -1,4 +1,4 @@
-Q: How would you implement bubble sort?
+Q: How would you implement bubble sort?  
 A: -
 ```javascript
 const numbers = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0];
@@ -18,7 +18,7 @@ function bubbleSort(array) {
 bubbleSort(numbers);
 console.log(numbers);
 ```
-<!--ID: 1690026322204-->
+<!--ID: 1690027054117-->
 
 ---
 

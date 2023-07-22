@@ -1,6 +1,6 @@
-Q: Does a Doubly Linked List use more memory than a Singly Linked List?
+Q: Does a Doubly Linked List use more memory than a Singly Linked List?  
 A: Yes. The 'previous' pointer will require more memory for the Doubly Linked List to be implemented.
-<!--ID: 1690026322590-->
+<!--ID: 1690027055997-->
 
 ---
 

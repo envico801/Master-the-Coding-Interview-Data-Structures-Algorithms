@@ -1,4 +1,4 @@
-Q: How would you create a queue using 2 stacks?
+Q: How would you create a queue using 2 stacks?  
 A: -
 ```javascript
 class CrazyQueue {
@@ -40,7 +40,7 @@ myQueue.dequeue();
 myQueue.dequeue();
 myQueue.peek();
 ```
-<!--ID: 1690026322449-->
+<!--ID: 1690027054749-->
 
 ---
 

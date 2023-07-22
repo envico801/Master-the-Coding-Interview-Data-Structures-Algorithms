@@ -1,6 +1,6 @@
-Q: How does a binary tree become unbalanced?
+Q: How does a binary tree become unbalanced?  
 A: A binary tree becomes unbalanced when new nodes are continually placed to the right of one node and its children or to the left of one node and its children (as opposed to spreading them out evenly to keep the left and right sides about the same height, the tree becomes really long on on side).
-<!--ID: 1690026322403-->
+<!--ID: 1690027054630-->
 
 ---
 

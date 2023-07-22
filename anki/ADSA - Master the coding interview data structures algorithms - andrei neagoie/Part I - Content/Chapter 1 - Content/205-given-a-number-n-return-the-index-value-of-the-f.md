@@ -11,7 +11,7 @@ function fibonacciRecursive(n) {
   //code here;
 }
 fibonacciRecursive(3);
-```
+```  
 A: -
 ```javascript
 function fibonacciIterative(n) {
@@ -30,7 +30,7 @@ function fibonacciRecursive(n) {
 }
 fibonacciRecursive(6);
 ```
-<!--ID: 1690026322238-->
+<!--ID: 1690027054214-->
 
 ---
 

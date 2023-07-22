@@ -1,7 +1,7 @@
-Q: What is the Big O of an Array pop operation? (aka **deletion**: Array.pop())
+Q: What is the Big O of an Array pop operation? (aka **deletion**: Array.pop())  
 A: O(1)  
 **Note that the worst case is still O(n). - (unshift, splice, etc)**
-<!--ID: 1690026321881-->
+<!--ID: 1690027055199-->
 
 ---
 

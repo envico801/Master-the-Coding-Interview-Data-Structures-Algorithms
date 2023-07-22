@@ -1,7 +1,7 @@
-Q: What is the time and space complexity of Heap Sort? (worst case)
+Q: What is the time and space complexity of Heap Sort? (worst case)  
 A: Time: O(n log n)  
 Space: O(1)
-<!--ID: 1690026322136-->
+<!--ID: 1690027053911-->
 
 ---
 

@@ -1,4 +1,4 @@
-Q: How would you create a double linked list structure?
+Q: How would you create a double linked list structure?  
 A: -
 ```javascript
 class DoublyLinkedList {
@@ -86,7 +86,7 @@ myLinkedList.insert(2, 99);
 // myLinkedList.remove(2)
 // myLinkedList.reverse()
 ```
-<!--ID: 1690026322587-->
+<!--ID: 1690027055983-->
 
 ---
 

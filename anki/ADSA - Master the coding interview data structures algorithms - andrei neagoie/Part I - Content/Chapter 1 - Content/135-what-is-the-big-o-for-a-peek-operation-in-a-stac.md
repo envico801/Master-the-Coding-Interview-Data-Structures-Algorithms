@@ -1,6 +1,6 @@
-Q: What is the Big O for a peek operation in a Stack? (view the top of the stack)
+Q: What is the Big O for a peek operation in a Stack? (view the top of the stack)  
 A: O(1)
-<!--ID: 1690026322510-->
+<!--ID: 1690027054901-->
 
 ---
 

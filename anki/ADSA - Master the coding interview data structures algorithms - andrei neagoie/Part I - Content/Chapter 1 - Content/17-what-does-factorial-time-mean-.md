@@ -1,4 +1,4 @@
-Q: What does factorial time mean?
+Q: What does factorial time mean?  
 A: It means that the number of operations will be proportional to the factorial of the input.  
 **We will find ourselves writing algorithms with factorial time complexity when calculating permutations and combinations.**  
 Factorial is the multiplication of all positive integer numbers less than itself. For instance:  
@@ -6,7 +6,7 @@ The factorial of 5, or _5!_, is:
 ```text
 5 * 4 * 3 * 2 * 1 = 120
 ```
-<!--ID: 1690026322383-->
+<!--ID: 1690027055754-->
 
 ---
 

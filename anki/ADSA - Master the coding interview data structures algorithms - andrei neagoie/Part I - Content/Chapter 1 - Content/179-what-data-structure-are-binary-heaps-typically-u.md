@@ -1,6 +1,6 @@
-Q: What data-structure are Binary Heaps typically used to implement?
+Q: What data-structure are Binary Heaps typically used to implement?  
 A: A Priority Queue, data storage, sorting algorithms
-<!--ID: 1690026322348-->
+<!--ID: 1690027054486-->
 
 ---
 

@@ -1,6 +1,6 @@
-Q: What naming convention should you follow when writing code in an interview?
+Q: What naming convention should you follow when writing code in an interview?  
 A: Avoid using confusing names like 'i' and 'j.' Write code that is readable and easy to understand.
-<!--ID: 1690026322014-->
+<!--ID: 1690027055547-->
 
 ---
 

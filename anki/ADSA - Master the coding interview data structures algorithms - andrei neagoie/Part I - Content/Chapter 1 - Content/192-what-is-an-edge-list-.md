@@ -1,4 +1,4 @@
-Q: What is an edge list?
+Q: What is an edge list?  
 A: A collection of edges (connections) which represent a graph.  
 e.g.
 ```javascript
@@ -10,7 +10,7 @@ const graph = [
   [1, 3],
 ];
 ```
-<!--ID: 1690026322291-->
+<!--ID: 1690027054345-->
 
 ---
 

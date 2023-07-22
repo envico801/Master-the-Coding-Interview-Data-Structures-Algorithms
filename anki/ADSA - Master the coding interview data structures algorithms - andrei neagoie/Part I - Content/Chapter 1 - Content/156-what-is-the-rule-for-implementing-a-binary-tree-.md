@@ -1,9 +1,9 @@
-Q: What is the rule for implementing a Binary Tree?
+Q: What is the rule for implementing a Binary Tree?  
 A: Each node can have a max of 2 children.  
 So a node can have 0, 1, or 2 children.  
 And each child can only have one parent  
 Each node represent a certain state
-<!--ID: 1690026322433-->
+<!--ID: 1690027054705-->
 
 ---
 

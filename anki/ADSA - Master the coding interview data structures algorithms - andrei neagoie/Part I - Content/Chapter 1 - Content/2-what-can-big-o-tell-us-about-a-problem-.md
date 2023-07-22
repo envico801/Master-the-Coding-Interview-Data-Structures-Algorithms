@@ -1,6 +1,6 @@
-Q: What can big O tell us about a problem?
+Q: What can big O tell us about a problem?  
 A: It can tell us how well a problem is solved.
-<!--ID: 1690026322259-->
+<!--ID: 1690027055725-->
 
 ---
 

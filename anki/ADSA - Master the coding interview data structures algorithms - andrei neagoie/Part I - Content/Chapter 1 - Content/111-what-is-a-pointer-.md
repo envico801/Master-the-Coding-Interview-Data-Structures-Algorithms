@@ -1,6 +1,6 @@
-Q: What is a pointer?
+Q: What is a pointer?  
 A: A pointer is a reference to another place in a memory (another node). Kind of like a variable referencing another variable.
-<!--ID: 1690026322595-->
+<!--ID: 1690027056020-->
 
 ---
 

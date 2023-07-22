@@ -1,6 +1,6 @@
-Q: What is a byte?
+Q: What is a byte?  
 A: A byte is a sequence of 8 bits that are treated as a single unit.
-<!--ID: 1690026321924-->
+<!--ID: 1690027055308-->
 
 ---
 

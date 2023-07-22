@@ -1,6 +1,6 @@
-Q: What is algorithmic efficiency?
+Q: What is algorithmic efficiency?  
 A: The term algorithmic efficiency is used to describe those properties of algorithms that are related to the amount of resources used by the algorithm. Usually referred to as scalability(Big O)
-<!--ID: 1690026322004-->
+<!--ID: 1690027055518-->
 
 ---
 

@@ -1,6 +1,6 @@
-Q: What is a disadvantage of a linked list compared to a double linked list in terms of iteration and traversal?
+Q: What is a disadvantage of a linked list compared to a double linked list in terms of iteration and traversal?  
 A: A linked list cannot be iterated in reverse or traversed from back to front.
-<!--ID: 1690026322579-->
+<!--ID: 1690027055956-->
 
 ---
 

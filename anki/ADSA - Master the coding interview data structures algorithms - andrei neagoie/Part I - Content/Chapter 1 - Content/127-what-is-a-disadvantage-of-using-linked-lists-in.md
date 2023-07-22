@@ -1,6 +1,6 @@
-Q: What is a disadvantage of using linked lists in terms of lookup speed?
+Q: What is a disadvantage of using linked lists in terms of lookup speed?  
 A: Linked lists suffer from slow lookup because traversal through the list is necessary when searching for a specific element.
-<!--ID: 1690026322543-->
+<!--ID: 1690027055856-->
 
 ---
 

@@ -1,7 +1,7 @@
-Q: What does linear time mean?
+Q: What does linear time mean?  
 A: If an algorithm is in the order of O(n), or linear time complexity, the number of operations it performs scales in direct proportion to the input.  
 e.g. (for loops, while loops through n items)
-<!--ID: 1690026321969-->
+<!--ID: 1690027055422-->
 
 ---
 

@@ -1,4 +1,4 @@
-Q: How would you implement quick sort?
+Q: How would you implement quick sort?  
 A: -
 ```javascript
 const numbers = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0];
@@ -36,7 +36,7 @@ function swap(array, firstIndex, secondIndex) {
 quickSort(numbers, 0, numbers.length - 1);
 console.log(numbers);
 ```
-<!--ID: 1690026322153-->
+<!--ID: 1690027053971-->
 
 ---
 

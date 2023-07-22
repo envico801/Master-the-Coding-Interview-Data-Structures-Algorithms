@@ -1,4 +1,4 @@
-Q: What are the 4 rules of a Red/Black Binary Tree?
+Q: What are the 4 rules of a Red/Black Binary Tree?  
 A: 1.Each node must be either Red or Black  
 2.Root node must always be black  
 3.A red node must always have a black parent node and black child nodes  
@@ -6,7 +6,7 @@ A: 1.Each node must be either Red or Black
 Extras:  
 A null leaf node is always considered to be black, even if it is marked red.  
 A chain of 3 nodes can never be a valid Red/Black Tree.
-<!--ID: 1690026322369-->
+<!--ID: 1690027054542-->
 
 ---
 

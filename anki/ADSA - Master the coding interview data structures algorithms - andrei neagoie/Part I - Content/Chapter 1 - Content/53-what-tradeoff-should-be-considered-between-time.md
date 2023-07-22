@@ -1,6 +1,6 @@
-Q: What tradeoff should be considered between time and space?
+Q: What tradeoff should be considered between time and space?  
 A: Consider the Time vs Space tradeoff. Storing extra state in memory can sometimes improve runtime.
-<!--ID: 1690026321953-->
+<!--ID: 1690027055386-->
 
 ---
 

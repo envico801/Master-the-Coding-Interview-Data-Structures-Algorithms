@@ -1,7 +1,7 @@
-Q: How its called the last node in a linked list?
+Q: How its called the last node in a linked list?  
 A: Tail.  
 Some people call the tail anything that is after the head.
-<!--ID: 1690026322635-->
+<!--ID: 1690027056129-->
 
 ---
 

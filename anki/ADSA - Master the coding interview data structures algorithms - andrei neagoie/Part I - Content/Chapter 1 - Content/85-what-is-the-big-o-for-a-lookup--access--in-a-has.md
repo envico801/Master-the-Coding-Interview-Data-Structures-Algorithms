@@ -1,7 +1,7 @@
-Q: What is the Big O for a lookup (access) in a Hash Table?
+Q: What is the Big O for a lookup (access) in a Hash Table?  
 A: O(1)  
 Unless there is a collision, then it would be O(n).
-<!--ID: 1690026321812-->
+<!--ID: 1690027055048-->
 
 ---
 

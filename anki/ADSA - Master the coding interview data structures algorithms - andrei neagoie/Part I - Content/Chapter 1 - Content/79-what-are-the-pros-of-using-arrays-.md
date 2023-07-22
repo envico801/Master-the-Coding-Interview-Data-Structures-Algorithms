@@ -1,8 +1,8 @@
-Q: What are the pros of using arrays?
+Q: What are the pros of using arrays?  
 A: 1.Fast lookups (accessing information where you know which index you want to look at)  
 2.Fast push/pop (adding or removing things at the end of an array)  
 3.Ordered (having something that is ordered and close to each other in memory makes it really fast)
-<!--ID: 1690026321852-->
+<!--ID: 1690027055117-->
 
 ---
 

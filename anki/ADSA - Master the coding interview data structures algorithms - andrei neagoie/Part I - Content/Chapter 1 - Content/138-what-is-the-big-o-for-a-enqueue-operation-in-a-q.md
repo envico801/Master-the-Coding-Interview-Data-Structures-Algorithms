@@ -1,6 +1,6 @@
-Q: What is the Big O for a enqueue operation in a Queue?
+Q: What is the Big O for a enqueue operation in a Queue?  
 A: O(1)
-<!--ID: 1690026322502-->
+<!--ID: 1690027054871-->
 
 ---
 

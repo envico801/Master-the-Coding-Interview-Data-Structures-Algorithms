@@ -1,6 +1,6 @@
-Q: How its called the first node in a linked list?
+Q: How its called the first node in a linked list?  
 A: Head.
-<!--ID: 1690026321764-->
+<!--ID: 1690027054918-->
 
 ---
 

@@ -1,4 +1,4 @@
-Q: What is a Hash function?
+Q: What is a Hash function?  
 A: A function that generates a value of fixed length for each input it receives. For any given input, the output will always be the same.  
 Examples:
 ```text
@@ -7,7 +7,7 @@ Output (is always) = G7xpLLQ4
 Input = 5
 Output (is always) = Ax67def0
 ```
-<!--ID: 1690026321827-->
+<!--ID: 1690027055074-->
 
 ---
 

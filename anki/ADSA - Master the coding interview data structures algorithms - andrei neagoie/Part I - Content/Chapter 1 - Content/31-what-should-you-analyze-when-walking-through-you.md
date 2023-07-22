@@ -1,6 +1,6 @@
-Q: What should you analyze when walking through your approach in an interview?
+Q: What should you analyze when walking through your approach in an interview?  
 A: Look for repetitions, bottlenecks (with the highest Big O notation), and unnecessary work. Utilize all the information provided by the interviewer.
-<!--ID: 1690026322032-->
+<!--ID: 1690027055599-->
 
 ---
 

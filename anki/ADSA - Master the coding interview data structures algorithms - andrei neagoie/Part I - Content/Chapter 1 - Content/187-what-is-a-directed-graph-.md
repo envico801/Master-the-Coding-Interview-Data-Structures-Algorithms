@@ -1,6 +1,6 @@
-Q: What is a directed graph?
+Q: What is a directed graph?  
 A: A graph whose nodes (vertexes) point in one direction. Like a one-way street going to the next node (vertex).
-<!--ID: 1690026322315-->
+<!--ID: 1690027054405-->
 
 ---
 

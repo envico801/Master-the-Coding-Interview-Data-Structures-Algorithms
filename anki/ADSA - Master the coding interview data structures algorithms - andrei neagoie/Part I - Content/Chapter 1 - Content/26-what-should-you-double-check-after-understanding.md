@@ -1,6 +1,6 @@
-Q: What should you double check after understanding the problem statement in an interview?
+Q: What should you double check after understanding the problem statement in an interview?  
 A: Verify the inputs and outputs of the problem.
-<!--ID: 1690026322057-->
+<!--ID: 1690027055657-->
 
 ---
 

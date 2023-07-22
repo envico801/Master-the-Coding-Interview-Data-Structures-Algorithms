@@ -1,7 +1,7 @@
-Q: What is a Tree data-structure?
+Q: What is a Tree data-structure?  
 A: A hierarchical data-structure consisting of a root node and parent/child nodes.  
 A Linked List is technically a type of Tree but it is linear instead of having multiple 'branches' or paths.
-<!--ID: 1690026322440-->
+<!--ID: 1690027054723-->
 
 ---
 

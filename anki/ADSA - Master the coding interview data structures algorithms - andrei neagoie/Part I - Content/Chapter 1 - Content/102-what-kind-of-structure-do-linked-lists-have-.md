@@ -1,6 +1,6 @@
-Q: What kind of structure do Linked Lists have?
+Q: What kind of structure do Linked Lists have?  
 A: A 'loose' structure. You can easily insert a new data as you only have to change 2 pointers (depending on if it is singly linked, doubly linked, etc..)
-<!--ID: 1690026322628-->
+<!--ID: 1690027056109-->
 
 ---
 

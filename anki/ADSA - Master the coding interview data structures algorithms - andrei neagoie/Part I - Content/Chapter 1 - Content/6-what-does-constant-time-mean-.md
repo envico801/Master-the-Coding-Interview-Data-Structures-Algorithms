@@ -1,6 +1,6 @@
-Q: What does constant time mean?
+Q: What does constant time mean?  
 A: Constant time means that the number of steps/operations does not depend on the input size. Also known as O(1). Predictability is always good
-<!--ID: 1690026321926-->
+<!--ID: 1690027055317-->
 
 ---
 

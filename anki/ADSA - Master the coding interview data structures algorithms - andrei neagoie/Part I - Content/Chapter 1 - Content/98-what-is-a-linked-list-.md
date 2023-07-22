@@ -1,8 +1,8 @@
-Q: What is a Linked List?
+Q: What is a Linked List?  
 A: A collection of nodes and pointers.  
 Data is stored in the node itself and a pointer is a reference to the next node in the list.  
 The end of a Linked List is signified by a "null" value.
-<!--ID: 1690026321768-->
+<!--ID: 1690027054927-->
 
 ---
 

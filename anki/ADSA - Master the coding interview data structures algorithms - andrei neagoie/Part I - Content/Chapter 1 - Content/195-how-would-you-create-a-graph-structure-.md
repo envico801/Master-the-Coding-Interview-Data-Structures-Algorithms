@@ -1,4 +1,4 @@
-Q: How would you create a graph structure?
+Q: How would you create a graph structure?  
 A: -
 ```javascript
 class Graph {
@@ -46,7 +46,7 @@ myGraph.addEdge('0', '2');
 myGraph.addEdge('6', '5');
 myGraph.showConnections();
 ```
-<!--ID: 1690026322278-->
+<!--ID: 1690027054323-->
 
 ---
 

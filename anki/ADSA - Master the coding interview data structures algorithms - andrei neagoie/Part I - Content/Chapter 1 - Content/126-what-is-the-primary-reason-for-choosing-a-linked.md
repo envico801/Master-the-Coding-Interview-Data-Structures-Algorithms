@@ -1,6 +1,6 @@
-Q: What is the primary reason for choosing a linked list over an array?
+Q: What is the primary reason for choosing a linked list over an array?  
 A: The primary reason for choosing a linked list over an array is its simplicity and the ability to adjust its size as required.
-<!--ID: 1690026322546-->
+<!--ID: 1690027055865-->
 
 ---
 

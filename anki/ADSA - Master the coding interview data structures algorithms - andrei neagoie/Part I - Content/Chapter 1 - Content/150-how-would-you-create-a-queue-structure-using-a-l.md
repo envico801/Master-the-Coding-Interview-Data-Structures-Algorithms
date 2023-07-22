@@ -1,4 +1,4 @@
-Q: How would you create a queue structure using a linked list?
+Q: How would you create a queue structure using a linked list?  
 A: -
 ```javascript
 class Node {
@@ -53,7 +53,7 @@ myQueue.dequeue();
 myQueue.dequeue();
 myQueue.peek();
 ```
-<!--ID: 1690026322453-->
+<!--ID: 1690027054761-->
 
 ---
 

@@ -1,4 +1,4 @@
-Q: What is an adjacent list?
+Q: What is an adjacent list?  
 A: A collection of vertices and their neighboring vertices which represents a graph.
 ```javascript
 // The index is the node and the value is the nodes neighbors (we can use arrays, objects, linked lists)
@@ -10,7 +10,7 @@ const graph = [
   [1, 2], // 3
 ];
 ```
-<!--ID: 1690026322287-->
+<!--ID: 1690027054339-->
 
 ---
 

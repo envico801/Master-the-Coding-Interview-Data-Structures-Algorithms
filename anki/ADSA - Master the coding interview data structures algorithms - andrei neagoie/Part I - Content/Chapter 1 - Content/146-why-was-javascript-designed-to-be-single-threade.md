@@ -1,6 +1,6 @@
-Q: Why was javascript designed to be single threaded?
+Q: Why was javascript designed to be single threaded?  
 A: While running code on a single thread can be quite easy since you don't have to deal with complicateda scenarios that arise in multithreaded environment. You just have one thing to worry about.
-<!--ID: 1690026322471-->
+<!--ID: 1690027054795-->
 
 ---
 

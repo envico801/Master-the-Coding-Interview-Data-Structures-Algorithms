@@ -1,7 +1,7 @@
-Q: What does exponential time mean?
+Q: What does exponential time mean?  
 A: It means that every additional element in a function we get an increase in function calls exponentially  
 e.g. (recursive algorithms that solves a problem of size N)
-<!--ID: 1690026322244-->
+<!--ID: 1690027054237-->
 
 ---
 

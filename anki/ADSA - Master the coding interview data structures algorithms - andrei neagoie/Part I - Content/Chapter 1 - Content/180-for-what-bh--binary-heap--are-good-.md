@@ -1,7 +1,7 @@
-Q: For what BH (binary heap) are good?
+Q: For what BH (binary heap) are good?  
 A: They are great at doing comparative operations  
 e.g. I want people that have a value over 33
-<!--ID: 1690026322342-->
+<!--ID: 1690027054474-->
 
 ---
 

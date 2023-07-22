@@ -1,4 +1,4 @@
-Q: How would you create an object structure?
+Q: How would you create an object structure?  
 A: You may use an array:
 ```javascript
 class HashTable {
@@ -40,7 +40,7 @@ myHashTable.get('grapes');
 myHashTable.set('apples', 9);
 myHashTable.get('apples');
 ```
-<!--ID: 1690026321784-->
+<!--ID: 1690027054974-->
 
 ---
 

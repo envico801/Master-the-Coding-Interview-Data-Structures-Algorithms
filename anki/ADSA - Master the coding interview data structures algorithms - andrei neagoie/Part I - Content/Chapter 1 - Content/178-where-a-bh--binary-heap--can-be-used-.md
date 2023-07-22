@@ -1,6 +1,6 @@
-Q: Where a BH (binary heap) can be used?
+Q: Where a BH (binary heap) can be used?  
 A: A BH can be used in any algorithm where ordering is important.
-<!--ID: 1690026322352-->
+<!--ID: 1690027054494-->
 
 ---
 

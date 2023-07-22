@@ -1,6 +1,6 @@
-Q: What kind of data-structure are Stack and Queues?
+Q: What kind of data-structure are Stack and Queues?  
 A: Linear data-structures. They must be traversed one by one.
-<!--ID: 1690026322529-->
+<!--ID: 1690027055819-->
 
 ---
 

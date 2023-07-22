@@ -1,6 +1,6 @@
-Q: What is an advantage of a linked list over a double linked list in terms of implementation complexity?
+Q: What is an advantage of a linked list over a double linked list in terms of implementation complexity?  
 A: A linked list offers a relatively simpler implementation compared to a double linked list.
-<!--ID: 1690026322584-->
+<!--ID: 1690027055974-->
 
 ---
 

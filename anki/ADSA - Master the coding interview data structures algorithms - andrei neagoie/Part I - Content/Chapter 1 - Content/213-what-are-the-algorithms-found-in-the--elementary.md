@@ -1,7 +1,7 @@
-Q: What are the algorithms found in the "elementary sorts" category?
+Q: What are the algorithms found in the "elementary sorts" category?  
 A: Bubble sort, insertion sort, selection sort  
 **They are, let's say, the first ones you would think of if you were told to implement some kind of order.**
-<!--ID: 1690026322212-->
+<!--ID: 1690027054142-->
 
 ---
 

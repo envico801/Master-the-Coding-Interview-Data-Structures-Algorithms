@@ -1,7 +1,7 @@
-Q: When should you use heap sort?
+Q: When should you use heap sort?  
 A: Heapsort is similar to quicksort and merge sort but has a space complexity of O(1), meaning it uses a constant amount of memory. However, in terms of average performance, heapsort is generally slower than quicksort in most cases.  
 Heapsort is recommended only when there is a significant concern about worst-case scenarios and memory usage. In most situations, the text suggests that quicksort or merge sort would be the preferred choices for sorting algorithms.
-<!--ID: 1690026322138-->
+<!--ID: 1690027053922-->
 
 ---
 

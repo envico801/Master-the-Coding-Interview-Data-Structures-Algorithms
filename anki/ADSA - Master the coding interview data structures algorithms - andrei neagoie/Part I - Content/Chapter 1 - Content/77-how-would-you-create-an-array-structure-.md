@@ -1,4 +1,4 @@
-Q: How would you create an array structure?
+Q: How would you create an array structure?  
 A: You may use an object:
 ```javascript
 class MyArray {
@@ -45,7 +45,7 @@ myArray.push('nice');
 myArray.shiftItems(0);
 console.log(myArray);
 ```
-<!--ID: 1690026321860-->
+<!--ID: 1690027055135-->
 
 ---
 

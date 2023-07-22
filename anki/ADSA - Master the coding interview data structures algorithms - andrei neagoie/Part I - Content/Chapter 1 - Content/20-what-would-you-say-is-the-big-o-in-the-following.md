@@ -1,9 +1,9 @@
 Q: What would you say is the Big O in the following sentence?
 ```javascript
 'asdasdljasdk'.length;
-```
+```  
 A: It depends on the language you are working with, we need to know how the method is implemented to be able to give an accurate answer.
-<!--ID: 1690026322256-->
+<!--ID: 1690027055716-->
 
 ---
 
