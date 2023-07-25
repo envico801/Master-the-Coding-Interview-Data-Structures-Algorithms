@@ -2033,6 +2033,36 @@ R: 1.Less memory
 P: What are the cons of DFS?  
 R: 1.Can get slow (The downside with depth first search is that it can get slow especially if the tree or graph is really really deep and it's not necessarily good at finding the shortest path.)
 
+P: Search algorithm question  
+Which algorithm would you use for the following context? **(BFS or DFS)**  
+**If you know a solution is not far from the root of the tree**  
+R: BFS
+
+P: Search algorithm question  
+Which algorithm would you use for the following context? **(BFS or DFS)**  
+**If the tree is very deep and solutions are rare**  
+R: BFS (DFS will take too long)
+
+P: Search algorithm question  
+Which algorithm would you use for the following context? **(BFS or DFS)**  
+**If the tree is very wide**  
+R: DFS (BFS will need to much memory)
+
+P: Search algorithm question  
+Which algorithm would you use for the following context? **(BFS or DFS)**  
+**If solutions are frequent but located deep in the tree**  
+R: DFS
+
+P: Search algorithm question  
+Which algorithm would you use for the following context? **(BFS or DFS)**  
+**Determining whether a path exists between two nodes**  
+R: DFS
+
+P: Search algorithm question  
+Which algorithm would you use for the following context? **(BFS or DFS)**  
+**Finding the shortest path**  
+R: BFS
+
 ---
 
 DECK INFO
