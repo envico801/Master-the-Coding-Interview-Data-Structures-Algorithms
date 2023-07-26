@@ -1,6 +1,6 @@
 Q: What is an advantage of a linked list over a double linked list in terms of implementation complexity?  
 A: A linked list offers a relatively simpler implementation compared to a double linked list.
-<!--ID: 1690032123843-->
+<!--ID: 1690376047774-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

@@ -6,7 +6,7 @@ The factorial of 5, or _5!_, is:
 ```text
 5 * 4 * 3 * 2 * 1 = 120
 ```
-<!--ID: 1690032124180-->
+<!--ID: 1690376047587-->
 
 ---
 
@@ -26,3 +26,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

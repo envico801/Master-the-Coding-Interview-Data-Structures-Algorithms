@@ -1,6 +1,6 @@
 Q: What is a memory address?  
 A: It is a reference to a specific memory location
-<!--ID: 1690032124037-->
+<!--ID: 1690376047222-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

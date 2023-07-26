@@ -1,6 +1,6 @@
 Q: What is the Big O of a deletion operation on a Linked List/Double link list?  
 A: O(n)
-<!--ID: 1690032123870-->
+<!--ID: 1690376047813-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

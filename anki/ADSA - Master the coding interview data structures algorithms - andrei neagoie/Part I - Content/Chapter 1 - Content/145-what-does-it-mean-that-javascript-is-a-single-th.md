@@ -1,6 +1,6 @@
 Q: What does it mean that javascript is a single threaded language that can be nonblocking?  
 A: Single threaded means that it has only one call stack. And one call stack only you can only do one thing at a time Now other languages can have multiple calls. And these are called multi-thread.
-<!--ID: 1690032123742-->
+<!--ID: 1690376046642-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

@@ -2,7 +2,7 @@ Q: What are data structures?
 A: They are a way of storing data.  
 You could say they are a collection of values and these values can have relationships between them and functions can be applied to them.  
 The most important thing is that each data structure is good and specialized in its own thing.
-<!--ID: 1690032124185-->
+<!--ID: 1690376047604-->
 
 ---
 
@@ -22,3 +22,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

@@ -1,6 +1,6 @@
 Q: What is a byte?  
 A: A byte is a sequence of 8 bits that are treated as a single unit.
-<!--ID: 1690032124030-->
+<!--ID: 1690376047157-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

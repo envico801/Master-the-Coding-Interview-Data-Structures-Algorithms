@@ -1,6 +1,6 @@
 Q: What is the initial approach you should start with in an interview?  
 A: Start with the naive/brute force approach, demonstrating your ability to think critically.
-<!--ID: 1690032124142-->
+<!--ID: 1690376047480-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

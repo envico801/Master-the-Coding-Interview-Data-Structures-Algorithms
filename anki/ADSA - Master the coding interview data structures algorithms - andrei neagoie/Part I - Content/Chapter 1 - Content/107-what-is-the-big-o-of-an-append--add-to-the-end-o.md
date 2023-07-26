@@ -1,6 +1,6 @@
 Q: What is the Big O of an append (add to the end of the list) operation on a Linked List/Double link list?  
 A: O(1)
-<!--ID: 1690032123890-->
+<!--ID: 1690376047845-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

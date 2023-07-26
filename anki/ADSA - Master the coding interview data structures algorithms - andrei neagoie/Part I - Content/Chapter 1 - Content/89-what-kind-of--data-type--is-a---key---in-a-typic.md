@@ -1,6 +1,6 @@
 Q: What kind of _data-type_ is a **Key** in a typical Hash Table?  
 A: A String
-<!--ID: 1690032123944-->
+<!--ID: 1690376046870-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

@@ -1,7 +1,7 @@
 Q: How should we handle questions related to strings?  
 A: We should treat it as an array question, strings are an array of characters.  
 e.g. reverse a string.
-<!--ID: 1690032123978-->
+<!--ID: 1690376046979-->
 
 ---
 
@@ -21,3 +21,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

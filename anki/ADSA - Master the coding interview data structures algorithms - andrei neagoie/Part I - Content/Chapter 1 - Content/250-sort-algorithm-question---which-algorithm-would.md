@@ -2,7 +2,7 @@ Q: Sort algorithm question
 Which algorithm would you use for the following context?  
 **You want to teach sorting for the first time**  
 A: Bubble sort / Selection sort
-<!--ID: 1690032123441-->
+<!--ID: 1690376045662-->
 
 ---
 
@@ -22,3 +22,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

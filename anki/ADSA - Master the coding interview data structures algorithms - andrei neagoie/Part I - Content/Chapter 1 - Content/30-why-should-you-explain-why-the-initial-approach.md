@@ -1,6 +1,6 @@
 Q: Why should you explain why the initial approach is not the best (in an interview)?  
 A: Explain limitations such as high time complexity (O(n^2) or higher) or code readability issues.
-<!--ID: 1690032124137-->
+<!--ID: 1690376047464-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

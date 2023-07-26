@@ -1,7 +1,7 @@
 Q: What is the Big O for insertion into a Hash Table?  
 A: O(1)  
 Unless there is a collision, then it would be O(n).
-<!--ID: 1690032123958-->
+<!--ID: 1690376046915-->
 
 ---
 
@@ -21,3 +21,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

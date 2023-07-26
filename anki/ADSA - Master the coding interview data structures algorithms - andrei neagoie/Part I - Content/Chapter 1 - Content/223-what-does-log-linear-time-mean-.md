@@ -3,7 +3,7 @@ A: It means that:
 1.Has linear behavior nested in log steps  
 2.Is bigger than O(n) but smaller than O(n^2)  
 e.g. usually sorting operations
-<!--ID: 1690032123517-->
+<!--ID: 1690376045892-->
 
 ---
 
@@ -23,3 +23,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

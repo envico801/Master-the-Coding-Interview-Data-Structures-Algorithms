@@ -5,7 +5,7 @@ Algorithms allow us to use data structures to perform actions on data
 Data structures + Algorithms = Programs
 Class {}        + function() = Programs
 ```
-<!--ID: 1690032123588-->
+<!--ID: 1690376046118-->
 
 ---
 
@@ -25,3 +25,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

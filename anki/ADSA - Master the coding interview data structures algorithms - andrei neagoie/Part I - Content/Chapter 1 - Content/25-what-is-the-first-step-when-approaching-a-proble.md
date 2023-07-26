@@ -1,6 +1,6 @@
 Q: What is the first step when approaching a problem in an interview?  
 A: When the interviewer says the question, write down the key points at the top and ensure you have all the details.
-<!--ID: 1690032124154-->
+<!--ID: 1690376047513-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

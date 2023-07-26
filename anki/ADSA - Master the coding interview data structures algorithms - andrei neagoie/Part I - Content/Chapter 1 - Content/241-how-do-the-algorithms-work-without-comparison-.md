@@ -1,6 +1,6 @@
 Q: How do the algorithms work without comparison?  
 A: For non-comparison algorithms, the approach involves leveraging the binary representation of numbers and data stored in computers (zeros and ones) to facilitate sorting. By utilizing the inherent properties of binary representation, these algorithms can effectively organize and sort data.
-<!--ID: 1690032123469-->
+<!--ID: 1690376045738-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

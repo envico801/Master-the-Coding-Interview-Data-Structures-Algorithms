@@ -1,6 +1,6 @@
 Q: What is the Big O for a pop operation in a Stack?  
 A: O(1)
-<!--ID: 1690032123776-->
+<!--ID: 1690376046746-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

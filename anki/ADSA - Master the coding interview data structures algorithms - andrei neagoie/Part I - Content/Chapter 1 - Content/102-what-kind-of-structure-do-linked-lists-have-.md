@@ -1,6 +1,6 @@
 Q: What kind of structure do Linked Lists have?  
 A: A 'loose' structure. You can easily insert a new data as you only have to change 2 pointers (depending on if it is singly linked, doubly linked, etc..)
-<!--ID: 1690032123902-->
+<!--ID: 1690376047899-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

@@ -30,7 +30,7 @@ myStack.pop();
 //Udemy
 //google
 ```
-<!--ID: 1690032123730-->
+<!--ID: 1690376046607-->
 
 ---
 
@@ -50,3 +50,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

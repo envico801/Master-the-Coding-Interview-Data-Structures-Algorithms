@@ -1,6 +1,6 @@
 Q: On what type of data do non-comparison algorithms work?  
 A: It only really works on numbers because of the way numbers are stored in memory.
-<!--ID: 1690032123466-->
+<!--ID: 1690376045730-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

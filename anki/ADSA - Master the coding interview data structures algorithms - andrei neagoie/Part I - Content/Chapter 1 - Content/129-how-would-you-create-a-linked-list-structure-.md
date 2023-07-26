@@ -104,7 +104,7 @@ myLinkedList.printList();
 myLinkedList.remove(2);
 myLinkedList.reverse();
 ```
-<!--ID: 1690032123788-->
+<!--ID: 1690376047641-->
 
 ---
 
@@ -124,3 +124,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

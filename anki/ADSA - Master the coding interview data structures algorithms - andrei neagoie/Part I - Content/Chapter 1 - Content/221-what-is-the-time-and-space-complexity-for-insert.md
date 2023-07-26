@@ -1,7 +1,7 @@
 Q: What is the time and space complexity for Insertion Sort? (worst case)  
 A: Time: O(n^2)  
 Space: O(1)
-<!--ID: 1690032123523-->
+<!--ID: 1690376045909-->
 
 ---
 
@@ -21,3 +21,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

@@ -1,7 +1,7 @@
 Q: For what BH (binary heap) are good?  
 A: They are great at doing comparative operations  
 e.g. I want people that have a value over 33
-<!--ID: 1690032123637-->
+<!--ID: 1690376046319-->
 
 ---
 
@@ -21,3 +21,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

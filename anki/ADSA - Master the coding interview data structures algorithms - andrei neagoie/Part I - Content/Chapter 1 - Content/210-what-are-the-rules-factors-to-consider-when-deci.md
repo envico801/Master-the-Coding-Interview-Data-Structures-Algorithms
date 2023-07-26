@@ -5,7 +5,7 @@ A: **Every time you are using a tree or converting Something into a tree, consid
 3.The solutions of each subproblem can be combined to solve the problem at hand. (if you solve the smaller problems and you combine them that solves the problem at hand)  
 **Divide and Conquer using Recursion**  
 e.g. (looking through a phone book when you're looking for Bell in the phone book You're not going to start from a and simply go one page at a time from left to right. o you usually split the phonebook in the middle or try to go to the B section of the phone book and start dividing up the problem page by page until you get closer and closer)
-<!--ID: 1690032123553-->
+<!--ID: 1690376046002-->
 
 ---
 
@@ -25,3 +25,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

@@ -1,6 +1,6 @@
 Q: What data structure is often the answer to improve time complexity?  
 A: Hash Maps. They can provide efficient lookup and retrieval operations.
-<!--ID: 1690032124064-->
+<!--ID: 1690376047308-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

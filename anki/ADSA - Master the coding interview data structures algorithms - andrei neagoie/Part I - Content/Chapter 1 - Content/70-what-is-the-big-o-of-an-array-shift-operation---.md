@@ -1,6 +1,6 @@
 Q: What is the Big O of an Array shift operation? (aka **insertion**: Array.shift(value))  
 A: O(n)
-<!--ID: 1690032123999-->
+<!--ID: 1690376047051-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

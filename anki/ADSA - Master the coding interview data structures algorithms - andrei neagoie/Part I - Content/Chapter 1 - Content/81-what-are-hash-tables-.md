@@ -7,7 +7,7 @@ Input = Grape
 Output (is always) = G7xpLLQ4
 G7xpLLQ4 -> key:value
 ```
-<!--ID: 1690032123968-->
+<!--ID: 1690376046942-->
 
 ---
 
@@ -27,3 +27,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

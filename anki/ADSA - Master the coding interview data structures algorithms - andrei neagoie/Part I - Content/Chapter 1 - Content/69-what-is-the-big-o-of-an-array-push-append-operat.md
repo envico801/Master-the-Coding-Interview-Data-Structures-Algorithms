@@ -3,7 +3,7 @@ A: O(1) if the array is static
 O(n) if the array is dynamic and has to grow when the new value is added.  
 or if we are using other methods like (shift(), splice())  
 **Note that the worst case is still O(n).**
-<!--ID: 1690032124002-->
+<!--ID: 1690376047079-->
 
 ---
 
@@ -23,3 +23,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

@@ -1,6 +1,6 @@
 Q: What is a priority queue?  
 A: Is similar to a queue but with the difference that there are "vips" or higher priority values that usually take the first or last positions.
-<!--ID: 1690032123632-->
+<!--ID: 1690376046300-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

@@ -1,6 +1,6 @@
 Q: Where a BH (binary heap) can be used?  
 A: A BH can be used in any algorithm where ordering is important.
-<!--ID: 1690032123643-->
+<!--ID: 1690376046337-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

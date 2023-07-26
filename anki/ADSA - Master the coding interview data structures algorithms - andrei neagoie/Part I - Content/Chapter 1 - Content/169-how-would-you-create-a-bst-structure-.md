@@ -143,7 +143,7 @@ function traverse(node) {
   return tree;
 }
 ```
-<!--ID: 1690032123672-->
+<!--ID: 1690376046419-->
 
 ---
 
@@ -163,3 +163,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

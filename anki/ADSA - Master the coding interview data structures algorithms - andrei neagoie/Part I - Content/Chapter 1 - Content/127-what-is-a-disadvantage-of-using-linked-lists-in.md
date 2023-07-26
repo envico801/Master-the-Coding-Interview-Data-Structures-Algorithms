@@ -1,6 +1,6 @@
 Q: What is a disadvantage of using linked lists in terms of lookup speed?  
 A: Linked lists suffer from slow lookup because traversal through the list is necessary when searching for a specific element.
-<!--ID: 1690032123794-->
+<!--ID: 1690376047660-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

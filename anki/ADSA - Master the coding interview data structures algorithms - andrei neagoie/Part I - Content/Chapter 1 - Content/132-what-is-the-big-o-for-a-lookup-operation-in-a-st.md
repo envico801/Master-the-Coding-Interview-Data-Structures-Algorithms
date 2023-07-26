@@ -1,6 +1,6 @@
 Q: What is the Big O for a lookup operation in a Stack?  
 A: O(n)
-<!--ID: 1690032123778-->
+<!--ID: 1690376046754-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

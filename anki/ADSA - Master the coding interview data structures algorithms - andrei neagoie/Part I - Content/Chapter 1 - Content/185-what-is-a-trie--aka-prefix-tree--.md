@@ -1,7 +1,7 @@
 Q: What is a Trie (aka prefix tree)?  
 A: A Trie is a unique type of tree that is an efficient infromation retrieval data structure. It commonly uses alphabetical characters to store data, like words. Often used to implement auto-correct for typing.  
 In most cases it can outperform BSTs, hash tables and most others data structures. It will depend on what type of search we are doing
-<!--ID: 1690032123624-->
+<!--ID: 1690376046268-->
 
 ---
 
@@ -21,3 +21,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

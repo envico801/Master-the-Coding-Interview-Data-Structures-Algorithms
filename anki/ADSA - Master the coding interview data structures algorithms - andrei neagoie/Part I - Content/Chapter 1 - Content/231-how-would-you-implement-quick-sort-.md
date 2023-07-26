@@ -36,7 +36,7 @@ function swap(array, firstIndex, secondIndex) {
 quickSort(numbers, 0, numbers.length - 1);
 console.log(numbers);
 ```
-<!--ID: 1690032123496-->
+<!--ID: 1690376045824-->
 
 ---
 
@@ -56,3 +56,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

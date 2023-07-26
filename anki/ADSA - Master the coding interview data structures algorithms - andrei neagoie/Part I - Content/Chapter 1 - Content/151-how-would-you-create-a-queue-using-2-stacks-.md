@@ -40,7 +40,7 @@ myQueue.dequeue();
 myQueue.dequeue();
 myQueue.peek();
 ```
-<!--ID: 1690032123723-->
+<!--ID: 1690376046589-->
 
 ---
 
@@ -60,3 +60,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

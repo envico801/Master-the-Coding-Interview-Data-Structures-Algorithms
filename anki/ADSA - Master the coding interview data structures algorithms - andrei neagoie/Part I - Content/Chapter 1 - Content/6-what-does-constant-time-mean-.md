@@ -1,6 +1,6 @@
 Q: What does constant time mean?  
 A: Constant time means that the number of steps/operations does not depend on the input size. Also known as O(1). Predictability is always good
-<!--ID: 1690032124080-->
+<!--ID: 1690376047166-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

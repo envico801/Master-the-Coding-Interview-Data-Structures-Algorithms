@@ -6,7 +6,7 @@ A: While iterating with this technique, we move over each node and edge exactly 
 >     for each v1 ∈ Graph.Adj\[vertex\]  
 >         if v1.visited ==  false  
 >             DFS(Graph, v1)
-<!--ID: 1690032123422-->
+<!--ID: 1690376045603-->
 
 ---
 
@@ -26,3 +26,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

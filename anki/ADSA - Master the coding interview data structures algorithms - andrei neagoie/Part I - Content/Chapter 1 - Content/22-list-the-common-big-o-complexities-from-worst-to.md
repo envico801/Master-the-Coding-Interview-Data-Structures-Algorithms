@@ -6,7 +6,7 @@ O(n log n)
 O(n)  
 O(log n)  
 O(1)
-<!--ID: 1690032124164-->
+<!--ID: 1690376047540-->
 
 ---
 
@@ -26,3 +26,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

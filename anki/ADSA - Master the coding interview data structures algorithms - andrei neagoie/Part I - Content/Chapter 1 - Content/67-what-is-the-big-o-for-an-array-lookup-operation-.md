@@ -1,6 +1,6 @@
 Q: What is the Big O for an Array lookup operation? (aka **access**: Array\[2\])  
 A: O(1)
-<!--ID: 1690032124009-->
+<!--ID: 1690376047096-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

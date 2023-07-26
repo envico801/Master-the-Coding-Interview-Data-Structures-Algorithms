@@ -1,7 +1,7 @@
 Q: What is a bit (binary digit)?  
 A: A bit (binary digit) is the smallest unit of data that a computer can process and store.  
 A bit is always in one of two physical states, similar to an on/off light switch. The state is represented by a single binary value, usually a 0 or 1.
-<!--ID: 1690032124034-->
+<!--ID: 1690376047174-->
 
 ---
 
@@ -21,3 +21,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

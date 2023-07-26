@@ -1,6 +1,6 @@
 Q: What is the Big O for a lookup operation in a Queue?  
 A: O(n)
-<!--ID: 1690032123764-->
+<!--ID: 1690376046712-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

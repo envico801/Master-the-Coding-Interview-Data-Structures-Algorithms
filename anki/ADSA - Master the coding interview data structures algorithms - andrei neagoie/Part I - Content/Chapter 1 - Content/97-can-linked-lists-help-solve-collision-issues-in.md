@@ -1,6 +1,6 @@
 Q: Can Linked Lists help solve collision issues in a Hash Table?  
 A: Yes
-<!--ID: 1690032123916-->
+<!--ID: 1690376046789-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

@@ -2,7 +2,7 @@ Q: Search algorithm question
 Which algorithm would you use for the following context? **(BFS or DFS)**  
 **If the tree is very wide**  
 A: DFS (BFS will need to much memory)
-
+<!--ID: 1690376045533-->
 
 ---
 
@@ -22,3 +22,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

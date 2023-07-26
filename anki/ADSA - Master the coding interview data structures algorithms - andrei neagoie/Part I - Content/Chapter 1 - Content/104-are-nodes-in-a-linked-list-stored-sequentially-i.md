@@ -1,6 +1,6 @@
 Q: Are nodes in a Linked List stored sequentially in memory?  
 A: No. They are scattered over memory which makes traversal of a Linked List slower than traversal of an Array.
-<!--ID: 1690032123897-->
+<!--ID: 1690376047868-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

@@ -4,7 +4,7 @@ A: -
 **|h1 - h2|** can be equal to **\-1,0, or 1**.  
 **h1** and **h2** are _subtrees of the same node_.  
 The balance factor determines whether or not any given subtree of a tree is balanced.
-<!--ID: 1690032123667-->
+<!--ID: 1690376046401-->
 
 ---
 
@@ -24,3 +24,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

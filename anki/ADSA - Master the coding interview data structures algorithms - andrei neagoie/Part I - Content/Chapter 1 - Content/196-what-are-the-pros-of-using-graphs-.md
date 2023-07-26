@@ -1,6 +1,6 @@
 Q: What are the pros of using graphs?  
 A: 1.Relationships (some data needs to be in a graph form)
-<!--ID: 1690032123593-->
+<!--ID: 1690376046140-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

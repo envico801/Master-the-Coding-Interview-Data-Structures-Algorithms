@@ -1,6 +1,6 @@
 Q: What are the cons of BFS?  
 A: 1.More memory (it uses more memory to keep track of the parents and the children nodes of that level)
-<!--ID: 1690032123415-->
+<!--ID: 1690376045584-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

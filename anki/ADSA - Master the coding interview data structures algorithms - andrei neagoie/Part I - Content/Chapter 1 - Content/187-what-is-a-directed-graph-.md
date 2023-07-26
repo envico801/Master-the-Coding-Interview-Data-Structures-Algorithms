@@ -1,6 +1,6 @@
 Q: What is a directed graph?  
 A: A graph whose nodes (vertexes) point in one direction. Like a one-way street going to the next node (vertex).
-<!--ID: 1690032123618-->
+<!--ID: 1690376046231-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

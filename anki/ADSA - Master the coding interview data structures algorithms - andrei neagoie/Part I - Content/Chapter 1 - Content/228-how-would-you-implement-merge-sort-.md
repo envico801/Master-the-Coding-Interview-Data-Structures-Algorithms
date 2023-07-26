@@ -34,7 +34,7 @@ function merge(left, right) {
 const answer = mergeSort(numbers);
 console.log(answer);
 ```
-<!--ID: 1690032123503-->
+<!--ID: 1690376045849-->
 
 ---
 
@@ -54,3 +54,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

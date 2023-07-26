@@ -1,6 +1,6 @@
 Q: Can we beat O(n log (n)) when it comes to sorting?  
 A: Mathematically it is impossible to improve on this . it's impossible because O(n log (n)) means that we have to sort by comparison, But there is one exception to this rule. you can beat O(n log (n)) with **non-comparison sorts**
-<!--ID: 1690032123474-->
+<!--ID: 1690376045756-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

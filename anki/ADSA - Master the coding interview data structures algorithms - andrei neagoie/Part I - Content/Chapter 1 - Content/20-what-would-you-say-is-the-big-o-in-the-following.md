@@ -3,7 +3,7 @@ Q: What would you say is the Big O in the following sentence?
 'asdasdljasdk'.length;
 ```  
 A: It depends on the language you are working with, we need to know how the method is implemented to be able to give an accurate answer.
-<!--ID: 1690032124169-->
+<!--ID: 1690376047556-->
 
 ---
 
@@ -23,3 +23,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

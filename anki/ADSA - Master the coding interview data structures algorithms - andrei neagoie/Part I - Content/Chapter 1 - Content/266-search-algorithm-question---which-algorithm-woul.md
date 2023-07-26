@@ -2,7 +2,7 @@ Q: Search algorithm question
 Which algorithm would you use for the following context? **(BFS or DFS)**  
 **Determining whether a path exists between two nodes**  
 A: DFS
-
+<!--ID: 1690376045518-->
 
 ---
 
@@ -22,3 +22,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

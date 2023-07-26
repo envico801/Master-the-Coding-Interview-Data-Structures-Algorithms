@@ -1,6 +1,6 @@
 Q: What are the cons of using stacks and queues?  
 A: 1.Slow lookup (we dont usually use ours stack or queues to do any sort of look up or search through the data structure, all we are interested in is the end bits of the data structure)
-<!--ID: 1690032123717-->
+<!--ID: 1690376046571-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

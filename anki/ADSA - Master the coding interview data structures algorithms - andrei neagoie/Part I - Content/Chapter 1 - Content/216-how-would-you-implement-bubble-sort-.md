@@ -18,7 +18,7 @@ function bubbleSort(array) {
 bubbleSort(numbers);
 console.log(numbers);
 ```
-<!--ID: 1690032123536-->
+<!--ID: 1690376045950-->
 
 ---
 
@@ -38,3 +38,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

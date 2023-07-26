@@ -1,6 +1,6 @@
 Q: What does FIFO stand for in regards to a Queue?  
 A: First In First Out
-<!--ID: 1690032123754-->
+<!--ID: 1690376046676-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

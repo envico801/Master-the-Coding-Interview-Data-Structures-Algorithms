@@ -1,6 +1,6 @@
 Q: What can big O tell us about a problem?  
 A: It can tell us how well a problem is solved.
-<!--ID: 1690032124172-->
+<!--ID: 1690376047563-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

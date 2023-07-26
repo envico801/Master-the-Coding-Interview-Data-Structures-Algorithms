@@ -1,6 +1,6 @@
 Q: What is the Big O for an insertion operation in a Binary Heap?  
 A: O(log n) - O(1) in the best scenario, but if the order is broken it is possible to bubble upwards and this would result in the worst case (log n).
-<!--ID: 1690032123648-->
+<!--ID: 1690376046355-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

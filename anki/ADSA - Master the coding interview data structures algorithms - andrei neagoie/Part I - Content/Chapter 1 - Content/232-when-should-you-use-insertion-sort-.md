@@ -1,6 +1,6 @@
 Q: When should you use insertion sort?  
 A: Insertion sort is recommended when dealing with a small number of items or when the items are already mostly sorted. It is fast in such cases. Additionally, insertion sort requires minimal space and is easy to implement in code.
-<!--ID: 1690032123493-->
+<!--ID: 1690376045816-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

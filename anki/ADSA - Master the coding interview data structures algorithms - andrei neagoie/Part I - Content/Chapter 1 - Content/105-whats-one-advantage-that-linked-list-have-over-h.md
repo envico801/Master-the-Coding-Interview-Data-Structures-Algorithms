@@ -1,6 +1,6 @@
 Q: Whats one advantage that linked list have over hash tables?  
 A: That there is some sort of order to link list, each node points to the next node.
-<!--ID: 1690032123895-->
+<!--ID: 1690376047861-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

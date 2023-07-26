@@ -1,6 +1,6 @@
 Q: What should you do after writing the code in an interview?  
 A: Test your code thoroughly, considering different scenarios such as no parameters, zero values, undefined or null inputs, large arrays, and asynchronous code. Look for repetitive sections in your solution.
-<!--ID: 1690032124113-->
+<!--ID: 1690376047400-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

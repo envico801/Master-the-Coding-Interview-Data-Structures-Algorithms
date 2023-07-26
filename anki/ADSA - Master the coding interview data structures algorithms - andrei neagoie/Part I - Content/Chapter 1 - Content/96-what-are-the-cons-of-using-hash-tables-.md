@@ -1,7 +1,7 @@
 Q: What are the cons of using hash tables?  
 A: 1.Unordered (its hard to really go through everything in order)  
 2.Slow key iteration (if i want to grab all the keys from a hash table I will have to go through the entire memory space)
-<!--ID: 1690032123919-->
+<!--ID: 1690376046798-->
 
 ---
 
@@ -21,3 +21,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

@@ -1,6 +1,6 @@
 Q: What is a abstract syntax tree?  
 A: This is how programs and code is usually run
-<!--ID: 1690032123712-->
+<!--ID: 1690376046552-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

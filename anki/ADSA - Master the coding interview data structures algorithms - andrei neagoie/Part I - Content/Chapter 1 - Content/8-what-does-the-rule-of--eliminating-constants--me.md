@@ -1,7 +1,7 @@
 Q: What does the rule of "eliminating constants" mean?  
 A: As the name says, if Big 0 is the product of multiple terms, constant terms are eliminated (constant terms are like static numbers, numbers like 1, 4, 5, basically anything that is not a variable).  
 We only care about when it scales, when the size of the input is getting larger and larger.
-<!--ID: 1690032124074-->
+<!--ID: 1690376046961-->
 
 ---
 
@@ -21,3 +21,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

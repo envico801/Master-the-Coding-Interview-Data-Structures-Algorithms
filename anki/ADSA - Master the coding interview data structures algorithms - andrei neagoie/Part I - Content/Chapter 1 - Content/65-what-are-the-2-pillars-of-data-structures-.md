@@ -1,7 +1,7 @@
 Q: What are the 2 pillars of Data Structures?  
 A: How to build one  
 How to use one
-<!--ID: 1690032124016-->
+<!--ID: 1690376047113-->
 
 ---
 
@@ -21,3 +21,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

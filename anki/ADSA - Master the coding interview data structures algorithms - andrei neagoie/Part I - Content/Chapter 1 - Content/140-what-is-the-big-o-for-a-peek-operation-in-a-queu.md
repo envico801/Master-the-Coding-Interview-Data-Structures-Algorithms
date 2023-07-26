@@ -1,6 +1,6 @@
 Q: What is the Big O for a peek operation in a Queue? (see who is the fist in the queue)  
 A: O(1)
-<!--ID: 1690032123756-->
+<!--ID: 1690376046685-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

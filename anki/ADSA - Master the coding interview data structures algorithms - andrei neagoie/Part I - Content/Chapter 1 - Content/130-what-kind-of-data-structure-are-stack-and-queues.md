@@ -1,6 +1,6 @@
 Q: What kind of data-structure are Stack and Queues?  
 A: Linear data-structures. They must be traversed one by one.
-<!--ID: 1690032123784-->
+<!--ID: 1690376047622-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

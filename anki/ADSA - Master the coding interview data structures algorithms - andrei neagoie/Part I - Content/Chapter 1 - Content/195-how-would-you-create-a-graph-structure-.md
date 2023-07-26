@@ -46,7 +46,7 @@ myGraph.addEdge('0', '2');
 myGraph.addEdge('6', '5');
 myGraph.showConnections();
 ```
-<!--ID: 1690032123596-->
+<!--ID: 1690376046150-->
 
 ---
 
@@ -66,3 +66,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

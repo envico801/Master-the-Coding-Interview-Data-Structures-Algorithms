@@ -1,6 +1,6 @@
 Q: What does LIFO stand for in regard to a Stack?  
 A: Last In First Out
-<!--ID: 1690032123767-->
+<!--ID: 1690376046720-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

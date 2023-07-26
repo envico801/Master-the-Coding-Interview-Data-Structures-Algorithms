@@ -1,6 +1,6 @@
 Q: How should you structure your code from the beginning (in an interview)?  
 A: Modularize your code into smaller pieces and add comments if necessary.
-<!--ID: 1690032124127-->
+<!--ID: 1690376047439-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

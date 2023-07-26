@@ -1,6 +1,6 @@
 Q: What is the Big O for a enqueue operation in a Queue?  
 A: O(1)
-<!--ID: 1690032123761-->
+<!--ID: 1690376046703-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

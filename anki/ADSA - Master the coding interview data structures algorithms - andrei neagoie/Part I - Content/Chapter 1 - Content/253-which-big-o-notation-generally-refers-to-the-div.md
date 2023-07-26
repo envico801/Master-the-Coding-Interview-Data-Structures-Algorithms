@@ -1,6 +1,6 @@
 Q: Which big O notation generally refers to the divide and conquer approach?  
 A: O(log n)
-<!--ID: 1690032123433-->
+<!--ID: 1690376045637-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

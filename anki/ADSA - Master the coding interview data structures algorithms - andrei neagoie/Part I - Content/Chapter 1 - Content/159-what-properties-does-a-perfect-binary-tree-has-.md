@@ -12,7 +12,7 @@ Based on that formula, we can find the number of nodes in a tree:
 log nodes = height/steps (simplified version)
 log 100 = 2
 10^2 = 100
-<!--ID: 1690032123700-->
+<!--ID: 1690376046515-->
 
 ---
 
@@ -32,3 +32,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

@@ -3,7 +3,7 @@ A: 1.Operations (+, -, \*, /)
 2.Comparisons (<, >, ==)  
 3.Looping (for, while)  
 4.Outside Function call (function()) (can be a call to a recursive function or to a regular function.)
-<!--ID: 1690032124166-->
+<!--ID: 1690376047549-->
 
 ---
 
@@ -23,3 +23,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

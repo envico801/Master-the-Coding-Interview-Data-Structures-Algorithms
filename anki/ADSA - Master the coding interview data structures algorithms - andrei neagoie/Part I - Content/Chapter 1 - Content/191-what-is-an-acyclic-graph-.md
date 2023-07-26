@@ -1,7 +1,7 @@
 Q: What is an acyclic graph?  
 A: A graph that contains no cycles.  
 You cannot get back to a node you started from once you have left it.
-<!--ID: 1690032123607-->
+<!--ID: 1690376046187-->
 
 ---
 
@@ -21,3 +21,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

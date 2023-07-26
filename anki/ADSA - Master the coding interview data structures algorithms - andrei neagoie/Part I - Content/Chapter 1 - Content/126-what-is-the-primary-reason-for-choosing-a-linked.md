@@ -1,6 +1,6 @@
 Q: What is the primary reason for choosing a linked list over an array?  
 A: The primary reason for choosing a linked list over an array is its simplicity and the ability to adjust its size as required.
-<!--ID: 1690032123797-->
+<!--ID: 1690376047669-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

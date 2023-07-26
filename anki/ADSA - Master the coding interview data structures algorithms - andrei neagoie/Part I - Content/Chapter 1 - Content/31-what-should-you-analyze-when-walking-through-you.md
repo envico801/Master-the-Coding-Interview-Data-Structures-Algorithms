@@ -1,6 +1,6 @@
 Q: What should you analyze when walking through your approach in an interview?  
 A: Look for repetitions, bottlenecks (with the highest Big O notation), and unnecessary work. Utilize all the information provided by the interviewer.
-<!--ID: 1690032124134-->
+<!--ID: 1690376047456-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

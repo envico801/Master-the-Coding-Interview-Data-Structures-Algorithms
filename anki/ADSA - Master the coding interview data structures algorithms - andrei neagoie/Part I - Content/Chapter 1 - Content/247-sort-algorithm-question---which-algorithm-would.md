@@ -3,7 +3,7 @@ Which algorithm would you use for the following context?
 **Almost sorted Udemy review data needs to update and add 2 new reviews**  
 A: Insertion sort  
 Although this data might be huge and maybe I have a lot of reviews. I'm assuming that most of the previous data is already sorted and all I'm doing is adding two new reviews to this data Insertion sort for pre ordered lists is going to work better than any other type of sorting.
-<!--ID: 1690032123452-->
+<!--ID: 1690376045688-->
 
 ---
 
@@ -23,3 +23,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

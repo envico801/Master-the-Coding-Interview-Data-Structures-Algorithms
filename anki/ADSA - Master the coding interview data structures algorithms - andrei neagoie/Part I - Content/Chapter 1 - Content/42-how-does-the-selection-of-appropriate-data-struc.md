@@ -1,6 +1,6 @@
 Q: How does the selection of appropriate data structures impact program efficiency?  
 A: By choosing appropriate data structures, programs can achieve efficient data storage and manipulation.
-<!--ID: 1690032124098-->
+<!--ID: 1690376047365-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

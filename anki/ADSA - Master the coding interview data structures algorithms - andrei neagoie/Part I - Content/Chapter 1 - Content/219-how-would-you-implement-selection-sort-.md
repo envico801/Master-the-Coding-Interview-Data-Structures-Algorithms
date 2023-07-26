@@ -22,7 +22,7 @@ function selectionSort(array) {
 selectionSort(numbers);
 console.log(numbers);
 ```
-<!--ID: 1690032123528-->
+<!--ID: 1690376045926-->
 
 ---
 
@@ -42,3 +42,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

@@ -1,6 +1,6 @@
 Q: What should you consider while coding to showcase your abilities in an interview?  
 A: Break the problem into functions and focus on demonstrating your skills. Even if you forget a specific method, create a function as a placeholder.
-<!--ID: 1690032124122-->
+<!--ID: 1690376047424-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

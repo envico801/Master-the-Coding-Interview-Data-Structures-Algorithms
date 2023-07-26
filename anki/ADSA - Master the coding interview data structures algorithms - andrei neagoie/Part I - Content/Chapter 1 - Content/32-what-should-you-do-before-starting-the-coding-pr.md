@@ -1,6 +1,6 @@
 Q: What should you do before starting the coding process in an interview?  
 A: Walk through your code and outline the steps you will follow.
-<!--ID: 1690032124129-->
+<!--ID: 1690376047447-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

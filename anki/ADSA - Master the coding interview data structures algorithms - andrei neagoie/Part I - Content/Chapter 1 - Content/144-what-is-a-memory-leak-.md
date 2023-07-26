@@ -1,6 +1,6 @@
 Q: What is a memory leak?  
 A: Memory leak occurs when programmers create a memory in heap and forget to delete it.
-<!--ID: 1690032123745-->
+<!--ID: 1690376046650-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

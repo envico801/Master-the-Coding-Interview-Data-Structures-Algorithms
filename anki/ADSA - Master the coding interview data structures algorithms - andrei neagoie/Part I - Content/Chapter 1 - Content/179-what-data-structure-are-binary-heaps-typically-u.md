@@ -1,6 +1,6 @@
 Q: What data-structure are Binary Heaps typically used to implement?  
 A: A Priority Queue, data storage, sorting algorithms
-<!--ID: 1690032123640-->
+<!--ID: 1690376046327-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

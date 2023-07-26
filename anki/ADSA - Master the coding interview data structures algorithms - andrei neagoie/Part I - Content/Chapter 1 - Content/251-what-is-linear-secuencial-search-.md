@@ -1,6 +1,6 @@
 Q: What is linear/secuencial search?  
 A: Linear Search is defined as a sequential search algorithm that starts at one end and goes through each element of a list until the desired element is found, otherwise the search continues till the end of the data set.
-<!--ID: 1690032123438-->
+<!--ID: 1690376045654-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

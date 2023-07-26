@@ -1,6 +1,6 @@
 Q: Why should nested loops be avoided?  
 A: They can be expensive in terms of time complexity. It is better to have separate loops than nesting them.
-<!--ID: 1690032124089-->
+<!--ID: 1690376047343-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

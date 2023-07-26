@@ -1,6 +1,6 @@
 Q: What are some effective ways to optimize code?  
 A: Hash tables and precomputed information (e.g., sorted data) can contribute to code optimization.
-<!--ID: 1690032124056-->
+<!--ID: 1690376047271-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

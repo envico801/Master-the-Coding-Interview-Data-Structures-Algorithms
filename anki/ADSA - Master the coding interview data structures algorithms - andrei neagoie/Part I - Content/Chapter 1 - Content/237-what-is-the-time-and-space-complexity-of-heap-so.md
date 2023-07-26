@@ -1,7 +1,7 @@
 Q: What is the time and space complexity of Heap Sort? (worst case)  
 A: Time: O(n log n)  
 Space: O(1)
-<!--ID: 1690032123480-->
+<!--ID: 1690376045772-->
 
 ---
 
@@ -21,3 +21,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

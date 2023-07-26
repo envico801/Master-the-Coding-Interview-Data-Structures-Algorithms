@@ -1,6 +1,6 @@
 Q: What are algorithms?  
 A: These are the steps or processes we put in place to manipulate our data structures to write our programs (instructions for our computer).
-<!--ID: 1690032124182-->
+<!--ID: 1690376047595-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

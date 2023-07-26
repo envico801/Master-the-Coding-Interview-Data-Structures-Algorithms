@@ -1,6 +1,6 @@
 Q: Why was javascript designed to be single threaded?  
 A: While running code on a single thread can be quite easy since you don't have to deal with complicateda scenarios that arise in multithreaded environment. You just have one thing to worry about.
-<!--ID: 1690032123740-->
+<!--ID: 1690376046633-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

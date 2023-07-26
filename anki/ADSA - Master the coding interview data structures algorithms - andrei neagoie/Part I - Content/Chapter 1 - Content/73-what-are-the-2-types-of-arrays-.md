@@ -1,6 +1,6 @@
 Q: What are the 2 types of Arrays?  
 A: Dynamic and Static
-<!--ID: 1690032123991-->
+<!--ID: 1690376047025-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

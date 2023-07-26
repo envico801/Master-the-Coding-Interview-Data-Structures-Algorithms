@@ -1,7 +1,7 @@
 Q: What are the algorithms found in the "elementary sorts" category?  
 A: Bubble sort, insertion sort, selection sort  
 **They are, let's say, the first ones you would think of if you were told to implement some kind of order.**
-<!--ID: 1690032123544-->
+<!--ID: 1690376045976-->
 
 ---
 
@@ -21,3 +21,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

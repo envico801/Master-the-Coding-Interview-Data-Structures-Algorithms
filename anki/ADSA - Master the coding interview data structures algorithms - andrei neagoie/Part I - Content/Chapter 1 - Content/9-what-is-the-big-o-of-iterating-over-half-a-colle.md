@@ -1,6 +1,6 @@
 Q: What is the big O of iterating over half a collection?  
 A: It ends up being O(n) because if we apply basic mathematics we can transform the division into a multiplication **(n/2 = 1/2 x n)** and then apply the rule of eliminating constants.
-<!--ID: 1690032124071-->
+<!--ID: 1690376046861-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

@@ -1,6 +1,6 @@
 Q: What extra difficulty do the operations (insert, delete) in a double linked list bring?  
 A: Due to the presence of the "previous" pointer, additional operations must be performed when inserting or deleting.
-<!--ID: 1690032123809-->
+<!--ID: 1690376047706-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

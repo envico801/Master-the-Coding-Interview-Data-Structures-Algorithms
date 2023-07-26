@@ -6,7 +6,7 @@ A: -
 4.Searching: Find the location of the data item if it exists in a given collection  
 5.Sorting: Having data that is sorted  
 6.Access: How do we access this data that we have on our computer
-<!--ID: 1690032124018-->
+<!--ID: 1690376047122-->
 
 ---
 
@@ -26,3 +26,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

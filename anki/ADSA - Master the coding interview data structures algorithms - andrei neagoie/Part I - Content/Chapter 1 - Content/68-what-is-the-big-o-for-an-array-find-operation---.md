@@ -1,7 +1,7 @@
 Q: What is the Big O for an Array find operation? (aka **search**: Array.find(callbackFn))  
 A: O(n)  
 e.g. We traverse the entire array to check if an element is present.
-<!--ID: 1690032124006-->
+<!--ID: 1690376047087-->
 
 ---
 
@@ -21,3 +21,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

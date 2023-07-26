@@ -40,7 +40,7 @@ myHashTable.get('grapes');
 myHashTable.set('apples', 9);
 myHashTable.get('apples');
 ```
-<!--ID: 1690032123930-->
+<!--ID: 1690376046826-->
 
 ---
 
@@ -60,3 +60,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

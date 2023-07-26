@@ -1,6 +1,6 @@
 Q: How can a recursive function be optimized?  
 A: Dynamic programming and memoization!
-<!--ID: 1690032123571-->
+<!--ID: 1690376046055-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

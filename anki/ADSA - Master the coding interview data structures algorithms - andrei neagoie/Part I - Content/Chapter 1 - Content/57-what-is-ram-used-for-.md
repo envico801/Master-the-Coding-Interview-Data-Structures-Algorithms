@@ -1,6 +1,6 @@
 Q: What is RAM used for?  
 A: RAM is used for immediate data storage and retrieval
-<!--ID: 1690032124040-->
+<!--ID: 1690376047232-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

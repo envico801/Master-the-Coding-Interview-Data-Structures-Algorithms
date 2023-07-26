@@ -1,6 +1,6 @@
 Q: What is a static array?  
 A: A fixed size array. Must specify the size when it is initiated.
-<!--ID: 1690032123986-->
+<!--ID: 1690376047008-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

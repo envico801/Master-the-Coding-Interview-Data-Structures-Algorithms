@@ -1,7 +1,7 @@
 Q: What is the time and space complexity of Quick Sort? (worst case)  
 A: Time: O(n^2) # This can usually be avoided with a good 'pivot' point  
 Space: O(log(n))
-<!--ID: 1690032123498-->
+<!--ID: 1690376045832-->
 
 ---
 
@@ -21,3 +21,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

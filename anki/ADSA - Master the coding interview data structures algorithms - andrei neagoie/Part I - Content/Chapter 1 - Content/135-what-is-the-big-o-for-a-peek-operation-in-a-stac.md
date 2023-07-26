@@ -1,6 +1,6 @@
 Q: What is the Big O for a peek operation in a Stack? (view the top of the stack)  
 A: O(1)
-<!--ID: 1690032123770-->
+<!--ID: 1690376046729-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

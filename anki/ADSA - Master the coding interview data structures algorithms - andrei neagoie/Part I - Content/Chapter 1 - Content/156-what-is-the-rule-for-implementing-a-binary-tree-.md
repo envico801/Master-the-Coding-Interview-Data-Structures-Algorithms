@@ -3,7 +3,7 @@ A: Each node can have a max of 2 children.
 So a node can have 0, 1, or 2 children.  
 And each child can only have one parent  
 Each node represent a certain state
-<!--ID: 1690032123709-->
+<!--ID: 1690376046544-->
 
 ---
 
@@ -23,3 +23,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

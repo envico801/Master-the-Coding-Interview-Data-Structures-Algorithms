@@ -25,7 +25,7 @@ function insertionSort(array) {
 insertionSort(numbers);
 console.log(numbers);
 ```
-<!--ID: 1690032123520-->
+<!--ID: 1690376045900-->
 
 ---
 
@@ -45,3 +45,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

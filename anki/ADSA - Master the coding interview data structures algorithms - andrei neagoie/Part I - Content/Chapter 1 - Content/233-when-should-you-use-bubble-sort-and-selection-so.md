@@ -1,6 +1,6 @@
 Q: When should you use bubble sort and selection sort?  
 A: To be honest you're never going to use bubble/selection sort. It's only really used for educational purposes as a way to teach sorting. But it's very rare that you'll find this in real life because is just not very efficient.
-<!--ID: 1690032123490-->
+<!--ID: 1690376045807-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

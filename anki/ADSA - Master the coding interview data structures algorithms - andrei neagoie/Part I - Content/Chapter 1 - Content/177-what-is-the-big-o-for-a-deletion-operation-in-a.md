@@ -1,6 +1,6 @@
 Q: What is the Big O for a deletion operation in a Binary Heap?  
 A: O(log n)
-<!--ID: 1690032123646-->
+<!--ID: 1690376046346-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

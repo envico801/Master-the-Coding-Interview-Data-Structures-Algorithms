@@ -30,7 +30,7 @@ function fibonacciRecursive(n) {
 }
 fibonacciRecursive(6);
 ```
-<!--ID: 1690032123568-->
+<!--ID: 1690376046047-->
 
 ---
 
@@ -50,3 +50,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

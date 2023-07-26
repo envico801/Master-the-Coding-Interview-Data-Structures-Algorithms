@@ -1,6 +1,6 @@
 Q: What is a dynamic array?  
 A: An array that can grow in size when it needs to. No specification of size is needed when it is initiated.
-<!--ID: 1690032123988-->
+<!--ID: 1690376047017-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

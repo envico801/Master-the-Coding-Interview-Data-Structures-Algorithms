@@ -1,6 +1,6 @@
 Q: How does copying large arrays affect space complexity?  
 A: Copying large arrays may exceed the memory capacity of the machine, leading to potential issues.
-<!--ID: 1690032124068-->
+<!--ID: 1690376047317-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

@@ -1,6 +1,6 @@
 Q: How do you terminate a recursive funtion?  
 A: With a base case. Recursion breaks a task down into smaller tasks which terminate at the base case. This base case termination prevents the function from calling itself infinitely.
-<!--ID: 1690032123582-->
+<!--ID: 1690376046091-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

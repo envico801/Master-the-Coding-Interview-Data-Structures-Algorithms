@@ -12,7 +12,7 @@ const graph = [
   [0, 1, 1, 0], // 3 -> 1,2
 ];
 ```
-<!--ID: 1690032123599-->
+<!--ID: 1690376046160-->
 
 ---
 
@@ -32,3 +32,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

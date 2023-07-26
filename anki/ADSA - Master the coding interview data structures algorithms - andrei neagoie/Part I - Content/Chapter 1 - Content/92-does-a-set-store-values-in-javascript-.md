@@ -1,6 +1,6 @@
 Q: Does a Set store values in JavaScript?  
 A: No, only Keys which are unique (no two keys can be the same in a Set).
-<!--ID: 1690032123935-->
+<!--ID: 1690376046835-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

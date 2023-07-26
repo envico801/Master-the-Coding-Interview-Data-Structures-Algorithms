@@ -1,6 +1,6 @@
 Q: Why is a linked list considered flexible in terms of size?  
 A: Linked lists are flexible in size, meaning they can grow and shrink dynamically as needed.
-<!--ID: 1690032123799-->
+<!--ID: 1690376047679-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

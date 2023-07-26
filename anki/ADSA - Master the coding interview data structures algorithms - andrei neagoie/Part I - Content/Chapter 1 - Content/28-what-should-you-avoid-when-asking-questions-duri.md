@@ -1,6 +1,6 @@
 Q: What should you avoid when asking questions during an interview?  
 A: Avoid being annoying and asking too many questions.
-<!--ID: 1690032124145-->
+<!--ID: 1690376047488-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

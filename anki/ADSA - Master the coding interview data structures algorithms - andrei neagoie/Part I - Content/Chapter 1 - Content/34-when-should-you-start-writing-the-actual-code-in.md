@@ -1,6 +1,6 @@
 Q: When should you start writing the actual code in an interview?  
 A: Begin coding once you have a clear understanding of the problem and the steps you need to implement.
-<!--ID: 1690032124125-->
+<!--ID: 1690376047432-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

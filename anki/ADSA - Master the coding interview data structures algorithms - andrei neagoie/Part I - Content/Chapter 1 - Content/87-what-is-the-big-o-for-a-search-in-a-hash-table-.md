@@ -2,7 +2,7 @@ Q: What is the Big O for a search in a Hash Table?
 A: O(1)  
 e.g. `object["key"]` It will return if that key is present in the object (undefined otherwise), that's why it is O(1).  
 Unless there is a collision, then it would be O(n).
-<!--ID: 1690032123949-->
+<!--ID: 1690376046887-->
 
 ---
 
@@ -22,3 +22,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

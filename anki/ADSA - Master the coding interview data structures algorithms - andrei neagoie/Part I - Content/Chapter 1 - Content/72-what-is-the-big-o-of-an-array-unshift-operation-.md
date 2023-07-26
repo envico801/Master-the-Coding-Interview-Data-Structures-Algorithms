@@ -1,6 +1,6 @@
 Q: What is the Big O of an Array unshift operation? (aka **deletion**: Array.unshift())  
 A: O(n)
-<!--ID: 1690032123994-->
+<!--ID: 1690376047034-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

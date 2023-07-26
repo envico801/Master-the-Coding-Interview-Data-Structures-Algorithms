@@ -1,6 +1,6 @@
 Q: What is a pointer?  
 A: A pointer is a reference to another place in a memory (another node). Kind of like a variable referencing another variable.
-<!--ID: 1690032123868-->
+<!--ID: 1690376047806-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

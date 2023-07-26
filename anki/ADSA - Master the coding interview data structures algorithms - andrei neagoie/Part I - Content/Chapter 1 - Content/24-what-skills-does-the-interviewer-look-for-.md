@@ -3,7 +3,7 @@ A: 1.Analytic Skills - How can you think through problems and analyze things? - 
 2.Coding Skills - Do you code well, by writing clean, simple, organized, readable code? - (e.g. Big O)  
 3.Technical knowledge - Do you know the fundamentals of the job you're applying for? - (e.g. language JavaScript)  
 4.Communication skills: Does your personality match the companies’ culture?
-<!--ID: 1690032124158-->
+<!--ID: 1690376047521-->
 
 ---
 
@@ -23,3 +23,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

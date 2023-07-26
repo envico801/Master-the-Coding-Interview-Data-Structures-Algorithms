@@ -1,6 +1,6 @@
 Q: What technique do the merge sort and quick sort algorithms use?  
 A: Divide & Conquer
-<!--ID: 1690032123512-->
+<!--ID: 1690376045875-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

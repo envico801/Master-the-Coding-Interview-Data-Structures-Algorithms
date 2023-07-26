@@ -1,6 +1,6 @@
 Q: What is a disadvantage of a linked list compared to a double linked list in terms of iteration and traversal?  
 A: A linked list cannot be iterated in reverse or traversed from back to front.
-<!--ID: 1690032123827-->
+<!--ID: 1690376047758-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

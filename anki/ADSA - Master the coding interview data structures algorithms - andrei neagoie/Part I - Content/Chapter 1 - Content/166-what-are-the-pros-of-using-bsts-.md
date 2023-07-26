@@ -2,7 +2,7 @@ Q: What are the pros of using BSTs?
 A: 1.Better than O(n) (most operations are log n, assuming that the BST is balanced)  
 2.Ordered  
 3.Flexible size (because we can place a node anywhere in memory we can just have flexible size , we can keep growing our tree)
-<!--ID: 1690032123681-->
+<!--ID: 1690376046448-->
 
 ---
 
@@ -22,3 +22,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

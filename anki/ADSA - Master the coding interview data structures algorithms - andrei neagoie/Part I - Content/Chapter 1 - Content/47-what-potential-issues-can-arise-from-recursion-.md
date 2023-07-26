@@ -1,6 +1,6 @@
 Q: What potential issues can arise from recursion?  
 A: Recursion can cause stack overflow due to excessive function calls.
-<!--ID: 1690032124084-->
+<!--ID: 1690376047326-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

@@ -1,6 +1,6 @@
 Q: When calculating big O and having steps in order (one below the other), which operation should be used?  
 A: Addition (+) must be used for steps in order
-<!--ID: 1690032124200-->
+<!--ID: 1690376047821-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

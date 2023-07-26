@@ -1,6 +1,6 @@
 Q: What should you double check after understanding the problem statement in an interview?  
 A: Verify the inputs and outputs of the problem.
-<!--ID: 1690032124152-->
+<!--ID: 1690376047504-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

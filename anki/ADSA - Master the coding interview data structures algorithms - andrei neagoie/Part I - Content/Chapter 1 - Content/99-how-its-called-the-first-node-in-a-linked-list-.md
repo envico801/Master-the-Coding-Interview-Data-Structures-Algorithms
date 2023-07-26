@@ -1,6 +1,6 @@
 Q: How its called the first node in a linked list?  
 A: Head.
-<!--ID: 1690032123910-->
+<!--ID: 1690376046772-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

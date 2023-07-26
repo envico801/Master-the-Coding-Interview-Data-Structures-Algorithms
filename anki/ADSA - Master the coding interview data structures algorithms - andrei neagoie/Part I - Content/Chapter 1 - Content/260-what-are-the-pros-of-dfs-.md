@@ -1,7 +1,7 @@
 Q: What are the pros of DFS?  
 A: 1.Less memory  
 2.Does path exist? (Does the path exist to us or not from a source know to a target note)
-<!--ID: 1690032123411-->
+<!--ID: 1690376045577-->
 
 ---
 
@@ -21,3 +21,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

@@ -1,7 +1,7 @@
 Q: What is the Big O of an Array pop operation? (aka **deletion**: Array.pop())  
 A: O(1)  
 **Note that the worst case is still O(n). - (unshift, splice, etc)**
-<!--ID: 1690032123997-->
+<!--ID: 1690376047042-->
 
 ---
 
@@ -21,3 +21,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

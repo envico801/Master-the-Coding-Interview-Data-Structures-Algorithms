@@ -1,6 +1,6 @@
 Q: What are traversals in a data structure?  
 A: You can think of traversals as visiting every node O(n)
-<!--ID: 1690032123430-->
+<!--ID: 1690376045628-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

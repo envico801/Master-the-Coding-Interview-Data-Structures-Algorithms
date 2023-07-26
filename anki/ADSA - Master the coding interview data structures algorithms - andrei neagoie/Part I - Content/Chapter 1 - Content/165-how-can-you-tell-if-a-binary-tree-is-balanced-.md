@@ -1,6 +1,6 @@
 Q: How can you tell if a binary tree is balanced?  
 A: A binary tree is balanced when every node has roughly the same amount of children.
-<!--ID: 1690032123684-->
+<!--ID: 1690376046458-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

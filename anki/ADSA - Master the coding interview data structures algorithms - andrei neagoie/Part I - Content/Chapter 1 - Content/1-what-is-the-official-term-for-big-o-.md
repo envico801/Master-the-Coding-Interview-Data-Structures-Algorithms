@@ -1,6 +1,6 @@
 Q: What is the official term for Big O?  
 A: The official term is Big O asymptotic analysis.
-<!--ID: 1690032124206-->
+<!--ID: 1690376047934-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

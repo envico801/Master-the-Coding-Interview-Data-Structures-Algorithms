@@ -1,6 +1,6 @@
 Q: What are the advantages of using linked lists in terms of insertion and deletion speed?  
 A: Linked lists offer fast insertion and deletion, particularly when a reference to the desired location is available, avoiding the need for excessive copying or resizing.
-<!--ID: 1690032123806-->
+<!--ID: 1690376047697-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store

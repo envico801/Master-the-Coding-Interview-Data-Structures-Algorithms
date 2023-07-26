@@ -1,6 +1,6 @@
 Q: What is the importance of communicating your thought process during an interview?  
 A: It is crucial to communicate your thought process as much as possible. Each part of the interview matters, and clarity of thinking is valuable.
-<!--ID: 1690032124043-->
+<!--ID: 1690376047240-->
 
 ---
 
@@ -20,3 +20,5 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
+QUESTION STATUS: Safe to store
