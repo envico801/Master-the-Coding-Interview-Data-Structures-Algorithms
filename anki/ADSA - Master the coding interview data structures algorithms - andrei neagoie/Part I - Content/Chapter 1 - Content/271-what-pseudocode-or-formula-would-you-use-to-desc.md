@@ -1,11 +1,11 @@
-Q: What pseudocode or formula would you use to describe the inorder traversal (DFS)?  
-A: Algorithm Inorder(tree)
-> 1.Traverse the left subtree, i.e., call Inorder(left->subtree)  
-> 2.Visit the root.  
-> 3.Traverse the right subtree, i.e., call Inorder(right->subtree)
+Q: What pseudocode or formula would you use to describe the postorder traversal (DFS)?  
+A: Algorithm Postorder(tree)
+> 1. Traverse the left subtree, i.e., call Postorder(left->subtree)
+> 2. Traverse the right subtree, i.e., call Postorder(right->subtree)
+> 3. Visit the root
 root=[33,101(r),105] (BT)  
-result=[33,101,105]
-<!--ID: 1690377272580-->
+result=[33,105,101]
+<!--ID: 1690382732121-->
 
 ---
 
