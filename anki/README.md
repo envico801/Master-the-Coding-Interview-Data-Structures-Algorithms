@@ -2063,6 +2063,52 @@ Which algorithm would you use for the following context? **(BFS or DFS)**
 **Finding the shortest path**  
 R: BFS
 
+P: What are the different ways in which we can implement DFS?  
+R: 1.Inorder Traversal  
+2.Preorder Traversal  
+3.Postorder Traversal  
+![types of traversals](https://media.geeksforgeeks.org/wp-content/uploads/20230623123129/traversal.png)  
+P: What pseudocode or formula would you use to describe the inorder traversal (DFS)?
+
+> 1.Traverse the left subtree, i.e., call Inorder(left->subtree)  
+> 2.Visit the root.  
+> 3.Traverse the right subtree, i.e., call Inorder(right->subtree)
+
+root=[33,101(r),105] (BT)  
+result=[33,101,105]
+
+P: What pseudocode or formula would you use to describe the preorder traversal (DFS)?  
+R: Algorithm Preorder(tree)
+
+> 1. Visit the root.
+> 2. Traverse the left subtree, i.e., call Preorder(left->subtree)
+> 3. Traverse the right subtree, i.e., call Preorder(right->subtree)
+
+root=[33,101(r),105] (BT)  
+result=[101,33,105]
+
+P: What pseudocode or formula would you use to describe the postorder traversal (DFS)?  
+R: Algorithm Postorder(tree)
+
+> 1. Traverse the left subtree, i.e., call Postorder(left->subtree)
+> 2. Traverse the right subtree, i.e., call Postorder(right->subtree)
+> 3. Visit the root
+
+root=[33,101(r),105] (BT)  
+result=[33,105,101]
+
+P: What are the uses of inorder in DFS?  
+R: Uses of Inorder Traversal:  
+In the case of binary search trees (BST), Inorder traversal gives nodes in non-decreasing order. To get nodes of BST in non-increasing order, a variation of Inorder traversal where Inorder traversal is reversed can be used.
+
+P: What are the uses of preorder in DFS?  
+R: Uses of Preorder:  
+Preorder traversal is used to create a copy of the tree. Preorder traversal is also used to get prefix expressions on an expression tree.
+
+P: What are the uses of postorder in DFS?  
+R: Uses of Postorder:  
+Postorder traversal is used to delete the tree. Please see the question for the deletion of a tree for details. Postorder traversal is also useful to get the postfix expression of an expression tree
+
 ---
 
 DECK INFO
