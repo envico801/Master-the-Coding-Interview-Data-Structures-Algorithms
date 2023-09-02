@@ -6,7 +6,7 @@ The factorial of 5, or _5!_, is:
 ```text
 5 * 4 * 3 * 2 * 1 = 120
 ```
-
+<!--ID: 1693659901057-->
 
 ---
 
@@ -14,9 +14,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie::Part I - Content::Chapter 1 - Content
 
-FILE TAGS: Javascript Interview
-
-Tags:
+FILE TAGS: #Javascript #Interview
 
 Reference:
 
@@ -26,5 +24,6 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 
 QUESTION STATUS: Safe to store

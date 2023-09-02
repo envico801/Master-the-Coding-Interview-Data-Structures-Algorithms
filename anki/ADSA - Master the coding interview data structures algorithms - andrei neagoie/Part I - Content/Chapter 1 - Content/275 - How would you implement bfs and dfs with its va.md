@@ -203,11 +203,11 @@ tree.insert(15);
 tree.insert(1);
 // tree.remove(170);
 // JSON.stringify(traverse(tree.root))
-console.log('BFS', tree.BreadthFirstSearch());
-console.log('BFS', tree.BreadthFirstSearchR([tree.root], []));
-console.log('DFSpre', tree.DFTPreOrder());
-console.log('DFSin', tree.DFTInOrder());
-console.log('DFSpost', tree.DFTPostOrder());
+console.log("BFS", tree.BreadthFirstSearch());
+console.log("BFS", tree.BreadthFirstSearchR([tree.root], []));
+console.log("DFSpre", tree.DFTPreOrder());
+console.log("DFSin", tree.DFTInOrder());
+console.log("DFSpost", tree.DFTPostOrder());
 //     9
 //  4     20
 //1  6  15  170
@@ -218,7 +218,7 @@ function traverse(node) {
   return tree;
 }
 ```
-
+<!--ID: 1693659888004-->
 
 ---
 
@@ -226,9 +226,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie::Part I - Content::Chapter 1 - Content
 
-FILE TAGS: Javascript Interview
-
-Tags:
+FILE TAGS: #Javascript #Interview
 
 Reference:
 
@@ -238,5 +236,6 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 
 QUESTION STATUS: Safe to store

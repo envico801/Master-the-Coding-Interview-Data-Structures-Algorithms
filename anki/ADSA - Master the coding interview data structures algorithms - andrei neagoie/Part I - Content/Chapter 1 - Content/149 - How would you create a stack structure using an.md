@@ -19,9 +19,9 @@ class Stack {
 }
 const myStack = new Stack();
 myStack.peek();
-myStack.push('google');
-myStack.push('udemy');
-myStack.push('discord');
+myStack.push("google");
+myStack.push("udemy");
+myStack.push("discord");
 myStack.peek();
 myStack.pop();
 myStack.pop();
@@ -30,7 +30,7 @@ myStack.pop();
 //Udemy
 //google
 ```
-
+<!--ID: 1693659894626-->
 
 ---
 
@@ -38,9 +38,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie::Part I - Content::Chapter 1 - Content
 
-FILE TAGS: Javascript Interview
-
-Tags:
+FILE TAGS: #Javascript #Interview
 
 Reference:
 
@@ -50,5 +48,6 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 
 QUESTION STATUS: Safe to store

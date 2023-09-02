@@ -35,17 +35,17 @@ class MyArray {
   }
 }
 const myArray = new MyArray();
-myArray.push('hi');
-myArray.push('you');
-myArray.push('!');
+myArray.push("hi");
+myArray.push("you");
+myArray.push("!");
 myArray.pop();
 myArray.deleteAtIndex(0);
-myArray.push('are');
-myArray.push('nice');
+myArray.push("are");
+myArray.push("nice");
 myArray.shiftItems(0);
 console.log(myArray);
 ```
-
+<!--ID: 1693659898181-->
 
 ---
 
@@ -53,9 +53,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie::Part I - Content::Chapter 1 - Content
 
-FILE TAGS: Javascript Interview
-
-Tags:
+FILE TAGS: #Javascript #Interview
 
 Reference:
 
@@ -65,5 +63,6 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 
 QUESTION STATUS: Safe to store

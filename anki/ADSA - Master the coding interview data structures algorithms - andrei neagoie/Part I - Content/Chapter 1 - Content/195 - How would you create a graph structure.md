@@ -19,34 +19,34 @@ class Graph {
     const allNodes = Object.keys(this.adjacentList);
     for (let node of allNodes) {
       let nodeConnections = this.adjacentList[node];
-      let connections = '';
+      let connections = "";
       let vertex;
       for (vertex of nodeConnections) {
-        connections += vertex + ' ';
+        connections += vertex + " ";
       }
-      console.log(node + '-->' + connections);
+      console.log(node + "-->" + connections);
     }
   }
 }
 var myGraph = new Graph();
-myGraph.addVertex('0');
-myGraph.addVertex('1');
-myGraph.addVertex('2');
-myGraph.addVertex('3');
-myGraph.addVertex('4');
-myGraph.addVertex('5');
-myGraph.addVertex('6');
-myGraph.addEdge('3', '1');
-myGraph.addEdge('3', '4');
-myGraph.addEdge('4', '2');
-myGraph.addEdge('4', '5');
-myGraph.addEdge('1', '2');
-myGraph.addEdge('1', '0');
-myGraph.addEdge('0', '2');
-myGraph.addEdge('6', '5');
+myGraph.addVertex("0");
+myGraph.addVertex("1");
+myGraph.addVertex("2");
+myGraph.addVertex("3");
+myGraph.addVertex("4");
+myGraph.addVertex("5");
+myGraph.addVertex("6");
+myGraph.addEdge("3", "1");
+myGraph.addEdge("3", "4");
+myGraph.addEdge("4", "2");
+myGraph.addEdge("4", "5");
+myGraph.addEdge("1", "2");
+myGraph.addEdge("1", "0");
+myGraph.addEdge("0", "2");
+myGraph.addEdge("6", "5");
 myGraph.showConnections();
 ```
-
+<!--ID: 1693659892227-->
 
 ---
 
@@ -54,9 +54,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie::Part I - Content::Chapter 1 - Content
 
-FILE TAGS: Javascript Interview
-
-Tags:
+FILE TAGS: #Javascript #Interview
 
 Reference:
 
@@ -66,5 +64,6 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 
 QUESTION STATUS: Safe to store

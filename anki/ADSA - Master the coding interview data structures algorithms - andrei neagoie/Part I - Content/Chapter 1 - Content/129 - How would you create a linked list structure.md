@@ -43,7 +43,7 @@ class LinkedList {
   insert(index, value) {
     //Check for proper parameters;
     if (index >= this.length) {
-      console.log('yes');
+      console.log("yes");
       return this.append(value);
     }
     const newNode = {
@@ -104,7 +104,7 @@ myLinkedList.printList();
 myLinkedList.remove(2);
 myLinkedList.reverse();
 ```
-
+<!--ID: 1693659895555-->
 
 ---
 
@@ -112,9 +112,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie::Part I - Content::Chapter 1 - Content
 
-FILE TAGS: Javascript Interview
-
-Tags:
+FILE TAGS: #Javascript #Interview
 
 Reference:
 
@@ -124,5 +122,6 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 
 QUESTION STATUS: Safe to store

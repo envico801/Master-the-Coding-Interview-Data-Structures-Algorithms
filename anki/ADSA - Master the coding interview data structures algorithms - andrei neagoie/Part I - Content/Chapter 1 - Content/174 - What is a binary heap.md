@@ -5,7 +5,7 @@ A: A binary heap is a binary tree with the following properties:
 In a Min Heap the root element must be the smallest (or the one with the least importance) among all elements present in the tree.  
 In a Max Heap the root element must be the largest (or the one with the higher importance) of all elements present in the tree.  
 3.And have a max of 2 children (like a BT)
-
+<!--ID: 1693659893303-->
 
 ---
 
@@ -13,9 +13,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Interview::ADSA - Master the coding interview data structures algorithms - andrei neagoie::Part I - Content::Chapter 1 - Content
 
-FILE TAGS: Javascript Interview
-
-Tags:
+FILE TAGS: #Javascript #Interview
 
 Reference:
 
@@ -25,5 +23,6 @@ Related:
 LIST
 where file.name = this.file.name
 ```
+
 
 QUESTION STATUS: Safe to store
