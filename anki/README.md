@@ -14,8 +14,8 @@ A:: It can tell us how well a problem is solved.
 
 Q:: What is good code?  
 A:: Is the code that is:  
-1.Readable (is your code clean? can others understand your code?)  
-2.Scalable (when we grow bigger and bigger with our input how much does the algorithm or function slow down?)
+1. Readable (is your code clean? can others understand your code?)  
+2. Scalable (when we grow bigger and bigger with our input how much does the algorithm or function slow down?)
 
 Q:: What is algorithmic efficiency?  
 A:: The term algorithmic efficiency is used to describe those properties of algorithms that are related to the amount of resources used by the algorithm. Usually referred to as scalability(Big O)
@@ -39,8 +39,8 @@ A:: It ends up being O(n) because if we apply basic mathematics we can transform
 
 Q:: What does the rule of "different terms for inputs" mean?  
 A:: It means that different notations/variables are used for different inputs, because since we do not know the length of each one, we cannot assume that they are the same.  
-1.**O(n) is different from O(a + b)**  
-2.**O(n^2) is different from O(a \* b)**
+1. **O(n) is different from O(a + b)**  
+2. **O(n^2) is different from O(a \* b)**
 
 Q:: When calculating big O and having steps in order (one below the other), which operation should be used?  
 A:: Addition (+) must be used for steps in order
@@ -55,7 +55,7 @@ nested loops
 
 Q:: What does the rule of "drop non dominants" mean?  
 A:: It means that we prioritize the term that has more weight (scale) at the moment of calculating the big O.  
-1.**O(n^2+3n+100+n/2) is equal to O(n^2)**
+1. **O(n^2+3n+100+n/2) is equal to O(n^2)**
 
 Q:: What are data structures?  
 A:: They are a way of storing data.  
@@ -76,15 +76,15 @@ The factorial of 5, or _5!_, is:
 ```
 
 Q:: What are the 3 pillars of good coding?  
-A:: 1.Readable: (clean code) that can be maintained and others can read.  
-2.Speed: (time complexity) that has a Big O that is efficient, scales well.  
-3.Memory: (space complexity)
+A:: 1. Readable: (clean code) that can be maintained and others can read.  
+2. Speed: (time complexity) that has a Big O that is efficient, scales well.  
+3. Memory: (space complexity)
 
 Q:: What causes Space complexity? **(how much memory or resources it occupies as the input grows)**  
-A:: 1.Variables (assignments and mutability with objects)  
-2.Data Structures (both custom and native)  
-3.Function Call (function calls, e.g. a recursive one, which is stored in memory as a stack.)  
-4.Allocations (when we create variables, functions or anything else that is stored in the memory)
+A:: 1. Variables (assignments and mutability with objects)  
+2. Data Structures (both custom and native)  
+3. Function Call (function calls, e.g. a recursive one, which is stored in memory as a stack.)  
+4. Allocations (when we create variables, functions or anything else that is stored in the memory)
 
 Q:: What would you say is the Big O in the following sentence?
 
@@ -95,10 +95,10 @@ Q:: What would you say is the Big O in the following sentence?
 A:: It depends on the language you are working with, we need to know how the method is implemented to be able to give an accurate answer.
 
 Q:: What can cause time in a function? **(how long does it take to traverse / solve something as the input grows, how many operations does it have to perform?)**  
-A:: 1.Operations (+, -, \*, /)  
-2.Comparisons (<, >, ==)  
-3.Looping (for, while)  
-4.Outside Function call (function()) (can be a call to a recursive function or to a regular function.)
+A:: 1. Operations (+, -, \*, /)  
+2. Comparisons (<, >, ==)  
+3. Looping (for, while)  
+4. Outside Function call (function()) (can be a call to a recursive function or to a regular function.)
 
 Q:: List the common Big O complexities from worst to best (there are 7)  
 A:: O(n!)  
@@ -113,10 +113,10 @@ Q:: Space complexity is not concerned with the size of the input per se but the.
 A:: ...memory that is being allocated for each operation.
 
 Q:: What skills does the interviewer look for?  
-A:: 1.Analytic Skills - How can you think through problems and analyze things? - (e.g. can you come up with alternatives to solve the problem?)  
-2.Coding Skills - Do you code well, by writing clean, simple, organized, readable code? - (e.g. Big O)  
-3.Technical knowledge - Do you know the fundamentals of the job you're applying for? - (e.g. language JavaScript)  
-4.Communication skills: Does your personality match the companies’ culture?
+A:: 1. Analytic Skills - How can you think through problems and analyze things? - (e.g. can you come up with alternatives to solve the problem?)  
+2. Coding Skills - Do you code well, by writing clean, simple, organized, readable code? - (e.g. Big O)  
+3. Technical knowledge - Do you know the fundamentals of the job you're applying for? - (e.g. language JavaScript)  
+4. Communication skills: Does your personality match the companies’ culture?
 
 Q:: What is the first step when approaching a problem in an interview?  
 A:: When the interviewer says the question, write down the key points at the top and ensure you have all the details.
@@ -245,12 +245,12 @@ Practically it means that we can safely use only numbers that are safely represe
 
 Q:: What are the actions that can be performed on a data structure?  
 A:: -  
-1.Insertion: Add a new data item in a given collection of items  
-2.Deletion: Delete data from a collection  
-3.Traversal: Access to each data item exactly once so it can be processed  
-4.Searching: Find the location of the data item if it exists in a given collection  
-5.Sorting: Having data that is sorted  
-6.Access: How do we access this data that we have on our computer
+1. Insertion: Add a new data item in a given collection of items  
+2. Deletion: Delete data from a collection  
+3. Traversal: Access to each data item exactly once so it can be processed  
+4. Searching: Find the location of the data item if it exists in a given collection  
+5. Sorting: Having data that is sorted  
+6. Access: How do we access this data that we have on our computer
 
 Q:: What are the 2 pillars of Data Structures?  
 A:: How to build one  
@@ -349,14 +349,14 @@ A:: We should treat it as an array question, strings are an array of characters.
 e.g. reverse a string.
 
 Q:: What are the pros of using arrays?  
-A:: 1.Fast lookups (accessing information where you know which index you want to look at)  
-2.Fast push/pop (adding or removing things at the end of an array)  
-3.Ordered (having something that is ordered and close to each other in memory makes it really fast)
+A:: 1. Fast lookups (accessing information where you know which index you want to look at)  
+2. Fast push/pop (adding or removing things at the end of an array)  
+3. Ordered (having something that is ordered and close to each other in memory makes it really fast)
 
 Q:: What are the cons of using arrays?  
-A:: 1.Slow inserts (we have to shift the array when at the very end of the array)  
-2.Slow deletes (same as inserts)  
-3.Fixed size\* (sometimes you have to declare the memory ahead of time and how large of an array you want. Most modern languages have dynamic arrays that help with this)
+A:: 1. Slow inserts (we have to shift the array when at the very end of the array)  
+2. Slow deletes (same as inserts)  
+3. Fixed size\* (sometimes you have to declare the memory ahead of time and how large of an array you want. Most modern languages have dynamic arrays that help with this)
 
 Q:: What are Hash Tables?  
 A:: **Collections of { Key: Value } pairs**  
@@ -470,13 +470,13 @@ If your Hash Table has 50 addresses but only 3 addresses contain Keys, you would
 An Array is sequential in memory, which makes it more efficient in this regard.
 
 Q:: What are the pros of using hash tables?  
-A:: 1.Fast lookups\* (Good collision resolution needed, usually we dont need to worry about this because our language underneath the hood take care of that for us)  
-2.Fast inserts (same as lookups)  
-3.Flexible keys (depending on the type of hash tables, such as maps, we can have flexibles keys instead of an array that has numbered indexes)
+A:: 1. Fast lookups\* (Good collision resolution needed, usually we dont need to worry about this because our language underneath the hood take care of that for us)  
+2. Fast inserts (same as lookups)  
+3. Flexible keys (depending on the type of hash tables, such as maps, we can have flexibles keys instead of an array that has numbered indexes)
 
 Q:: What are the cons of using hash tables?  
-A:: 1.Unordered (its hard to really go through everything in order)  
-2.Slow key iteration (if i want to grab all the keys from a hash table I will have to go through the entire memory space)
+A:: 1. Unordered (its hard to really go through everything in order)  
+2. Slow key iteration (if i want to grab all the keys from a hash table I will have to go through the entire memory space)
 
 Q:: Can Linked Lists help solve collision issues in a Hash Table?  
 A:: Yes
@@ -822,13 +822,13 @@ A:: First In First Out
 
 Q:: What is a program?  
 A:: Well a program has to do some simple things.  
-1.It has to allocate memory. Otherwise we would be able to have variables or even have a file on our computer.  
-2.It also has to parse and execute scripts which means read and run commands.
+1. It has to allocate memory. Otherwise we would be able to have variables or even have a file on our computer.  
+2. It also has to parse and execute scripts which means read and run commands.
 
 Q:: How many parts has a engine (javascript)?  
 A:: Now the engine consists of two parts a memory heap and a call stack.  
-1.Now the memory heap. This is where the memory allocation happens.  
-2.And then the call stack. This is where your code is read and execute it. It tells you where you are in the program.
+1. Now the memory heap. This is where the memory allocation happens.  
+2. And then the call stack. This is where your code is read and execute it. It tells you where you are in the program.
 
 Q:: What is a memory leak?  
 A:: Memory leak occurs when programmers create a memory in heap and forget to delete it.
@@ -1048,12 +1048,12 @@ myQueue.peek();
 ```
 
 Q:: What are the pros of using stacks and queues?  
-A:: 1.Fast operations (such as removing or inserting, such as the end of the data structure)  
-2.Fast peek (we can access the very first item in a queue or the very top item in a stack)  
-3.Ordered (we have all our data ordered)
+A:: 1. Fast operations (such as removing or inserting, such as the end of the data structure)  
+2. Fast peek (we can access the very first item in a queue or the very top item in a stack)  
+3. Ordered (we have all our data ordered)
 
 Q:: What are the cons of using stacks and queues?  
-A:: 1.Slow lookup (we dont usually use ours stack or queues to do any sort of look up or search through the data structure, all we are interested in is the end bits of the data structure)
+A:: 1. Slow lookup (we dont usually use ours stack or queues to do any sort of look up or search through the data structure, all we are interested in is the end bits of the data structure)
 
 Q:: What is a Tree data-structure?  
 A:: A hierarchical data-structure consisting of a root node and parent/child nodes.  
@@ -1075,8 +1075,8 @@ Q:: What is a full binary tree?
 A:: A full binary tree says that a node has either 0 or 2 children, but never one child
 
 Q:: What properties does a perfect binary tree has?  
-A:: 1.The number of total nodes doubles as we move down the tree  
-2.The number of nodes on the last level is equal to the sum of the number of nodes on all the other levels plus 1
+A:: 1. The number of total nodes doubles as we move down the tree  
+2. The number of nodes on the last level is equal to the sum of the number of nodes on all the other levels plus 1
 
 ```text
 Level 0: 2^0 = 1
@@ -1102,8 +1102,8 @@ e.g. (usually searching algorithms have log n if they are sorted (Binary Search)
 Q:: What is a binary search tree?  
 A:: BSTs excel at preserving relationships, making them suitable for scenarios where maintaining order and structure is important.  
 For instance, while a hash table lacks such relationships, organizing folders on a computer necessitates a hierarchical structure with parent and subfolders, which can be achieved using a binary search tree.  
-1.In a BST, all child nodes to the right of a root node must have values greater than the current node. This implies that moving to the right within the tree leads to nodes with increasing values, while moving to the left results in nodes with decreasing values.  
-2.Due to its nature as a binary tree, each node in a BST can have a maximum of two children.
+1. In a BST, all child nodes to the right of a root node must have values greater than the current node. This implies that moving to the right within the tree leads to nodes with increasing values, while moving to the left results in nodes with decreasing values.  
+2. Due to its nature as a binary tree, each node in a BST can have a maximum of two children.
 
 Q:: If a binary tree is unbalanced, what is its worst case time complexity?  
 A:: O(n) for lookup(search), insert and delete
@@ -1115,12 +1115,12 @@ Q:: How can you tell if a binary tree is balanced?
 A:: A binary tree is balanced when every node has roughly the same amount of children.
 
 Q:: What are the pros of using BSTs?  
-A:: 1.Better than O(n) (most operations are log n, assuming that the BST is balanced)  
-2.Ordered  
-3.Flexible size (because we can place a node anywhere in memory we can just have flexible size , we can keep growing our tree)
+A:: 1. Better than O(n) (most operations are log n, assuming that the BST is balanced)  
+2. Ordered  
+3. Flexible size (because we can place a node anywhere in memory we can just have flexible size , we can keep growing our tree)
 
 Q:: What are the cons of using BSTs?  
-A:: 1.No O(1) operations (we usually have to do some sort of traversal for any sort of operation)
+A:: 1. No O(1) operations (we usually have to do some sort of traversal for any sort of operation)
 
 Q:: What does divide and conquer refers to?  
 A:: Divide and conquer simply means we are dividing up so that we dont visit all the nodes, each node that we visit we make a decision to go left or right
@@ -1298,21 +1298,21 @@ A:: **2** types of node-swapping operations:
 **Single Rotations** and **Double Rotations**.
 
 Q:: What are the 4 rules of a Red/Black Binary Tree?  
-A:: 1.Each node must be either Red or Black  
-2.Root node must always be black  
-3.A red node must always have a black parent node and black child nodes  
-4.Every branch path (the path from root node to an empty leaf node \[null\]) must posess the exact same number of black nodes.  
+A:: 1. Each node must be either Red or Black  
+2. Root node must always be black  
+3. A red node must always have a black parent node and black child nodes  
+4. Every branch path (the path from root node to an empty leaf node \[null\]) must posess the exact same number of black nodes.  
 Extras:  
 A null leaf node is always considered to be black, even if it is marked red.  
 A chain of 3 nodes can never be a valid Red/Black Tree.
 
 Q:: What is a binary heap?  
 A:: A binary heap is a binary tree with the following properties:  
-1.It's a complete tree. All levels are completely filled except possibly the last level, which will have elements positioned as left as possible.  
-2.It is either a Min Heap or a Max Heap.  
+1. It's a complete tree. All levels are completely filled except possibly the last level, which will have elements positioned as left as possible.  
+2. It is either a Min Heap or a Max Heap.  
 In a Min Heap the root element must be the smallest (or the one with the least importance) among all elements present in the tree.  
 In a Max Heap the root element must be the largest (or the one with the higher importance) of all elements present in the tree.  
-3.And have a max of 2 children (like a BT)
+3. And have a max of 2 children (like a BT)
 
 Q:: What is the Big O for a lookup(search) operation in a Binary Heap?  
 A:: O(n) (because is less ordered than a than a BST, in this data structure left and right can be any value)
@@ -1340,13 +1340,13 @@ Q:: What is a priority queue?
 A:: Is similar to a queue but with the difference that there are "vips" or higher priority values that usually take the first or last positions.
 
 Q:: What are the pros of using BH?  
-A:: 1.Better than O(n)  
-2.Priority (searching may be slow, but you have an idea of priority, because insertion is done in order)  
-3.Flexible size  
-4.Fast insert (we might have to bubble up inserts every once in a while. But most of the time you get really fast inserts)
+A:: 1. Better than O(n)  
+2. Priority (searching may be slow, but you have an idea of priority, because insertion is done in order)  
+3. Flexible size  
+4. Fast insert (we might have to bubble up inserts every once in a while. But most of the time you get really fast inserts)
 
 Q:: What are the cons of using BH?  
-A:: 1.Slow lookup (it must be taken into account that many times there is a method to find the minimum or maximum which is O(1) - (it all depends if it is a min heap or max heap))
+A:: 1. Slow lookup (it must be taken into account that many times there is a method to find the minimum or maximum which is O(1) - (it all depends if it is a min heap or max heap))
 
 Q:: What is a Trie (aka prefix tree)?  
 A:: A Trie is a unique type of tree that is an efficient infromation retrieval data structure. It commonly uses alphabetical characters to store data, like words. Often used to implement auto-correct for typing.  
@@ -1474,10 +1474,10 @@ myGraph.showConnections();
 ```
 
 Q:: What are the pros of using graphs?  
-A:: 1.Relationships (some data needs to be in a graph form)
+A:: 1. Relationships (some data needs to be in a graph form)
 
 Q:: What are the cons of using graphs?  
-A:: 1.Scaling is hard (they can get complicated, you need a big company or at least a lot of resources and engineering power to make sure that you build graphs that scale well)
+A:: 1. Scaling is hard (they can get complicated, you need a big company or at least a lot of resources and engineering power to make sure that you build graphs that scale well)
 
 Q:: What is an algorithm?  
 A:: Steps to complete a desired action in computers. Technically all functions are algorithms.  
@@ -1496,9 +1496,9 @@ Q:: How do you terminate a recursive funtion?
 A:: With a base case. Recursion breaks a task down into smaller tasks which terminate at the base case. This base case termination prevents the function from calling itself infinitely.
 
 Q:: What are the 3 rules for recursion?  
-A:: 1.Identify the base case  
-2.Identify the recursive case  
-3.Return something in the base case and return your recursive calls so the value from the base case persists through the call stack
+A:: 1. Identify the base case  
+2. Identify the recursive case  
+3. Return something in the base case and return your recursive calls so the value from the base case persists through the call stack
 
 Q:: Write two functions that finds the factorial of any number. One should use recursive, the other should just use a for loop
 
@@ -1592,11 +1592,11 @@ fibonacciRecursive(6);
 ```
 
 Q:: What are the pros of using recursion?  
-A:: 1.DRY (simpler, have less loops happening with confusing code)  
-2.Readability (generally is more readable than an iterative aproach)
+A:: 1. DRY (simpler, have less loops happening with confusing code)  
+2. Readability (generally is more readable than an iterative aproach)
 
 Q:: What are the cons of using recursion?  
-A:: 1.Large stack (it creates an extra memory footprint, because every time we add a function to the call stacks it adds extra piece of memory)
+A:: 1. Large stack (it creates an extra memory footprint, because every time we add a function to the call stacks it adds extra piece of memory)
 
 Q:: What is tail call optimization?  
 A:: There's something called tail call optimization in many languages And for example in Javascript with 6 it allows recursions to be called without increasing the call stack  
@@ -1609,9 +1609,9 @@ e.g. (merge sort, quick sort)
 
 Q:: What are the rules/factors to consider when deciding to write a recursive function?  
 A:: **Every time you are using a tree or converting Something into a tree, consider recursion.**  
-1.Divided into a number of subproblems that are smaller instances of the same problem. e.g.(fibonacci / factorial problems)  
-2.Each instance of the subproblem is identical in nature. (the calculations that we need to do are pretty much the same)  
-3.The solutions of each subproblem can be combined to solve the problem at hand. (if you solve the smaller problems and you combine them that solves the problem at hand)  
+1. Divided into a number of subproblems that are smaller instances of the same problem. e.g.(fibonacci / factorial problems)  
+2. Each instance of the subproblem is identical in nature. (the calculations that we need to do are pretty much the same)  
+3. The solutions of each subproblem can be combined to solve the problem at hand. (if you solve the smaller problems and you combine them that solves the problem at hand)  
 **Divide and Conquer using Recursion**  
 e.g. (looking through a phone book when you're looking for Bell in the phone book You're not going to start from a and simply go one page at a time from left to right. o you usually split the phonebook in the middle or try to go to the B section of the phone book and start dividing up the problem page by page until you get closer and closer)
 
@@ -1769,8 +1769,8 @@ console.log(numbers);
 
 Q:: What does Log Linear time mean?  
 A:: It means that:  
-1.Has linear behavior nested in log steps  
-2.Is bigger than O(n) but smaller than O(n^2)  
+1. Has linear behavior nested in log steps  
+2. Is bigger than O(n) but smaller than O(n^2)  
 e.g. usually sorting operations
 
 Q:: What is merge sort?  
@@ -2020,18 +2020,18 @@ A:: While iterating with this technique, we move over each node and edge exactly
 >             DFS(Graph, v1)
 
 Q:: What are the pros of BFS?  
-A:: 1.Shortest path (It's very good for finding the shortest path between a starting point and any other reachable node because we always start off with the root node and then search the closest nodes first and then the nodes further)  
-2.Closer nodes (it will look at the closest node first)
+A:: 1. Shortest path (It's very good for finding the shortest path between a starting point and any other reachable node because we always start off with the root node and then search the closest nodes first and then the nodes further)  
+2. Closer nodes (it will look at the closest node first)
 
 Q:: What are the cons of BFS?  
-A:: 1.More memory (it uses more memory to keep track of the parents and the children nodes of that level)
+A:: 1. More memory (it uses more memory to keep track of the parents and the children nodes of that level)
 
 Q:: What are the pros of DFS?  
-A:: 1.Less memory  
-2.Does path exist? (Does the path exist to us or not from a source know to a target note)
+A:: 1. Less memory  
+2. Does path exist? (Does the path exist to us or not from a source know to a target note)
 
 Q:: What are the cons of DFS?  
-A:: 1.Can get slow (The downside with depth first search is that it can get slow especially if the tree or graph is really really deep and it's not necessarily good at finding the shortest path.)
+A:: 1. Can get slow (The downside with depth first search is that it can get slow especially if the tree or graph is really really deep and it's not necessarily good at finding the shortest path.)
 
 Q:: Search algorithm question  
 Which algorithm would you use for the following context? **(BFS or DFS)**  
@@ -2064,9 +2064,9 @@ Which algorithm would you use for the following context? **(BFS or DFS)**
 A:: BFS
 
 Q:: What are the different ways in which we can implement DFS?  
-A:: 1.Inorder Traversal  
-2.Preorder Traversal  
-3.Postorder Traversal  
+A:: 1. Inorder Traversal  
+2. Preorder Traversal  
+3. Postorder Traversal  
 ![types of traversals](https://media.geeksforgeeks.org/wp-content/uploads/20230623123129/traversal.png)
 
 Q:: What pseudocode or formula would you use to describe the inorder traversal (DFS)?  
