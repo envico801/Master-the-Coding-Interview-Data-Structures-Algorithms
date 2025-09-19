@@ -27,7 +27,7 @@ Imagine you need to find "Smith" in a massive phone book with 1,000 pages. You w
 
 With each step, you eliminate half of the remaining data. This is the essence of O(log n). Even if the phone book had a million pages, it would only take you about 20 steps to find any name.
 
-![O(log n) Graph](https://i.imgur.com/8Q2MvV9.png)
+![O(log n) Graph](https://lukasmestan.com/assets/images/o-log-n.png)
 
 ### The Main Types of Trees
 

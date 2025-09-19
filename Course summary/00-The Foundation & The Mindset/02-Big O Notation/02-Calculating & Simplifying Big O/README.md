@@ -23,7 +23,7 @@ function logAllPairs(array) {
 
 The number of operations doesn't just grow—it explodes. This is called **Quadratic Time**, or **O(n²)**. It's represented by a steep, curving line on the performance graph and is generally something to avoid if you can, as it gets very slow, very quickly.
 
-![O(n^2) Graph](https://i.imgur.com/eBf27E8.png)
+![O(n^2) Graph](https://lukasmestan.com/assets/images/o-n2.png)
 
 ---
 

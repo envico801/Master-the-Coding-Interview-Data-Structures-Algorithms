@@ -47,7 +47,7 @@ The number of operations grows in a straight, direct line with the size of the i
 
 On a performance graph, O(n) is a straight diagonal line. As the number of items (input) increases, the time it takes (operations) increases at the same rate.
 
-![O(n) Graph](https://i.imgur.com/uRautgC.png)
+![O(n) Graph](https://lukasmestan.com/assets/images/o-n.png)
 
 ### 2. O(1) — Constant Time
 
@@ -70,7 +70,7 @@ Even if the function grabbed the first *three* fish (O(3)), we still simplify it
 
 On a performance graph, O(1) is a flat horizontal line. No matter how much the input grows, the time it takes is always the same. This is extremely efficient and considered the gold standard for scalability.
 
-![O(1) Graph](https://i.imgur.com/z0a5Z9l.png)
+![O(1) Graph](https://lukasmestan.com/assets/images/o-1.png)
 
 ### Summary
 
